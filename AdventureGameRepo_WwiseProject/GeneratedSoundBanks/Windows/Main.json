@@ -1,0 +1,47 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
+    "Language": "SFX",
+    "Hash": "{1BA6B177-C251-3D89-6F98-0B4889403EE6}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "444590937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump.wav",
+      "CachePath": "A5/{A52016DA-6E05-25EE-D93B-BC0348882757}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
+      "GUID": "{D6A2D92B-CC9C-472C-8E40-F3985A110306}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4218821",
+      "DurationMax": "0.4218821",
+      "MediaRefs": [
+       {
+        "Id": "444590937"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{4A7836CB-17BE-2B39-0D15-8BEEB3A5A942}"
+ }
+}

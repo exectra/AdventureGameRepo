@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	444590937	Jump	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A5\{A52016DA-6E05-25EE-D93B-BC0348882757}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		74516
+
