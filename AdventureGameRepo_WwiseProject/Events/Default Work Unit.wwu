@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MainMenuBGM" ID="{31D05E0C-A749-485A-96D2-C919058C0CC6}">
+					<ChildrenList>
+						<Action Name="" ID="{608AD6F9-36C7-400D-84BF-2C5E1F21CD68}" ShortID="200262930">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Menu BGM Playlist" ID="{C641BD41-E1D4-4676-B03D-3F46FFDE13ED}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
