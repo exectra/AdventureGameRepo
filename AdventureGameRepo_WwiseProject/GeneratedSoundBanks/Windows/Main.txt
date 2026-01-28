@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1063700270	Play_MainMenuBGM			\Default Work Unit\Play_MainMenuBGM	
+	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	90055477	(Main Menu) scifi-fantasy-soundscape-21618	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\06\{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem		\Interactive Music Hierarchy\Default Work Unit\Main Menu BGM Playlist\Main Menu BGM\(Main Menu) scifi-fantasy-soundscape-21618		32887392
+	444590937	Jump	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A5\{A52016DA-6E05-25EE-D93B-BC0348882757}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		74516
+

@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
+    "Language": "SFX",
+    "Hash": "{27101FEA-B45C-1C41-0E72-E9A36F874A07}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "90055477",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "(Main Menu) scifi-fantasy-soundscape-21618.wav",
+      "CachePath": "06/{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem"
+     },
+     {
+      "Id": "444590937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump.wav",
+      "CachePath": "A5/{A52016DA-6E05-25EE-D93B-BC0348882757}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Jump",
+      "GUID": "{D6A2D92B-CC9C-472C-8E40-F3985A110306}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.4218821",
+      "DurationMax": "0.4218821",
+      "MediaRefs": [
+       {
+        "Id": "444590937"
+       }
+      ]
+     },
+     {
+      "Id": "1063700270",
+      "Name": "Play_MainMenuBGM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MainMenuBGM",
+      "GUID": "{31D05E0C-A749-485A-96D2-C919058C0CC6}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0",
+      "MediaRefs": [
+       {
+        "Id": "90055477"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{050809EF-6247-793E-4FB9-1C17095AD439}"
+ }
+}

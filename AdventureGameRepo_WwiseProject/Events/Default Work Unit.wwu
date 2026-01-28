@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" SchemaVersion="123">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Jump" ID="{D6A2D92B-CC9C-472C-8E40-F3985A110306}">
+					<ChildrenList>
+						<Action Name="" ID="{B9DED782-C35C-44A0-A3BD-3E48D09DC714}" ShortID="129929236">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Jump" ID="{0350CB13-A61C-43B5-A539-51BBCC11EDFC}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_MainMenuBGM" ID="{31D05E0C-A749-485A-96D2-C919058C0CC6}">
+					<ChildrenList>
+						<Action Name="" ID="{608AD6F9-36C7-400D-84BF-2C5E1F21CD68}" ShortID="200262930">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main Menu BGM Playlist" ID="{C641BD41-E1D4-4676-B03D-3F46FFDE13ED}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
