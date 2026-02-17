@@ -1,0 +1,22 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+	1459258807	FoostepsState			\Default Work Unit\FoostepsState	
+
+State	ID	Name	State Group			Notes
+	491961918	Forest	MusicState			
+	748895195	None	MusicState			
+	2654748154	Water	MusicState			
+	3604647259	MainMenu	MusicState			
+	4122393694	Cave	MusicState			
+	748895195	None	FoostepsState			
+	1181096339	Wet	FoostepsState			
+	1216965916	Stone	FoostepsState			
+	4248645337	Grass	FoostepsState			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

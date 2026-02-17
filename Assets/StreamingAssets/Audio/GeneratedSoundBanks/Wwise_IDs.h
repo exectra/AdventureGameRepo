@@ -13,9 +13,55 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BOXBREAK = 843996146U;
+        static const AkUniqueID PLAY_CHESTAVAILABLE = 1067323442U;
+        static const AkUniqueID PLAY_CHESTOPEN = 364247913U;
+        static const AkUniqueID PLAY_COLLECTEDKEY = 2640353952U;
+        static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_FLOORPLATE = 1263684764U;
+        static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
-        static const AkUniqueID PLAY_MAINMENUBGM = 1063700270U;
+        static const AkUniqueID PLAY_MAINMUSICSWITCH = 3684206702U;
+        static const AkUniqueID PLAY_PORTALENTER = 4016738326U;
+        static const AkUniqueID PLAY_SPAWN = 1012143543U;
+        static const AkUniqueID PLAY_STONEKEY = 3865522774U;
+        static const AkUniqueID PLAY_UI_EXIT = 1986548623U;
+        static const AkUniqueID PLAY_UI_ONCLICK = 3570890048U;
+        static const AkUniqueID PLAY_UI_ONHOVER = 3111063598U;
+        static const AkUniqueID PLAY_UI_OPEN = 3905148667U;
+        static const AkUniqueID PLAY_UI_STARTGAME = 1473547871U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace FOOSTEPSSTATE
+        {
+            static const AkUniqueID GROUP = 1459258807U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WET = 1181096339U;
+            } // namespace STATE
+        } // namespace FOOSTEPSSTATE
+
+        namespace MUSICSTATE
+        {
+            static const AkUniqueID GROUP = 1021618141U;
+
+            namespace STATE
+            {
+                static const AkUniqueID CAVE = 4122393694U;
+                static const AkUniqueID FOREST = 491961918U;
+                static const AkUniqueID MAINMENU = 3604647259U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace STATE
+        } // namespace MUSICSTATE
+
+    } // namespace STATES
 
     namespace BANKS
     {
