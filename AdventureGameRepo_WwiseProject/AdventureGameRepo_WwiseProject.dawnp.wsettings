@@ -4,75 +4,57 @@
 		<UserProjectSettings Name="" ID="{10C1E1EB-28E9-48A8-B8ED-4D44FC2F7B63}">
 			<PropertyList>
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\dawnp\OneDrive\Documents\AdventureGame Audio Files\"/>
+				<Property Name="Event Action List\{31D05E0C-A749-485A-96D2-C919058C0CC6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
-						<Value Platform="PS5"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="XboxSeriesX"></Value>
-						<Value Platform="Switch2"></Value>
-						<Value Platform="OpenHarmony"></Value>
-						<Value Platform="Android"></Value>
-						<Value Platform="PS4"></Value>
 						<Value Platform="Mac"></Value>
-						<Value Platform="Switch"></Value>
-						<Value Platform="Linux"></Value>
-						<Value Platform="Web"></Value>
-						<Value Platform="XboxOne"></Value>
-						<Value Platform="iOS"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="PS5">GeneratedSoundBanks\PS5\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="XboxSeriesX">GeneratedSoundBanks\XboxSeriesX\</Value>
-						<Value Platform="Switch2">GeneratedSoundBanks\Switch2\</Value>
-						<Value Platform="OpenHarmony">GeneratedSoundBanks\OpenHarmony\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
-						<Value Platform="PS4">GeneratedSoundBanks\PS4\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Switch">GeneratedSoundBanks\Switch\</Value>
-						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
-						<Value Platform="Web">GeneratedSoundBanks\Web\</Value>
-						<Value Platform="XboxOne">GeneratedSoundBanks\XboxOne\</Value>
-						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="Game Profiler\Voice Monitor\LastBus" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="General\LatestLanguage" Type="int32" Value="684519430"/>
-				<Property Name="General\LatestPlatform" Type="string" Value="Android"/>
+				<Property Name="General\LatestPlatform" Type="string" Value="Mac"/>
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
+				<Property Name="Interactive Music\x64_{48D4667E-DE78-4CAE-B9A2-266E81DBA79F} - SegmentEditorZoomInfo" Type="string" Value="AAAAAAAA8D8AAAAAAADwP/pWnFddtwhAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{C641BD41-E1D4-4676-B03D-3F46FFDE13ED}\Scroll Position" Type="int32" Value="0"/>
+				<Property Name="Music Transition List\{C641BD41-E1D4-4676-B03D-3F46FFDE13ED}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{031E1E2C-DC25-4332-80C3-FFCC371AC803}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{618C1FF9-37D4-45A7-AF0A-E2D511E44707}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{826CEF9F-ACB3-45D2-8319-9C9994E4CA5C}" Type="string" Value=""/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{A45AAC64-78D1-46A7-88FA-F242B38651B4}" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewBEADEARgAzADIAQgBFADcALQA5AEQARAA1AC0ANABEADYARAAtAEEARQAxADEALQBBADMANgA5ADIARgA2ADIAMAAyADgAOAB9AAAAAAE="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{D5805147-985E-4C5B-B817-369AF1B7184D}" Type="string" Value="ewAwADMANQAwAEMAQgAxADMALQBBADYAMQBDAC0ANAAzAEIANQAtAEEANQAzADkALQA1ADEAQgBCAEMAQwAxADEARQBEAEYAQwB9AAAAAAE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{FB6925F8-3EDD-42F1-B446-654A30D756CF}" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{D1F32BE7-9DD5-4D6D-AE11-A3692F620288}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\Audio_FocusedObject" Type="string" Value="{0350CB13-A61C-43B5-A539-51BBCC11EDFC}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentSearch" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\CurrentTab" Type="int32" Value="0"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{8021CD23-26A9-46C0-B587-2AE6F22B798C}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\Events_FocusedObject" Type="string" Value="{31D05E0C-A749-485A-96D2-C919058C0CC6}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Game Syncs_FocusedObject" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Queries_FocusedObject" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\Sessions_FocusedObject" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\ShareSets_FocusedObject" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\SoundBanks_FocusedObject" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Audio_LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1b4u6dewGRQSoghoH6L4h1oZtP+STC1qEKZO5JIc6q3Bw=="/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Events_LastExpandedState" Type="string" Value="/PCbpkrYfEir3Vb3HLKhJt71mjAfA+BMm5vApTYnU0M="/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\SoundBanks_FocusedObject" Type="string" Value="{F3A2939C-BD70-408D-924E-6579A17D1F35}"/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Audio_LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1b4u6dewGRQSoghoH6L4h1ojtc8j2v4uU+q+Uob23X/x2bT/kkwtahCmTuSSHOqtwcmLq9CAC3vTLuWTv217e9/Qb1BxtThdkawPT9G/94T7Q=="/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Events_LastExpandedState" Type="string" Value="/PCbpkrYfEir3Vb3HLKhJvTo+DySVO5Lt3ybgGNQqlre9ZowHwPgTJubwKU2J1ND"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Game Syncs_LastExpandedState" Type="string" Value="8XVhy4BgI0qS7wgH4wTQwbnnqVnJYRpGqW9Jl7VBpZyOgSVAfwlySraSuKLiZj3L/Fd2bFhHQU29TGiwn5HbKQ=="/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Queries_LastExpandedState" Type="string" Value="4y3sI9g+gkusmZLiXy5Maw=="/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_Sessions_LastExpandedState" Type="string" Value="i7OWTLQ9x0CRyWZVEOOJk/eqd2Rl45BJo5Llm4JLZBjN5FEXGIAsTpqKx3dk0dZT"/>
 				<Property Name="ProjectExplorer\SelectionChannel_1\x64_ShareSets_LastExpandedState" Type="string" Value="dz8JQZ+CiE2GAeiyXz1HgaDdewGxG+FMgHd5WU7EWFxAIKFKnAQPQKvNbu0ZLsHXQnPDFEc4/0mgXFAHmRvtUEeFzTJGqUdFu7Fp9E55YTkupvS2m0+mRbKAyAaF5lKW"/>
-				<Property Name="ProjectExplorer\SelectionChannel_1\x64_SoundBanks_LastExpandedState" Type="string" Value="P2eOyUyiqEiWDxBWX/5woA=="/>
+				<Property Name="ProjectExplorer\SelectionChannel_1\x64_SoundBanks_LastExpandedState" Type="string" Value="P2eOyUyiqEiWDxBWX/5woGHcBaczdW9IgKAinLNg+wQ="/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\Audio_FocusedObject" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\CurrentSearch" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\SelectionChannel_2\CurrentTab" Type="int32" Value="0"/>
@@ -97,87 +79,32 @@
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="PS5">GeneratedSoundBanks\PS5\</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="XboxSeriesX">GeneratedSoundBanks\XboxSeriesX\</Value>
-						<Value Platform="Switch2">GeneratedSoundBanks\Switch2\</Value>
-						<Value Platform="OpenHarmony">GeneratedSoundBanks\OpenHarmony\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
-						<Value Platform="PS4">GeneratedSoundBanks\PS4\</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Switch">GeneratedSoundBanks\Switch\</Value>
-						<Value Platform="Linux">GeneratedSoundBanks\Linux\</Value>
-						<Value Platform="Web">GeneratedSoundBanks\Web\</Value>
-						<Value Platform="XboxOne">GeneratedSoundBanks\XboxOne\</Value>
-						<Value Platform="iOS">GeneratedSoundBanks\iOS\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
-						<Value Platform="PS5"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="XboxSeriesX"></Value>
-						<Value Platform="Switch2"></Value>
-						<Value Platform="OpenHarmony"></Value>
-						<Value Platform="Android"></Value>
-						<Value Platform="PS4"></Value>
 						<Value Platform="Mac"></Value>
-						<Value Platform="Switch"></Value>
-						<Value Platform="Linux"></Value>
-						<Value Platform="Web"></Value>
-						<Value Platform="XboxOne"></Value>
-						<Value Platform="iOS"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
-						<Value Platform="PS5"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="XboxSeriesX"></Value>
-						<Value Platform="Switch2"></Value>
-						<Value Platform="OpenHarmony"></Value>
-						<Value Platform="Android"></Value>
-						<Value Platform="PS4"></Value>
 						<Value Platform="Mac"></Value>
-						<Value Platform="Switch"></Value>
-						<Value Platform="Linux"></Value>
-						<Value Platform="Web"></Value>
-						<Value Platform="XboxOne"></Value>
-						<Value Platform="iOS"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
-						<Value Platform="PS5"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="XboxSeriesX"></Value>
-						<Value Platform="Switch2"></Value>
-						<Value Platform="OpenHarmony"></Value>
-						<Value Platform="Android"></Value>
-						<Value Platform="PS4"></Value>
 						<Value Platform="Mac"></Value>
-						<Value Platform="Switch"></Value>
-						<Value Platform="Linux"></Value>
-						<Value Platform="Web"></Value>
-						<Value Platform="XboxOne"></Value>
-						<Value Platform="iOS"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
-						<Value Platform="PS5"></Value>
 						<Value Platform="Windows"></Value>
-						<Value Platform="XboxSeriesX"></Value>
-						<Value Platform="Switch2"></Value>
-						<Value Platform="OpenHarmony"></Value>
-						<Value Platform="Android"></Value>
-						<Value Platform="PS4"></Value>
 						<Value Platform="Mac"></Value>
-						<Value Platform="Switch"></Value>
-						<Value Platform="Linux"></Value>
-						<Value Platform="Web"></Value>
-						<Value Platform="XboxOne"></Value>
-						<Value Platform="iOS"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabLeft_{031E1E2C-DC25-4332-80C3-FFCC371AC803}\CurrentSearch" Type="string" Value=""/>
@@ -299,7 +226,7 @@
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_ExpandedGroups" Type="string" Value="AAAAAAAAAAA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_ExpandedGroupsAllMode" Type="string" Value="AAAAAAAAAAA="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_HiddenCategories" Type="string" Value="AgAAAAAAAABIRFIATUlESQA="/>
-				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_InspectedObject" Type="string" Value="5yvz0dWdbU2uEaNpL2ICiA=="/>
+				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_InspectedObject" Type="string" Value="E8tQAxymtUOlOVG7zBHt/A=="/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{D5805147-985E-4C5B-B817-369AF1B7184D}\x64_RecentCategories" Type="string" Value="AwAAAAAAAABHZW5lcmFsAABBbGwA"/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{FB6925F8-3EDD-42F1-B446-654A30D756CF}\CurrentSearch" Type="string" Value=""/>
 				<Property Name="TabPropertyEditor\LayoutInstanceId_PropertyEditorInObjectTabRight_{FB6925F8-3EDD-42F1-B446-654A30D756CF}\RecentCategoriesTopCount" Type="int32" Value="0"/>
