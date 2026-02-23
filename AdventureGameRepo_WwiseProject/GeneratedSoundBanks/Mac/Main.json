@@ -1,0 +1,497 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
+    "Language": "SFX",
+    "Hash": "{D6A43B8A-86EF-AD98-001C-883B7A19171B}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "21697968",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Death.wav",
+      "CachePath": "A3/{A35C99AF-EE26-E611-311D-AFCCA2E3D97D}.wem"
+     },
+     {
+      "Id": "24935733",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Start Game.wav",
+      "CachePath": "B8/{B8D76CFB-02C1-7E49-44C1-ED51245FD711}.wem"
+     },
+     {
+      "Id": "108628214",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cave BGM.wav",
+      "CachePath": "E7/{E778444F-1544-41F9-E749-F852069B2EC9}.wem"
+     },
+     {
+      "Id": "180245698",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chest Available (Ongoing).wav",
+      "CachePath": "27/{27A98200-FBB7-35D9-B812-2A13A963F4C9}.wem"
+     },
+     {
+      "Id": "334303401",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Forest BGM.wav",
+      "CachePath": "57/{57FB0CB9-2B8A-37DA-D37F-DE209BBC50F3}.wem"
+     },
+     {
+      "Id": "367911780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Floor Plate.wav",
+      "CachePath": "18/{18684D3F-C929-EE50-FFA3-FCE292354E8E}.wem"
+     },
+     {
+      "Id": "407247424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "On Click UI.wav",
+      "CachePath": "DD/{DDDF9DF5-23A7-2E25-1D06-069AE8E84653}.wem"
+     },
+     {
+      "Id": "444590937",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Jump.wav",
+      "CachePath": "F8/{F8465548-0B94-63BF-DFA8-7169E97103EE}.wem"
+     },
+     {
+      "Id": "451513684",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spawn.wav",
+      "CachePath": "3D/{3D9D7BBE-9752-87D8-8074-A0B3374BB154}.wem"
+     },
+     {
+      "Id": "488128510",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Collected Key.wav",
+      "CachePath": "29/{29789661-456C-1B12-EFCE-8A715B4AD8EC}.wem"
+     },
+     {
+      "Id": "508803332",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Exit UI.wav",
+      "CachePath": "D8/{D824FDBE-9EF9-5F0D-968B-E1CBC564A838}.wem"
+     },
+     {
+      "Id": "678185154",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Menu BGM.wav",
+      "CachePath": "06/{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem"
+     },
+     {
+      "Id": "788642920",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chest Open.wav",
+      "CachePath": "7B/{7B127B47-4BC9-975E-D802-C9C0E91DA3B2}.wem"
+     },
+     {
+      "Id": "822765433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "On Hover UI.wav",
+      "CachePath": "E8/{E87FD7AD-0858-5C03-27F1-58E5551B14D9}.wem"
+     },
+     {
+      "Id": "944740841",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box Break.wav",
+      "CachePath": "DD/{DDF72310-FB59-1D52-AE25-BFB7729E2231}.wem"
+     },
+     {
+      "Id": "946211358",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Stone Key (Ongoing).wav",
+      "CachePath": "4E/{4E2D9E8B-8D67-540C-1520-87DF3E8F0ED9}.wem"
+     },
+     {
+      "Id": "973421058",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Water BGM.wav",
+      "CachePath": "CF/{CFA05417-56B3-AA25-7185-10BE1B52C039}.wem"
+     },
+     {
+      "Id": "978485341",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Open UI.wav",
+      "CachePath": "1F/{1FBFD280-8892-4D9F-6EA6-8F376CF4F398}.wem"
+     },
+     {
+      "Id": "1047727185",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Portal Enter.wav",
+      "CachePath": "02/{02A81F95-F4B0-0CC1-A015-DE273F18921B}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "843996146",
+      "Name": "Play_BoxBreak",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_BoxBreak",
+      "GUID": "{7933F669-8532-4C5D-9C10-6071EC273DAC}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.25",
+      "DurationMax": "18.25",
+      "MediaRefs": [
+       {
+        "Id": "944740841"
+       }
+      ]
+     },
+     {
+      "Id": "1067323442",
+      "Name": "Play_ChestAvailable",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_ChestAvailable",
+      "GUID": "{E8F2DA44-7BAA-464D-A6C4-3EA6B19F57B4}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.25",
+      "DurationMax": "18.25",
+      "MediaRefs": [
+       {
+        "Id": "180245698"
+       }
+      ]
+     },
+     {
+      "Id": "364247913",
+      "Name": "Play_ChestOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_ChestOpen",
+      "GUID": "{BAE7F893-402F-4079-B774-4A87CC0110F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.25",
+      "DurationMax": "18.25",
+      "MediaRefs": [
+       {
+        "Id": "788642920"
+       }
+      ]
+     },
+     {
+      "Id": "2640353952",
+      "Name": "Play_CollectedKey",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_CollectedKey",
+      "GUID": "{7BDDFFCA-3781-44DE-A75E-84B5AB920929}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.25",
+      "DurationMax": "18.25",
+      "MediaRefs": [
+       {
+        "Id": "488128510"
+       }
+      ]
+     },
+     {
+      "Id": "1172822028",
+      "Name": "Play_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Death",
+      "GUID": "{A6086594-2639-4F46-9935-AC792A0D67B1}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "21697968"
+       }
+      ]
+     },
+     {
+      "Id": "1263684764",
+      "Name": "Play_FloorPlate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_FloorPlate",
+      "GUID": "{A5E25542-718F-4466-BB80-E9677A4B182B}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.25",
+      "DurationMax": "18.25",
+      "MediaRefs": [
+       {
+        "Id": "367911780"
+       }
+      ]
+     },
+     {
+      "Id": "3854155799",
+      "Name": "Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "GUID": "{2BA7EFC4-28AA-4DA7-8352-D87F56BA1065}",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Jump",
+      "GUID": "{01E69410-9337-41D9-9BCA-B68DB87EECA2}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
+      "MediaRefs": [
+       {
+        "Id": "444590937"
+       }
+      ]
+     },
+     {
+      "Id": "3684206702",
+      "Name": "Play_MainMusicSwitch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MainMusicSwitch",
+      "GUID": "{D19DBB5A-16C6-4ACE-9127-A0FFB7179244}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "4122393694",
+         "GUID": "{28417A4E-2994-472A-B83A-77085EC06094}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "108628214"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "491961918",
+         "GUID": "{2E214529-22DE-4B7D-9B5D-34230ACD0177}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "334303401"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "3604647259",
+         "GUID": "{EF90BF4C-9E82-4210-B904-E8168367D998}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "678185154"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "1021618141",
+         "Id": "2654748154",
+         "GUID": "{09063382-75A1-488F-A5F8-0CEC460F4690}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "973421058"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "4016738326",
+      "Name": "Play_PortalEnter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_PortalEnter",
+      "GUID": "{957A316D-61A4-410F-ADE5-6BCB2CC7494F}",
+      "DurationType": "OneShot",
+      "DurationMin": "18.25",
+      "DurationMax": "18.25",
+      "MediaRefs": [
+       {
+        "Id": "1047727185"
+       }
+      ]
+     },
+     {
+      "Id": "1012143543",
+      "Name": "Play_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Spawn",
+      "GUID": "{0DDE1191-7319-488E-89D6-EFB1E50A4AE9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "451513684"
+       }
+      ]
+     },
+     {
+      "Id": "3865522774",
+      "Name": "Play_StoneKey",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_StoneKey",
+      "GUID": "{E1B07001-B4B6-4EF2-8B1B-3ABACE46F46B}",
+      "DurationType": "OneShot",
+      "DurationMin": "16",
+      "DurationMax": "16",
+      "MediaRefs": [
+       {
+        "Id": "946211358"
+       }
+      ]
+     },
+     {
+      "Id": "1986548623",
+      "Name": "Play_UI_Exit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI\\Play_UI_Exit",
+      "GUID": "{01929A60-DA48-48C6-B859-A943FB31B170}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
+      "MediaRefs": [
+       {
+        "Id": "508803332"
+       }
+      ]
+     },
+     {
+      "Id": "3570890048",
+      "Name": "Play_UI_OnClick",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI\\Play_UI_OnClick",
+      "GUID": "{C9C965A7-B8DA-4515-A012-07D80B313443}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
+      "MediaRefs": [
+       {
+        "Id": "407247424"
+       }
+      ]
+     },
+     {
+      "Id": "3111063598",
+      "Name": "Play_UI_OnHover",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI\\Play_UI_OnHover",
+      "GUID": "{7B287E21-225D-45F1-8674-67D41B8E506C}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
+      "MediaRefs": [
+       {
+        "Id": "822765433"
+       }
+      ]
+     },
+     {
+      "Id": "3905148667",
+      "Name": "Play_UI_Open",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI\\Play_UI_Open",
+      "GUID": "{380DABEE-4372-4267-9DF4-1F1AE421DEAC}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
+      "MediaRefs": [
+       {
+        "Id": "978485341"
+       }
+      ]
+     },
+     {
+      "Id": "1473547871",
+      "Name": "Play_UI_StartGame",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_UI\\Play_UI_StartGame",
+      "GUID": "{51AD0343-5878-437B-9F0F-1AF0CC214A72}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
+      "MediaRefs": [
+       {
+        "Id": "24935733"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
+      "GUID": "{91C850C4-1F17-47BE-B814-C0EADA5A7899}",
+      "States": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Forest",
+        "GUID": "{2E214529-22DE-4B7D-9B5D-34230ACD0177}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
+        "GUID": "{3E2E97EA-7D9B-46F2-88DC-B2548343D207}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Water",
+        "GUID": "{09063382-75A1-488F-A5F8-0CEC460F4690}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
+        "GUID": "{EF90BF4C-9E82-4210-B904-E8168367D998}"
+       },
+       {
+        "Id": "4122393694",
+        "Name": "Cave",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Cave",
+        "GUID": "{28417A4E-2994-472A-B83A-77085EC06094}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C75E817C-EB07-D311-A657-36368828EF6A}"
+ }
+}

@@ -9,6 +9,9 @@ namespace Gamekit3D
     [RequireComponent(typeof(Animator))]
     public class PlayerController : MonoBehaviour, IMessageReceiver
     {
+        //WWise Implementation Code
+        public AK.Wwise.Event spawnSFX;
+
         protected static PlayerController s_Instance;
         public static PlayerController instance { get { return s_Instance; } }
 
@@ -570,7 +573,7 @@ namespace Gamekit3D
         {
             StartCoroutine(RespawnRoutine());
         }
-        
+
         protected IEnumerator RespawnRoutine()
         {
             // Wait for the animator to be transitioning from the EllenDeath state.
@@ -595,6 +598,8 @@ namespace Gamekit3D
             {
                 transform.position = m_CurrentCheckpoint.transform.position;
                 transform.rotation = m_CurrentCheckpoint.transform.rotation;
+
+                spawnSFX.Post(gameObject);
             }
             else
             {

@@ -22127,6 +22127,7 @@ GameObject:
   - component: {fileID: 114579421511091938}
   - component: {fileID: 114166992771378430}
   - component: {fileID: 184851313919395836}
+  - component: {fileID: 946913762506496060}
   m_Layer: 9
   m_Name: Ellen
   m_TagString: Untagged
@@ -22226,13 +22227,13 @@ MonoBehaviour:
   OnDeath:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ChangeHitPointUI
+      - m_Target: {fileID: 946913762506496060}
+        m_TargetAssemblyTypeName: AkEvent, AK.Wwise.Unity.MonoBehaviour
+        m_MethodName: HandleEvent
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 114011089888769184}
-          m_ObjectArgumentAssemblyTypeName: Gamekit3D.Damageable, Assembly-CSharp
+          m_ObjectArgument: {fileID: 1991219941496362}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -22326,7 +22327,7 @@ MonoBehaviour:
   jumpSFX:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9086617d334e73a46a485d5cc8d89cbd,
+    WwiseObjectReference: {fileID: 11400000, guid: d29caf8051bcf6043a35e236b4555667,
       type: 2}
   playerControllerInputBlocked: 0
 --- !u!114 &114579421511091938
@@ -22341,6 +22342,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: faa8b67e83b73fb4ba6b6a9b2482a664, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spawnSFX:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   maxForwardSpeed: 8
   gravity: 20
   jumpSpeed: 10
@@ -22394,6 +22399,36 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
+--- !u!114 &946913762506496060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1991219941496362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 001569cd74e44b149a1e75db528760e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: 
+  useOtherObject: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  enableActionOnEvent: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 63a4d91da027af04b95a38dc6756169c,
+      type: 2}
+  useCallbacks: 0
+  stopSoundOnDestroy: 1
+  Callbacks: []
+  soundEmitterObject: {fileID: 0}
+  transitionDuration: 0
+  eventIdInternal: 0
+  valueGuidInternal: 
+  m_callbackDataInternal: {fileID: 0}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

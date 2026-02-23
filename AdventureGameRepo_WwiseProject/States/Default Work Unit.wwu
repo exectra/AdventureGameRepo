@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2671E779-701F-417F-979D-96C14A1E5696}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{2671E779-701F-417F-979D-96C14A1E5696}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2671E779-701F-417F-979D-96C14A1E5696}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="MusicState" ID="{91C850C4-1F17-47BE-B814-C0EADA5A7899}">
+					<ChildrenList>
+						<State Name="None" ID="{3E2E97EA-7D9B-46F2-88DC-B2548343D207}"/>
+						<State Name="MainMenu" ID="{EF90BF4C-9E82-4210-B904-E8168367D998}"/>
+						<State Name="Forest" ID="{2E214529-22DE-4B7D-9B5D-34230ACD0177}"/>
+						<State Name="Water" ID="{09063382-75A1-488F-A5F8-0CEC460F4690}"/>
+						<State Name="Cave" ID="{28417A4E-2994-472A-B83A-77085EC06094}"/>
+					</ChildrenList>
+				</StateGroup>
+				<StateGroup Name="FoostepsState" ID="{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}">
+					<ChildrenList>
+						<State Name="None" ID="{2B0C8435-FBC1-487F-80C9-39A73EB7EC0E}"/>
+						<State Name="Grass" ID="{C2A5FE7C-AD49-4B0F-9245-F69CC267DA35}"/>
+						<State Name="Stone" ID="{66622926-C85D-413A-9689-3E66FA8B2C97}"/>
+						<State Name="Wet" ID="{717A6F07-6E3B-4595-8721-C80713566C38}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

@@ -1,0 +1,121 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "Type": "User",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "{64B4AC0A-0204-F485-3273-205D3E1FF2A5}",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "Plugins": {
+     "AudioDevices": [
+      {
+       "Id": "2317455096",
+       "Name": "No_Output",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\No_Output",
+       "GUID": "{FB12BFDE-8C25-43D4-B210-04D350C3EA2D}",
+       "LibName": "No Output",
+       "LibId": "11862023"
+      },
+      {
+       "Id": "3859886410",
+       "Name": "System",
+       "ObjectPath": "\\Audio Devices\\Default Work Unit\\System",
+       "GUID": "{D62D1AC8-4AAD-462A-B48C-F342AD7069E4}",
+       "LibName": "System",
+       "LibId": "11403271"
+      }
+     ]
+    },
+    "Busses": [
+     {
+      "Id": "3803692087",
+      "Name": "Master Audio Bus",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
+      "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "1021618141",
+      "Name": "MusicState",
+      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
+      "GUID": "{91C850C4-1F17-47BE-B814-C0EADA5A7899}",
+      "States": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Forest",
+        "GUID": "{2E214529-22DE-4B7D-9B5D-34230ACD0177}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
+        "GUID": "{3E2E97EA-7D9B-46F2-88DC-B2548343D207}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Water",
+        "GUID": "{09063382-75A1-488F-A5F8-0CEC460F4690}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
+        "GUID": "{EF90BF4C-9E82-4210-B904-E8168367D998}"
+       },
+       {
+        "Id": "4122393694",
+        "Name": "Cave",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Cave",
+        "GUID": "{28417A4E-2994-472A-B83A-77085EC06094}"
+       }
+      ]
+     },
+     {
+      "Id": "1459258807",
+      "Name": "FoostepsState",
+      "ObjectPath": "\\States\\Default Work Unit\\FoostepsState",
+      "GUID": "{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\None",
+        "GUID": "{2B0C8435-FBC1-487F-80C9-39A73EB7EC0E}"
+       },
+       {
+        "Id": "1181096339",
+        "Name": "Wet",
+        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Wet",
+        "GUID": "{717A6F07-6E3B-4595-8721-C80713566C38}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Stone",
+        "GUID": "{66622926-C85D-413A-9689-3E66FA8B2C97}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Grass",
+        "GUID": "{C2A5FE7C-AD49-4B0F-9245-F69CC267DA35}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{A3C9D0C1-F2C3-2730-0DAB-34C1992E7840}"
+ }
+}

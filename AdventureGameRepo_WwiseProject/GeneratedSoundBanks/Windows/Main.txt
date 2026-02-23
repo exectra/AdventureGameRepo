@@ -1,8 +1,50 @@
 Event	ID	Name			Wwise Object Path	Notes
-	1063700270	Play_MainMenuBGM			\Default Work Unit\Play_MainMenuBGM	
-	3689126666	Play_Jump			\Default Work Unit\Play_Jump	
+	364247913	Play_ChestOpen			\Default Work Unit\Play_Environment\Play_ChestOpen	
+	843996146	Play_BoxBreak			\Default Work Unit\Play_Environment\Play_BoxBreak	
+	1012143543	Play_Spawn			\Default Work Unit\Play_Player\Play_Spawn	
+	1067323442	Play_ChestAvailable			\Default Work Unit\Play_Environment\Play_ChestAvailable	
+	1172822028	Play_Death			\Default Work Unit\Play_Player\Play_Death	
+	1263684764	Play_FloorPlate			\Default Work Unit\Play_Environment\Play_FloorPlate	
+	1473547871	Play_UI_StartGame			\Default Work Unit\Play_UI\Play_UI_StartGame	
+	1986548623	Play_UI_Exit			\Default Work Unit\Play_UI\Play_UI_Exit	
+	2640353952	Play_CollectedKey			\Default Work Unit\Play_Environment\Play_CollectedKey	
+	3111063598	Play_UI_OnHover			\Default Work Unit\Play_UI\Play_UI_OnHover	
+	3570890048	Play_UI_OnClick			\Default Work Unit\Play_UI\Play_UI_OnClick	
+	3684206702	Play_MainMusicSwitch			\Default Work Unit\Play_MainMusicSwitch	
+	3689126666	Play_Jump			\Default Work Unit\Play_Player\Play_Jump	
+	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
+	3865522774	Play_StoneKey			\Default Work Unit\Play_Environment\Play_StoneKey	
+	3905148667	Play_UI_Open			\Default Work Unit\Play_UI\Play_UI_Open	
+	4016738326	Play_PortalEnter			\Default Work Unit\Play_Environment\Play_PortalEnter	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1021618141	MusicState			\Default Work Unit\MusicState	
+
+State	ID	Name	State Group			Notes
+	491961918	Forest	MusicState			
+	748895195	None	MusicState			
+	2654748154	Water	MusicState			
+	3604647259	MainMenu	MusicState			
+	4122393694	Cave	MusicState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	90055477	(Main Menu) scifi-fantasy-soundscape-21618	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\06\{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem		\Interactive Music Hierarchy\Default Work Unit\Main Menu BGM Playlist\Main Menu BGM\(Main Menu) scifi-fantasy-soundscape-21618		32887392
-	444590937	Jump	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A5\{A52016DA-6E05-25EE-D93B-BC0348882757}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		74516
+	21697968	Death	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A3\{A35C99AF-EE26-E611-311D-AFCCA2E3D97D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death		384096
+	24935733	Start Game	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B8\{B8D76CFB-02C1-7E49-44C1-ED51245FD711}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Start Game		594096
+	108628214	Cave BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E7\{E778444F-1544-41F9-E749-F852069B2EC9}.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\Cave Playlist\Cave BGM\Cave BGM		5764704
+	180245698	Chest Available (Ongoing)	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\27\{27A98200-FBB7-35D9-B812-2A13A963F4C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Chest Available (Ongoing)		3504096
+	334303401	Forest BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\57\{57FB0CB9-2B8A-37DA-D37F-DE209BBC50F3}.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\Forest Playlist\Forest BGM\Forest BGM		9990240
+	367911780	Floor Plate	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\18\{18684D3F-C929-EE50-FFA3-FCE292354E8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Floor Plate		3504096
+	407247424	On Click UI	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DD\{DDDF9DF5-23A7-2E25-1D06-069AE8E84653}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\On Click UI		594096
+	444590937	Jump	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F8\{F8465548-0B94-63BF-DFA8-7169E97103EE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump		594096
+	451513684	Spawn	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\3D\{3D9D7BBE-9752-87D8-8074-A0B3374BB154}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Spawn		384096
+	488128510	Collected Key	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\29\{29789661-456C-1B12-EFCE-8A715B4AD8EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Collected Key		3504096
+	508803332	Exit UI	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D8\{D824FDBE-9EF9-5F0D-968B-E1CBC564A838}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Exit UI		594096
+	678185154	Main Menu BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\06\{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\Main Menu Playlist\Main Menu BGM\Main Menu BGM		32887392
+	788642920	Chest Open	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\7B\{7B127B47-4BC9-975E-D802-C9C0E91DA3B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Chest Open		3504096
+	822765433	On Hover UI	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E8\{E87FD7AD-0858-5C03-27F1-58E5551B14D9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\On Hover UI		594096
+	944740841	Box Break	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DD\{DDF72310-FB59-1D52-AE25-BFB7729E2231}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Box Break		3504096
+	946211358	Stone Key (Ongoing)	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\4E\{4E2D9E8B-8D67-540C-1520-87DF3E8F0ED9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Stone Key (Ongoing)		3072096
+	973421058	Water BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\CF\{CFA05417-56B3-AA25-7185-10BE1B52C039}.wem		\Interactive Music Hierarchy\Default Work Unit\MainMusicSwitch\Water Playlist\Water BGM\Water BGM		3890776
+	978485341	Open UI (PM)	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\1F\{1FBFD280-8892-4D9F-6EA6-8F376CF4F398}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Open UI (PM)		594096
+	1047727185	Portal Enter	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\02\{02A81F95-F4B0-0CC1-A015-DE273F18921B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Portal Enter		3504096
 

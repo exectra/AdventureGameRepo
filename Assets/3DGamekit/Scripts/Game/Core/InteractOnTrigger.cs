@@ -13,6 +13,7 @@ namespace Gamekit3D
         new Collider collider;
         public InventoryController.InventoryChecker[] inventoryChecks;
 
+
         void Reset()
         {
             layers = LayerMask.NameToLayer("Everything");
