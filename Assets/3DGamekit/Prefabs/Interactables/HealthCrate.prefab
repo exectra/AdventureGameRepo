@@ -24661,7 +24661,6 @@ GameObject:
   - component: {fileID: 95643501864184640}
   - component: {fileID: 65755967133401140}
   - component: {fileID: 114272206567442654}
-  - component: {fileID: 65180027587582960}
   - component: {fileID: 82457573920632064}
   - component: {fileID: 7636920397155692135}
   - component: {fileID: 7899651813964026265}
@@ -24805,27 +24804,6 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   inventoryChecks: []
---- !u!65 &65180027587582960
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804881409606774}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1.5}
-  m_Center: {x: 0, y: 0.5, z: 0}
 --- !u!82 &82457573920632064
 AudioSource:
   m_ObjectHideFlags: 0
@@ -24833,7 +24811,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1804881409606774}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 248799cb4acba48f7b3ee842a80f788c,
     type: 2}

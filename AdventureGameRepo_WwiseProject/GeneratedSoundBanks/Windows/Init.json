@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8CE0C0C4-84EA-7835-A0E2-B93F40124FA7}",
+    "Hash": "{B82F339A-2EB6-7314-0FDC-41D8252D20F2}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -50,10 +50,10 @@
       "GUID": "{91C850C4-1F17-47BE-B814-C0EADA5A7899}",
       "States": [
        {
-        "Id": "491961918",
-        "Name": "Forest",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Forest",
-        "GUID": "{2E214529-22DE-4B7D-9B5D-34230ACD0177}"
+        "Id": "89505537",
+        "Name": "Gameplay",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Gameplay",
+        "GUID": "{E61EAB80-B1AD-4BE7-A428-4976B16CD519}"
        },
        {
         "Id": "748895195",
@@ -62,22 +62,42 @@
         "GUID": "{3E2E97EA-7D9B-46F2-88DC-B2548343D207}"
        },
        {
-        "Id": "2654748154",
-        "Name": "Water",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Water",
-        "GUID": "{09063382-75A1-488F-A5F8-0CEC460F4690}"
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Menu",
+        "GUID": "{97ED0AFE-33A5-4FF0-B500-4B9D6B156880}"
+       }
+      ]
+     },
+     {
+      "Id": "1176052424",
+      "Name": "Location",
+      "ObjectPath": "\\States\\Default Work Unit\\Location",
+      "GUID": "{C51944E6-D404-47E8-9C5F-513E4EFF3243}",
+      "States": [
+       {
+        "Id": "491961918",
+        "Name": "Forest",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Forest",
+        "GUID": "{147F526F-5EFC-41A6-94E4-4BFE881DA55A}"
        },
        {
-        "Id": "3604647259",
-        "Name": "MainMenu",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
-        "GUID": "{EF90BF4C-9E82-4210-B904-E8168367D998}"
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\None",
+        "GUID": "{E686CF49-D3A3-4791-B8D4-EFD439C07B63}"
+       },
+       {
+        "Id": "2654748154",
+        "Name": "Water",
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Water",
+        "GUID": "{FDB15F2E-C8AC-4793-8D53-AE025298DB25}"
        },
        {
         "Id": "4122393694",
         "Name": "Cave",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Cave",
-        "GUID": "{28417A4E-2994-472A-B83A-77085EC06094}"
+        "ObjectPath": "\\States\\Default Work Unit\\Location\\Cave",
+        "GUID": "{7306C6EB-B4B9-49E5-B4AF-4AE9D98D9385}"
        }
       ]
      },
@@ -116,6 +136,6 @@
     ]
    }
   ],
-  "FileHash": "{50C0B935-C11F-7466-E9A6-551C3740F4F1}"
+  "FileHash": "{B0619287-8BC2-B9FB-0F81-19008878EFF3}"
  }
 }

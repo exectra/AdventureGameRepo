@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{D6A43B8A-86EF-AD98-001C-883B7A19171B}",
+    "Hash": "{D8963D76-AB86-FDE5-981D-3989836CAB21}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -32,14 +32,6 @@
       "CachePath": "B8/{B8D76CFB-02C1-7E49-44C1-ED51245FD711}.wem"
      },
      {
-      "Id": "108628214",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Cave BGM.wav",
-      "CachePath": "E7/{E778444F-1544-41F9-E749-F852069B2EC9}.wem"
-     },
-     {
       "Id": "180245698",
       "Language": "SFX",
       "Streaming": "false",
@@ -48,12 +40,12 @@
       "CachePath": "27/{27A98200-FBB7-35D9-B812-2A13A963F4C9}.wem"
      },
      {
-      "Id": "334303401",
+      "Id": "233327949",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Forest BGM.wav",
-      "CachePath": "57/{57FB0CB9-2B8A-37DA-D37F-DE209BBC50F3}.wem"
+      "ShortName": "Weapon Pick Up.wav",
+      "CachePath": "B9/{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem"
      },
      {
       "Id": "367911780",
@@ -104,14 +96,6 @@
       "CachePath": "D8/{D824FDBE-9EF9-5F0D-968B-E1CBC564A838}.wem"
      },
      {
-      "Id": "678185154",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Main Menu BGM.wav",
-      "CachePath": "06/{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem"
-     },
-     {
       "Id": "788642920",
       "Language": "SFX",
       "Streaming": "false",
@@ -144,20 +128,20 @@
       "CachePath": "4E/{4E2D9E8B-8D67-540C-1520-87DF3E8F0ED9}.wem"
      },
      {
-      "Id": "973421058",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Water BGM.wav",
-      "CachePath": "CF/{CFA05417-56B3-AA25-7185-10BE1B52C039}.wem"
-     },
-     {
       "Id": "978485341",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Open UI.wav",
       "CachePath": "1F/{1FBFD280-8892-4D9F-6EA6-8F376CF4F398}.wem"
+     },
+     {
+      "Id": "1020663270",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door Open.wav",
+      "CachePath": "6E/{6E7A85ED-C145-E32A-9884-CB63DD0C632C}.wem"
      },
      {
       "Id": "1047727185",
@@ -240,6 +224,20 @@
       ]
      },
      {
+      "Id": "3197300806",
+      "Name": "Play_DoorOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_DoorOpen",
+      "GUID": "{43F91AC4-3E3B-4DFE-A0EE-FEB843D5CB4A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.677027",
+      "DurationMax": "1.677027",
+      "MediaRefs": [
+       {
+        "Id": "1020663270"
+       }
+      ]
+     },
+     {
       "Id": "1263684764",
       "Name": "Play_FloorPlate",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_FloorPlate",
@@ -281,61 +279,7 @@
       "Name": "Play_MainMusicSwitch",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_MainMusicSwitch",
       "GUID": "{D19DBB5A-16C6-4ACE-9127-A0FFB7179244}",
-      "DurationType": "Infinite",
-      "SwitchContainers": [
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1021618141",
-         "Id": "4122393694",
-         "GUID": "{28417A4E-2994-472A-B83A-77085EC06094}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "108628214"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1021618141",
-         "Id": "491961918",
-         "GUID": "{2E214529-22DE-4B7D-9B5D-34230ACD0177}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "334303401"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1021618141",
-         "Id": "3604647259",
-         "GUID": "{EF90BF4C-9E82-4210-B904-E8168367D998}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "678185154"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1021618141",
-         "Id": "2654748154",
-         "GUID": "{09063382-75A1-488F-A5F8-0CEC460F4690}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "973421058"
-         }
-        ]
-       }
-      ]
+      "DurationType": "Infinite"
      },
      {
       "Id": "4016738326",
@@ -448,6 +392,20 @@
         "Id": "24935733"
        }
       ]
+     },
+     {
+      "Id": "594124390",
+      "Name": "Play_WeaponPickUp",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_WeaponPickUp",
+      "GUID": "{4F77382E-38B9-429C-A358-235BD6574605}",
+      "DurationType": "OneShot",
+      "DurationMin": "8",
+      "DurationMax": "8",
+      "MediaRefs": [
+       {
+        "Id": "233327949"
+       }
+      ]
      }
     ],
     "StateGroups": [
@@ -458,10 +416,10 @@
       "GUID": "{91C850C4-1F17-47BE-B814-C0EADA5A7899}",
       "States": [
        {
-        "Id": "491961918",
-        "Name": "Forest",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Forest",
-        "GUID": "{2E214529-22DE-4B7D-9B5D-34230ACD0177}"
+        "Id": "89505537",
+        "Name": "Gameplay",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Gameplay",
+        "GUID": "{E61EAB80-B1AD-4BE7-A428-4976B16CD519}"
        },
        {
         "Id": "748895195",
@@ -470,28 +428,16 @@
         "GUID": "{3E2E97EA-7D9B-46F2-88DC-B2548343D207}"
        },
        {
-        "Id": "2654748154",
-        "Name": "Water",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Water",
-        "GUID": "{09063382-75A1-488F-A5F8-0CEC460F4690}"
-       },
-       {
-        "Id": "3604647259",
-        "Name": "MainMenu",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\MainMenu",
-        "GUID": "{EF90BF4C-9E82-4210-B904-E8168367D998}"
-       },
-       {
-        "Id": "4122393694",
-        "Name": "Cave",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Cave",
-        "GUID": "{28417A4E-2994-472A-B83A-77085EC06094}"
+        "Id": "2607556080",
+        "Name": "Menu",
+        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Menu",
+        "GUID": "{97ED0AFE-33A5-4FF0-B500-4B9D6B156880}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{09FBD343-F2DC-8587-6890-AC6F0FE7E379}"
+  "FileHash": "{E55DC0DC-BCDF-9BEC-CAEA-EDB39A34D799}"
  }
 }

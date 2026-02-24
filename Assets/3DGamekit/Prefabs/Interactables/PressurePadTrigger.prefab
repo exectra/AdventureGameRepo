@@ -114,7 +114,7 @@ MonoBehaviour:
           m_StringArgument: Triggered
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2264951139670771893}
+      - m_Target: {fileID: 1120045469406090}
         m_TargetAssemblyTypeName: AkEvent, AK.Wwise.Unity.MonoBehaviour
         m_MethodName: HandleEvent
         m_Mode: 2
@@ -128,19 +128,7 @@ MonoBehaviour:
         m_CallState: 2
   OnExit:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7936568496793015697}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Deactivate
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   inventoryChecks: []
 --- !u!95 &95439531995642848
 Animator:

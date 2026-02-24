@@ -1,13 +1,16 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1021618141	MusicState			\Default Work Unit\MusicState	
+	1176052424	Location			\Default Work Unit\Location	
 	1459258807	FoostepsState			\Default Work Unit\FoostepsState	
 
 State	ID	Name	State Group			Notes
-	491961918	Forest	MusicState			
+	89505537	Gameplay	MusicState			
 	748895195	None	MusicState			
-	2654748154	Water	MusicState			
-	3604647259	MainMenu	MusicState			
-	4122393694	Cave	MusicState			
+	2607556080	Menu	MusicState			
+	491961918	Forest	Location			
+	748895195	None	Location			
+	2654748154	Water	Location			
+	4122393694	Cave	Location			
 	748895195	None	FoostepsState			
 	1181096339	Wet	FoostepsState			
 	1216965916	Stone	FoostepsState			
