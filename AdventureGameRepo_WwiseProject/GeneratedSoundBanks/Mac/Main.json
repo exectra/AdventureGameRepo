@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{D8963D76-AB86-FDE5-981D-3989836CAB21}",
+    "Hash": "{4B2039ED-EF45-84B9-0222-7E96FFD11CDA}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -32,6 +32,14 @@
       "CachePath": "B8/{B8D76CFB-02C1-7E49-44C1-ED51245FD711}.wem"
      },
      {
+      "Id": "37449250",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 1.wav",
+      "CachePath": "96/{9632FB17-5DEF-D5A3-42FA-BD15E7BF452E}.wem"
+     },
+     {
       "Id": "180245698",
       "Language": "SFX",
       "Streaming": "false",
@@ -46,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "Weapon Pick Up.wav",
       "CachePath": "B9/{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem"
+     },
+     {
+      "Id": "332449225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 7.wav",
+      "CachePath": "33/{33BB98BE-CB28-49F8-D064-F6B565F1B1A1}.wem"
      },
      {
       "Id": "367911780",
@@ -80,6 +96,14 @@
       "CachePath": "3D/{3D9D7BBE-9752-87D8-8074-A0B3374BB154}.wem"
      },
      {
+      "Id": "485018638",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 8.wav",
+      "CachePath": "CA/{CAA35FE7-F0F9-6276-FAAC-F3ECC7310555}.wem"
+     },
+     {
       "Id": "488128510",
       "Language": "SFX",
       "Streaming": "false",
@@ -96,12 +120,36 @@
       "CachePath": "D8/{D824FDBE-9EF9-5F0D-968B-E1CBC564A838}.wem"
      },
      {
+      "Id": "631564806",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 4.wav",
+      "CachePath": "67/{674222F7-76C3-D1DE-394A-B50783BF7DCF}.wem"
+     },
+     {
+      "Id": "760382886",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 2.wav",
+      "CachePath": "21/{219E1801-4199-E489-B230-E1AB2129F995}.wem"
+     },
+     {
       "Id": "788642920",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chest Open.wav",
       "CachePath": "7B/{7B127B47-4BC9-975E-D802-C9C0E91DA3B2}.wem"
+     },
+     {
+      "Id": "806057922",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 3.wav",
+      "CachePath": "56/{56F875FE-46CB-5E58-A6A3-DCC150CE15D7}.wem"
      },
      {
       "Id": "822765433",
@@ -142,6 +190,22 @@
       "Location": "Memory",
       "ShortName": "Door Open.wav",
       "CachePath": "6E/{6E7A85ED-C145-E32A-9884-CB63DD0C632C}.wem"
+     },
+     {
+      "Id": "1023886576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 6.wav",
+      "CachePath": "F2/{F28F60DB-CAC6-E08D-5D5E-940E583BA1B6}.wem"
+     },
+     {
+      "Id": "1033025266",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footstep 5.wav",
+      "CachePath": "24/{2477A1D5-59A6-379E-D5C8-71E37A5D0739}.wem"
      },
      {
       "Id": "1047727185",
@@ -257,8 +321,34 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
       "GUID": "{2BA7EFC4-28AA-4DA7-8352-D87F56BA1065}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
+      "MediaRefs": [
+       {
+        "Id": "37449250"
+       },
+       {
+        "Id": "332449225"
+       },
+       {
+        "Id": "485018638"
+       },
+       {
+        "Id": "631564806"
+       },
+       {
+        "Id": "760382886"
+       },
+       {
+        "Id": "806057922"
+       },
+       {
+        "Id": "1023886576"
+       },
+       {
+        "Id": "1033025266"
+       }
+      ]
      },
      {
       "Id": "3689126666",
@@ -438,6 +528,6 @@
     ]
    }
   ],
-  "FileHash": "{8BD5CA49-A5F3-6281-29F0-75DC7B3DED1D}"
+  "FileHash": "{19538CED-6FC2-8175-C7B5-A094E6DF54E8}"
  }
 }

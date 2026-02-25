@@ -70,7 +70,7 @@ namespace Gamekit3D
             m_Collider.enabled = enabled;
         }
         
-        private bool m_DeathSfxPlayed = false;
+        //private bool m_DeathSfxPlayed = false;
 
         public void ApplyDamage(DamageMessage data)
         {

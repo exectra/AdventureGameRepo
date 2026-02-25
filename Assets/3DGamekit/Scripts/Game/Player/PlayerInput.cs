@@ -2,13 +2,13 @@
 using System;
 using System.Collections;
 using Gamekit3D;
-using AK.Wwise;
+//using AK.Wwise;
 
 
 public class PlayerInput : MonoBehaviour
 {
     //WWise Implementation Code
-    public AK.Wwise.Event jumpSFX;
+    //public AK.Wwise.Event jumpSFX;
 
     public static PlayerInput Instance
     {
@@ -86,10 +86,10 @@ public class PlayerInput : MonoBehaviour
         //JumpInput
         m_Jump = Input.GetButton("Jump");
 
-        if (Input.GetButtonDown("Jump") && !playerControllerInputBlocked && !m_ExternalInputBlocked)
-        {
-            jumpSFX.Post(gameObject);
-        }
+        //if (Input.GetButtonDown("Jump") && !playerControllerInputBlocked && !m_ExternalInputBlocked)
+        //{
+            //jumpSFX.Post(gameObject);
+        //}
         //FireInput
         if (Input.GetButtonDown("Fire1"))
         {
