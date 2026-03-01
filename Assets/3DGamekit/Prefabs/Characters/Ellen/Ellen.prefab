@@ -22385,7 +22385,7 @@ MonoBehaviour:
   Play_Footsteps:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: f3bbf0afda2445c42bb6b1085d95fef7,
+    WwiseObjectReference: {fileID: 11400000, guid: 7d75fb9ad081ded43938792f446e6c2e,
       type: 2}
 --- !u!114 &-7712720448292693979
 MonoBehaviour:

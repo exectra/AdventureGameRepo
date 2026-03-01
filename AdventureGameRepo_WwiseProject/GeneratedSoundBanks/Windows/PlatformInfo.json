@@ -3,7 +3,7 @@
   "Platform": {
    "Name": "Windows",
    "BasePlatform": "Windows",
-   "Generator": "2024.1.11.9010"
+   "Generator": "2024.1.10.8979"
   },
   "RootPaths": {
    "ProjectRoot": "../..",
@@ -33,6 +33,6 @@
    "PrintObjectPath": "true",
    "PrintObjectColor": "true"
   },
-  "FileHash": "{F7FBA40D-A6BD-BEE6-EF2A-19D32DB5588C}"
+  "FileHash": "{D75D204E-AABD-637C-5DD3-0F84E3B00554}"
  }
 }
