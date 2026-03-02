@@ -38,9 +38,9 @@ namespace AK
 
     namespace STATES
     {
-        namespace FOOSTEPSSTATE
+        namespace FOOTSTEPSSTATE
         {
-            static const AkUniqueID GROUP = 1459258807U;
+            static const AkUniqueID GROUP = 2507554221U;
 
             namespace STATE
             {
@@ -49,7 +49,7 @@ namespace AK
                 static const AkUniqueID STONE = 1216965916U;
                 static const AkUniqueID WET = 1181096339U;
             } // namespace STATE
-        } // namespace FOOSTEPSSTATE
+        } // namespace FOOTSTEPSSTATE
 
         namespace LOCATION
         {
@@ -77,6 +77,22 @@ namespace AK
         } // namespace MUSICSTATE
 
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 2385628198U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WET = 1181096339U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPS
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

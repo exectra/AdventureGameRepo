@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{B82F339A-2EB6-7314-0FDC-41D8252D20F2}",
+    "Hash": "{B5F28561-14BF-ACA4-29F7-E7B88C4F32D4}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -102,40 +102,68 @@
       ]
      },
      {
-      "Id": "1459258807",
-      "Name": "FoostepsState",
-      "ObjectPath": "\\States\\Default Work Unit\\FoostepsState",
+      "Id": "2507554221",
+      "Name": "FootstepsState",
+      "ObjectPath": "\\States\\Default Work Unit\\FootstepsState",
       "GUID": "{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}",
       "States": [
        {
         "Id": "748895195",
         "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\None",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepsState\\None",
         "GUID": "{2B0C8435-FBC1-487F-80C9-39A73EB7EC0E}"
        },
        {
         "Id": "1181096339",
         "Name": "Wet",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Wet",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepsState\\Wet",
         "GUID": "{717A6F07-6E3B-4595-8721-C80713566C38}"
        },
        {
         "Id": "1216965916",
         "Name": "Stone",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Stone",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepsState\\Stone",
         "GUID": "{66622926-C85D-413A-9689-3E66FA8B2C97}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Grass",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepsState\\Grass",
         "GUID": "{C2A5FE7C-AD49-4B0F-9245-F69CC267DA35}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{564B154A-0883-488E-8D15-3A776A5D9C14}",
+      "Switches": [
+       {
+        "Id": "1181096339",
+        "Name": "Wet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wet",
+        "GUID": "{B8226082-79EC-4D8C-B6FC-1705DC9E318A}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Stone",
+        "GUID": "{CFB5010A-FEFF-4194-9302-F1230C907E7F}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{B20CD519-C618-4384-AFF9-0C7048A09E96}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{B0619287-8BC2-B9FB-0F81-19008878EFF3}"
+  "FileHash": "{C7AAE98D-8A59-2C6F-58DF-4453C9B8479D}"
  }
 }

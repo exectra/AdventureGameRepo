@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{6CC25A3B-D5B9-01D8-7187-4C3E4C13E0DC}",
+    "Hash": "{2E0B3DC3-9239-B8F0-C201-873D90E7E680}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -449,49 +449,15 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
       "GUID": "{2344C942-454D-4557-898D-E8EDFE507AB2}",
       "DurationType": "OneShot",
-      "DurationMin": "3.09375",
-      "DurationMax": "3.09375",
+      "DurationMin": "2.219431",
+      "DurationMax": "4.438862",
       "SwitchContainers": [
        {
         "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1459258807",
-         "Id": "1181096339",
-         "GUID": "{717A6F07-6E3B-4595-8721-C80713566C38}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "302611747"
-         },
-         {
-          "Id": "313665108"
-         },
-         {
-          "Id": "486235602"
-         },
-         {
-          "Id": "563104404"
-         },
-         {
-          "Id": "670777352"
-         },
-         {
-          "Id": "693894459"
-         },
-         {
-          "Id": "765398438"
-         },
-         {
-          "Id": "886788897"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1459258807",
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
          "Id": "1216965916",
-         "GUID": "{66622926-C85D-413A-9689-3E66FA8B2C97}"
+         "GUID": "{CFB5010A-FEFF-4194-9302-F1230C907E7F}"
         },
         "MediaRefs": [
          {
@@ -522,10 +488,11 @@
        },
        {
         "SwitchValue": {
-         "GroupType": "State",
-         "GroupId": "1459258807",
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
          "Id": "4248645337",
-         "GUID": "{C2A5FE7C-AD49-4B0F-9245-F69CC267DA35}"
+         "GUID": "{B20CD519-C618-4384-AFF9-0C7048A09E96}",
+         "Default": "true"
         },
         "MediaRefs": [
          {
@@ -551,6 +518,40 @@
          },
          {
           "Id": "1033025266"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "1181096339",
+         "GUID": "{B8226082-79EC-4D8C-B6FC-1705DC9E318A}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "302611747"
+         },
+         {
+          "Id": "313665108"
+         },
+         {
+          "Id": "486235602"
+         },
+         {
+          "Id": "563104404"
+         },
+         {
+          "Id": "670777352"
+         },
+         {
+          "Id": "693894459"
+         },
+         {
+          "Id": "765398438"
+         },
+         {
+          "Id": "886788897"
          }
         ]
        }
@@ -730,42 +731,38 @@
         "GUID": "{97ED0AFE-33A5-4FF0-B500-4B9D6B156880}"
        }
       ]
-     },
+     }
+    ],
+    "SwitchGroups": [
      {
-      "Id": "1459258807",
-      "Name": "FoostepsState",
-      "ObjectPath": "\\States\\Default Work Unit\\FoostepsState",
-      "GUID": "{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\None",
-        "GUID": "{2B0C8435-FBC1-487F-80C9-39A73EB7EC0E}"
-       },
+      "Id": "2385628198",
+      "Name": "Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
+      "GUID": "{564B154A-0883-488E-8D15-3A776A5D9C14}",
+      "Switches": [
        {
         "Id": "1181096339",
         "Name": "Wet",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Wet",
-        "GUID": "{717A6F07-6E3B-4595-8721-C80713566C38}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wet",
+        "GUID": "{B8226082-79EC-4D8C-B6FC-1705DC9E318A}"
        },
        {
         "Id": "1216965916",
         "Name": "Stone",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Stone",
-        "GUID": "{66622926-C85D-413A-9689-3E66FA8B2C97}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Stone",
+        "GUID": "{CFB5010A-FEFF-4194-9302-F1230C907E7F}"
        },
        {
         "Id": "4248645337",
         "Name": "Grass",
-        "ObjectPath": "\\States\\Default Work Unit\\FoostepsState\\Grass",
-        "GUID": "{C2A5FE7C-AD49-4B0F-9245-F69CC267DA35}"
+        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
+        "GUID": "{B20CD519-C618-4384-AFF9-0C7048A09E96}"
        }
       ]
      }
     ]
    }
   ],
-  "FileHash": "{9FA5025A-A660-79C9-6CC4-22F62237EF16}"
+  "FileHash": "{A50E0D9B-1B93-A483-CBA0-B11D99AE6140}"
  }
 }

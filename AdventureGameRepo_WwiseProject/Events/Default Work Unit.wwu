@@ -240,7 +240,7 @@
 				</Event>
 				<Event Name="Play_Footsteps" ID="{2344C942-454D-4557-898D-E8EDFE507AB2}">
 					<ChildrenList>
-						<Action Name="" ID="{68398315-C0F5-45FB-8E3E-D04F42B86D21}" ShortID="836036953">
+						<Action Name="" ID="{5E29ABE4-696F-465A-9F3F-20665430A937}" ShortID="638292246">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Footsteps" ID="{F9D3B9A4-4701-4AE8-B9DB-CA859F3F7A84}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>

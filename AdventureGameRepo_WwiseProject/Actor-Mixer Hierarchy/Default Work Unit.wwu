@@ -380,17 +380,47 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
 						</Reference>
 						<Reference Name="DefaultSwitchOrState">
-							<ObjectRef Name="None" ID="{2B0C8435-FBC1-487F-80C9-39A73EB7EC0E}" WorkUnitID="{2671E779-701F-417F-979D-96C14A1E5696}"/>
+							<ObjectRef Name="Grass" ID="{B20CD519-C618-4384-AFF9-0C7048A09E96}" WorkUnitID="{FB4CC198-04D2-4CBD-9961-03E4B9C45390}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
 						</Reference>
 						<Reference Name="SwitchGroupOrStateGroup">
-							<ObjectRef Name="FoostepsState" ID="{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}" WorkUnitID="{2671E779-701F-417F-979D-96C14A1E5696}"/>
+							<ObjectRef Name="Footsteps" ID="{564B154A-0883-488E-8D15-3A776A5D9C14}" WorkUnitID="{FB4CC198-04D2-4CBD-9961-03E4B9C45390}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Grass" ID="{8DC66C03-3840-47AC-8F2B-3E087A884F05}" ShortID="605014824">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{032A0469-68E2-4177-87E0-CF87A8566895}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="425"/>
+													<Property Name="Min" Type="Real64" Value="-400"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{37B29A73-9A85-41CC-B160-DEC8E7B48906}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -579,6 +609,36 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Stone" ID="{AAC09588-D285-4A3F-BB19-F02E12A08B2F}" ShortID="285202230">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{43A9B63A-B81A-4BB6-9892-5F82B68425D1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="575"/>
+													<Property Name="Min" Type="Real64" Value="-625"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{472E5652-C58B-4C4E-98E3-2C9BAF51E7E8}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -767,6 +827,36 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Wet" ID="{506DD940-0148-40A0-96E8-F598EA450F08}" ShortID="336368566">
+							<PropertyList>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{1EFFE862-5081-4514-8C94-305CBD9176B9}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="575"/>
+													<Property Name="Min" Type="Real64" Value="-550"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FA900924-93CE-4F98-98D4-3D9C017DAC84}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -958,7 +1048,7 @@
 					<StateInfo>
 						<StateGroupList>
 							<StateGroupInfo>
-								<StateGroupRef Name="FoostepsState" ID="{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}"/>
+								<StateGroupRef Name="FootstepsState" ID="{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}"/>
 							</StateGroupInfo>
 						</StateGroupList>
 						<CustomStateList>
@@ -994,21 +1084,21 @@
 						</GroupingBehaviorList>
 						<GroupingList>
 							<Grouping>
-								<SwitchRef Name="Wet" ID="{717A6F07-6E3B-4595-8721-C80713566C38}"/>
-								<ItemList>
-									<ItemRef Name="Wet" ID="{506DD940-0148-40A0-96E8-F598EA450F08}"/>
-								</ItemList>
-							</Grouping>
-							<Grouping>
-								<SwitchRef Name="Stone" ID="{66622926-C85D-413A-9689-3E66FA8B2C97}"/>
+								<SwitchRef Name="Stone" ID="{CFB5010A-FEFF-4194-9302-F1230C907E7F}"/>
 								<ItemList>
 									<ItemRef Name="Stone" ID="{AAC09588-D285-4A3F-BB19-F02E12A08B2F}"/>
 								</ItemList>
 							</Grouping>
 							<Grouping>
-								<SwitchRef Name="Grass" ID="{C2A5FE7C-AD49-4B0F-9245-F69CC267DA35}"/>
+								<SwitchRef Name="Grass" ID="{B20CD519-C618-4384-AFF9-0C7048A09E96}"/>
 								<ItemList>
 									<ItemRef Name="Grass" ID="{8DC66C03-3840-47AC-8F2B-3E087A884F05}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Wet" ID="{B8226082-79EC-4D8C-B6FC-1705DC9E318A}"/>
+								<ItemList>
+									<ItemRef Name="Wet" ID="{506DD940-0148-40A0-96E8-F598EA450F08}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>

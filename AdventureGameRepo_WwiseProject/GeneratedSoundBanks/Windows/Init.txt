@@ -1,7 +1,7 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	1021618141	MusicState			\Default Work Unit\MusicState	
 	1176052424	Location			\Default Work Unit\Location	
-	1459258807	FoostepsState			\Default Work Unit\FoostepsState	
+	2507554221	FootstepsState			\Default Work Unit\FootstepsState	
 
 State	ID	Name	State Group			Notes
 	89505537	Gameplay	MusicState			
@@ -11,10 +11,10 @@ State	ID	Name	State Group			Notes
 	748895195	None	Location			
 	2654748154	Water	Location			
 	4122393694	Cave	Location			
-	748895195	None	FoostepsState			
-	1181096339	Wet	FoostepsState			
-	1216965916	Stone	FoostepsState			
-	4248645337	Grass	FoostepsState			
+	748895195	None	FootstepsState			
+	1181096339	Wet	FootstepsState			
+	1216965916	Stone	FootstepsState			
+	4248645337	Grass	FootstepsState			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

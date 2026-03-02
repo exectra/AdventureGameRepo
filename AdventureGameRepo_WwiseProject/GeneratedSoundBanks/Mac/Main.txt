@@ -19,18 +19,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	3905148667	Play_UI_Open			\Default Work Unit\Play_UI\Play_UI_Open	
 	4016738326	Play_PortalEnter			\Default Work Unit\Play_Environment\Play_PortalEnter	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2385628198	Footsteps			\Default Work Unit\Footsteps	
+
+Switch	ID	Name	Switch Group			Notes
+	1181096339	Wet	Footsteps			
+	1216965916	Stone	Footsteps			
+	4248645337	Grass	Footsteps			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	1021618141	MusicState			\Default Work Unit\MusicState	
-	1459258807	FoostepsState			\Default Work Unit\FoostepsState	
+	2507554221	FootstepsState			\Default Work Unit\FootstepsState	
 
 State	ID	Name	State Group			Notes
 	89505537	Gameplay	MusicState			
 	748895195	None	MusicState			
 	2607556080	Menu	MusicState			
-	748895195	None	FoostepsState			
-	1181096339	Wet	FoostepsState			
-	1216965916	Stone	FoostepsState			
-	4248645337	Grass	FoostepsState			
+	748895195	None	FootstepsState			
+	1181096339	Wet	FootstepsState			
+	1216965916	Stone	FootstepsState			
+	4248645337	Grass	FootstepsState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	21697968	Death	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A3\{A35C99AF-EE26-E611-311D-AFCCA2E3D97D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death		384096

@@ -10,7 +10,7 @@
 						<State Name="Gameplay" ID="{E61EAB80-B1AD-4BE7-A428-4976B16CD519}"/>
 					</ChildrenList>
 				</StateGroup>
-				<StateGroup Name="FoostepsState" ID="{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}">
+				<StateGroup Name="FootstepsState" ID="{FE7F6F7F-C96A-4077-9AF5-63AA065565B7}">
 					<ChildrenList>
 						<State Name="None" ID="{2B0C8435-FBC1-487F-80C9-39A73EB7EC0E}"/>
 						<State Name="Grass" ID="{C2A5FE7C-AD49-4B0F-9245-F69CC267DA35}"/>
