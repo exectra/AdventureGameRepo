@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{666D039C-89E8-ECBF-EE63-24747C4A917B}",
+    "Hash": "{2E0B3DC3-9239-B8F0-C201-873D90E7E680}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jump.wav",
-      "CachePath": "83/{838B20F7-38B1-7A49-7D09-DB3F9AB69933}.wem"
+      "CachePath": "F8/{F8465548-0B94-63BF-DFA8-7169E97103EE}.wem"
      },
      {
       "Id": "451513684",
@@ -563,8 +563,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Jump",
       "GUID": "{01E69410-9337-41D9-9BCA-B68DB87EECA2}",
       "DurationType": "OneShot",
-      "DurationMin": "0.37595755",
-      "DurationMax": "0.77394795",
+      "DurationMin": "3.09375",
+      "DurationMax": "3.09375",
       "MediaRefs": [
        {
         "Id": "444590937"
@@ -763,6 +763,6 @@
     ]
    }
   ],
-  "FileHash": "{67BC61FF-05D4-6BA5-B52B-25D6A00ACD05}"
+  "FileHash": "{99097F5E-3485-79F5-91EA-97E5E2E1DB85}"
  }
 }

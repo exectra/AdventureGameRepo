@@ -120,44 +120,6 @@
 				<Folder Name="Player" ID="{85DD522C-1544-46AF-BD80-93F516E54D38}" ShortID="154525403">
 					<ChildrenList>
 						<Sound Name="Jump" ID="{5123C1FB-46CB-472D-9B81-010437DE4B91}" ShortID="909975708">
-							<PropertyList>
-								<Property Name="Lowpass" Type="int16">
-									<ValueList>
-										<Value>10</Value>
-									</ValueList>
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{6854BA07-539B-4C08-8ECB-4E868AFA58FA}"/>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{246DCC2F-F40B-4940-8536-A1739B519D41}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="575"/>
-													<Property Name="Min" Type="Real64" Value="-675"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{777721F2-01FF-4EBC-B02A-C403210A186D}">
-												<PropertyList>
-													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="4"/>
-													<Property Name="Min" Type="Real64" Value="-4"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -168,11 +130,6 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Jump" ID="{AFB50014-258D-466E-A7BE-64A308566C1F}">
-									<PropertyList>
-										<Property Name="LoopBegin" Type="Real64" Value="0"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="0.524061597690084"/>
-									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Jump.wav</AudioFile>
 									<MediaIDList>
