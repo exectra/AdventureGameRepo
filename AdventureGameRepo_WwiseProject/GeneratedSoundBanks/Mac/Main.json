@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{666D039C-89E8-ECBF-EE63-24747C4A917B}",
+    "Hash": "{B4618661-A5B4-9D3E-29A9-6F731D4C864A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -62,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Weapon Pick Up.wav",
       "CachePath": "B9/{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem"
+     },
+     {
+      "Id": "236604024",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Light Atk 2.wav",
+      "CachePath": "24/{2458FAC9-F466-E34F-2E88-BC2B58C84E0C}.wem"
      },
      {
       "Id": "245820045",
@@ -152,6 +160,14 @@
       "CachePath": "29/{29789661-456C-1B12-EFCE-8A715B4AD8EC}.wem"
      },
      {
+      "Id": "508198366",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Heavy Atk 2.wav",
+      "CachePath": "9F/{9F15D6E6-B970-82D3-40F6-91A964AB2837}.wem"
+     },
+     {
       "Id": "508803332",
       "Language": "SFX",
       "Streaming": "false",
@@ -222,6 +238,22 @@
       "Location": "Memory",
       "ShortName": "Wet Footstep 1.wav",
       "CachePath": "F1/{F1C048CA-40AC-CAB2-BD21-76E3D2A90DB8}.wem"
+     },
+     {
+      "Id": "771442373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Light Atk 1.wav",
+      "CachePath": "89/{89B1DFAE-1CB9-D07C-9BC4-C742CC281F2A}.wem"
+     },
+     {
+      "Id": "782236190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Heavy Atk 1.wav",
+      "CachePath": "1C/{1C5E8582-F7E3-AAF5-F4A7-7203E297B047}.wem"
      },
      {
       "Id": "785042745",
@@ -345,6 +377,62 @@
      }
     ],
     "Events": [
+     {
+      "Id": "36701028",
+      "Name": "Play_Atk_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_1",
+      "GUID": "{34D1D20C-50CD-4F26-9189-A9B6C527133C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.3556914",
+      "DurationMax": "2.9143932",
+      "MediaRefs": [
+       {
+        "Id": "782236190"
+       }
+      ]
+     },
+     {
+      "Id": "36701031",
+      "Name": "Play_Atk_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_2",
+      "GUID": "{9530D0CB-D2BF-4C82-A059-7C49BACA75EC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2240536",
+      "DurationMax": "3.220981",
+      "MediaRefs": [
+       {
+        "Id": "771442373"
+       }
+      ]
+     },
+     {
+      "Id": "36701030",
+      "Name": "Play_Atk_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_3",
+      "GUID": "{A5E0A8F4-0960-4F62-9DF1-BBBC0EA60969}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4347837",
+      "DurationMax": "2.9536524",
+      "MediaRefs": [
+       {
+        "Id": "236604024"
+       }
+      ]
+     },
+     {
+      "Id": "36701025",
+      "Name": "Play_Atk_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_4",
+      "GUID": "{1A76D9A9-AE48-4271-86A0-65910A18CB16}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4556531",
+      "DurationMax": "2.7479072",
+      "MediaRefs": [
+       {
+        "Id": "508198366"
+       }
+      ]
+     },
      {
       "Id": "843996146",
       "Name": "Play_BoxBreak",
@@ -763,6 +851,6 @@
     ]
    }
   ],
-  "FileHash": "{67BC61FF-05D4-6BA5-B52B-25D6A00ACD05}"
+  "FileHash": "{C303B055-E1AA-B4E1-82E5-5106309796B0}"
  }
 }

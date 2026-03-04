@@ -108,6 +108,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Atk_1" ID="{34D1D20C-50CD-4F26-9189-A9B6C527133C}">
+							<ChildrenList>
+								<Action Name="" ID="{1F43C558-F274-4049-942F-F6477866EEEF}" ShortID="143928139">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Atk 1" ID="{FC6FE209-EFF4-4044-BBD2-DC45AF373F66}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Atk_2" ID="{9530D0CB-D2BF-4C82-A059-7C49BACA75EC}">
+							<ChildrenList>
+								<Action Name="" ID="{0FD0ADF6-1099-4CBC-B0DE-4C43371C3911}" ShortID="568653309">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Atk 2" ID="{D0B16A9D-725B-4D0B-8C5F-8DAE4538EC7A}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Atk_3" ID="{A5E0A8F4-0960-4F62-9DF1-BBBC0EA60969}">
+							<ChildrenList>
+								<Action Name="" ID="{70410F26-8097-423F-AAB8-69979CEB791A}" ShortID="482398613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Atk 3" ID="{7EF8C88E-4D34-467D-8D67-146A9D261EE3}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Atk_4" ID="{1A76D9A9-AE48-4271-86A0-65910A18CB16}">
+							<ChildrenList>
+								<Action Name="" ID="{CFC33BB3-A10F-4BDB-9088-456B6CCFD639}" ShortID="123068511">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Atk 4" ID="{5937AE07-F813-45B9-83E4-7FE664D73013}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Play_Environment" ID="{9E9FA043-E316-40A2-902A-A64266774350}" ShortID="639767109">

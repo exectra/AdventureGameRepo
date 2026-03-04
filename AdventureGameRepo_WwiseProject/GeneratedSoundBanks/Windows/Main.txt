@@ -1,4 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	36701025	Play_Atk_4			\Default Work Unit\Play_Player\Play_Atk_4	
+	36701028	Play_Atk_1			\Default Work Unit\Play_Player\Play_Atk_1	
+	36701030	Play_Atk_3			\Default Work Unit\Play_Player\Play_Atk_3	
+	36701031	Play_Atk_2			\Default Work Unit\Play_Player\Play_Atk_2	
 	364247913	Play_ChestOpen			\Default Work Unit\Play_Environment\Play_ChestOpen	
 	594124390	Play_WeaponPickUp			\Default Work Unit\Play_Environment\Play_WeaponPickUp	
 	843996146	Play_BoxBreak			\Default Work Unit\Play_Environment\Play_BoxBreak	
@@ -47,6 +51,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	88054370	Stone Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D8\{D87226F8-5B03-906C-ED3E-4850B0CAF445}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 6		594096
 	180245698	Chest Available (Ongoing)	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\27\{27A98200-FBB7-35D9-B812-2A13A963F4C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Chest Available (Ongoing)		3504096
 	233327949	Weapon Pick Up	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B9\{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Weapon Pick Up		1536096
+	236604024	Atk 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\24\{2458FAC9-F466-E34F-2E88-BC2B58C84E0C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Atk\Atk 3		384096
 	245820045	Stone Footstep 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AE\{AE1E4347-EB0D-B68A-2458-8B6B576F9C18}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 5		594096
 	302611747	Wet Footstep 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\46\{46DC380B-FAA4-A86E-E07E-AA482B559374}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 4		594096
 	313665108	Wet Footstep 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BA\{BA5F7844-C1E2-7050-EBA2-F8094975F796}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 5		594096
@@ -58,6 +63,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	485018638	Grass Footstep 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\CA\{CAA35FE7-F0F9-6276-FAAC-F3ECC7310555}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Grass Footstep 8		594096
 	486235602	Wet Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C8\{C8FE8A31-F3C0-5DD1-55D1-025AF065826F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 6		594096
 	488128510	Collected Key	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\29\{29789661-456C-1B12-EFCE-8A715B4AD8EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Collected Key		3504096
+	508198366	Atk 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\9F\{9F15D6E6-B970-82D3-40F6-91A964AB2837}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Atk\Atk 4		384096
 	508803332	Exit UI	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D8\{D824FDBE-9EF9-5F0D-968B-E1CBC564A838}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Exit UI		594096
 	563104404	Wet Footstep 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F3\{F3210B28-2522-2F91-142B-9B5F8AA877DC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 8		594096
 	631564806	Grass Footstep 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\67\{674222F7-76C3-D1DE-394A-B50783BF7DCF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Grass Footstep 4		594096
@@ -67,6 +73,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	762819288	Stone Footstep 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\78\{7864748B-4E4D-7273-7E9A-082E90FFEDB1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 2		594096
 	764371594	Stone Footstep 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AA\{AA43285F-B2C3-D123-542C-4AEEE76D8350}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 7		594096
 	765398438	Wet Footstep 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F1\{F1C048CA-40AC-CAB2-BD21-76E3D2A90DB8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 1		594096
+	771442373	Atk 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\89\{89B1DFAE-1CB9-D07C-9BC4-C742CC281F2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Atk\Atk 2		384096
+	782236190	Atk 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\1C\{1C5E8582-F7E3-AAF5-F4A7-7203E297B047}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Atk\Atk 1		362928
 	785042745	Stone Footstep 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\EC\{EC2BE552-60EA-56D2-59E2-5BA28949ED02}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 4		594096
 	788642920	Chest Open	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\7B\{7B127B47-4BC9-975E-D802-C9C0E91DA3B2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Chest Open		3504096
 	806057922	Grass Footstep 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\56\{56F875FE-46CB-5E58-A6A3-DCC150CE15D7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Grass Footstep 3		594096

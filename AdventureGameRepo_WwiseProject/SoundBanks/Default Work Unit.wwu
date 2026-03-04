@@ -6,11 +6,15 @@
 				<SoundBank Name="Main" ID="{F3A2939C-BD70-408D-924E-6579A17D1F35}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Environment" ID="{9E9FA043-E316-40A2-902A-A64266774350}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Atk_4" ID="{1A76D9A9-AE48-4271-86A0-65910A18CB16}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Footsteps" ID="{2344C942-454D-4557-898D-E8EDFE507AB2}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MainMusicSwitch" ID="{D19DBB5A-16C6-4ACE-9127-A0FFB7179244}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI" ID="{074E651E-86B3-4BB8-91E4-AC96F5481ECF}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Player" ID="{375B455A-4CF1-4BE4-8AF1-0AE78BC604DA}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Atk_2" ID="{9530D0CB-D2BF-4C82-A059-7C49BACA75EC}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_DoorOpen" ID="{43F91AC4-3E3B-4DFE-A0EE-FEB843D5CB4A}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Atk_1" ID="{34D1D20C-50CD-4F26-9189-A9B6C527133C}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Atk_3" ID="{A5E0A8F4-0960-4F62-9DF1-BBBC0EA60969}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
