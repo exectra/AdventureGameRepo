@@ -10,6 +10,13 @@
 						<Switch Name="Wet" ID="{B8226082-79EC-4D8C-B6FC-1705DC9E318A}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="Pink_Footsteps" ID="{95421CB0-2819-423F-AFD9-E67B0F6154A7}">
+					<ChildrenList>
+						<Switch Name="Grass" ID="{7DF2BFFF-6CA7-4BBA-96A8-0F6208A7EFF5}"/>
+						<Switch Name="Stone" ID="{8DA634F4-3238-4D2C-BEC5-4E91898BC9BA}"/>
+						<Switch Name="Wet" ID="{529732D5-E8BE-46FD-BC7F-1E0DE03F2237}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

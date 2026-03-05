@@ -136,6 +136,32 @@
     ],
     "SwitchGroups": [
      {
+      "Id": "927575501",
+      "Name": "Pink_Footsteps",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Pink_Footsteps",
+      "GUID": "{95421CB0-2819-423F-AFD9-E67B0F6154A7}",
+      "Switches": [
+       {
+        "Id": "1181096339",
+        "Name": "Wet",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pink_Footsteps\\Wet",
+        "GUID": "{529732D5-E8BE-46FD-BC7F-1E0DE03F2237}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pink_Footsteps\\Stone",
+        "GUID": "{8DA634F4-3238-4D2C-BEC5-4E91898BC9BA}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Pink_Footsteps\\Grass",
+        "GUID": "{7DF2BFFF-6CA7-4BBA-96A8-0F6208A7EFF5}"
+       }
+      ]
+     },
+     {
       "Id": "2385628198",
       "Name": "Footsteps",
       "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
@@ -164,6 +190,6 @@
     ]
    }
   ],
-  "FileHash": "{C7AAE98D-8A59-2C6F-58DF-4453C9B8479D}"
+  "FileHash": "{37144600-617C-17BB-09F4-3248A66A8431}"
  }
 }

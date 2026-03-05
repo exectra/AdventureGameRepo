@@ -3,9 +3,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	36701028	Play_Atk_1			\Default Work Unit\Play_Player\Play_Atk_1	
 	36701030	Play_Atk_3			\Default Work Unit\Play_Player\Play_Atk_3	
 	36701031	Play_Atk_2			\Default Work Unit\Play_Player\Play_Atk_2	
+	289026184	Play_Pink_Growl			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Growl	
 	364247913	Play_ChestOpen			\Default Work Unit\Play_Environment\Play_ChestOpen	
 	594124390	Play_WeaponPickUp			\Default Work Unit\Play_Environment\Play_WeaponPickUp	
 	843996146	Play_BoxBreak			\Default Work Unit\Play_Environment\Play_BoxBreak	
+	924162606	Play_Pink_Footsteps			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Footsteps	
 	1012143543	Play_Spawn			\Default Work Unit\Play_Player\Play_Spawn	
 	1067323442	Play_ChestAvailable			\Default Work Unit\Play_Environment\Play_ChestAvailable	
 	1172822028	Play_Death			\Default Work Unit\Play_Player\Play_Death	
@@ -13,6 +15,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1473547871	Play_UI_StartGame			\Default Work Unit\Play_UI\Play_UI_StartGame	
 	1986548623	Play_UI_Exit			\Default Work Unit\Play_UI\Play_UI_Exit	
 	2640353952	Play_CollectedKey			\Default Work Unit\Play_Environment\Play_CollectedKey	
+	2779656009	Play_Pink_Death			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Death	
 	3111063598	Play_UI_OnHover			\Default Work Unit\Play_UI\Play_UI_OnHover	
 	3197300806	Play_DoorOpen			\Default Work Unit\Play_DoorOpen	
 	3570890048	Play_UI_OnClick			\Default Work Unit\Play_UI\Play_UI_OnClick	
@@ -21,6 +24,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3854155799	Play_Footsteps			\Default Work Unit\Play_Footsteps	
 	3865522774	Play_StoneKey			\Default Work Unit\Play_Environment\Play_StoneKey	
 	3905148667	Play_UI_Open			\Default Work Unit\Play_UI\Play_UI_Open	
+	3928572679	Play_Pink_Bite			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Bite	
 	4016738326	Play_PortalEnter			\Default Work Unit\Play_Environment\Play_PortalEnter	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -50,16 +54,21 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	37449250	Grass Footstep 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\96\{9632FB17-5DEF-D5A3-42FA-BD15E7BF452E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Grass Footstep 1		594096
 	88054370	Stone Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D8\{D87226F8-5B03-906C-ED3E-4850B0CAF445}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 6		594096
 	180245698	Chest Available (Ongoing)	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\27\{27A98200-FBB7-35D9-B812-2A13A963F4C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Chest Available (Ongoing)		3504096
+	180435172	Pink Melee Footsteps 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D3\{D3312923-48FD-7BF7-9ED8-91E28D51EF8F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Pink\Random_Pink_Footsteps\Pink Melee Footsteps 1		1536096
 	233327949	Weapon Pick Up	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B9\{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Weapon Pick Up		1536096
+	236120033	Pink Melee Footsteps 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\38\{38E57CD8-763A-A659-E4D0-60728934486D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Pink\Random_Pink_Footsteps\Pink Melee Footsteps 2		1536096
 	236604024	Atk 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\24\{2458FAC9-F466-E34F-2E88-BC2B58C84E0C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Atk\Atk 3		384096
 	245820045	Stone Footstep 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AE\{AE1E4347-EB0D-B68A-2458-8B6B576F9C18}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 5		594096
 	302611747	Wet Footstep 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\46\{46DC380B-FAA4-A86E-E07E-AA482B559374}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 4		594096
 	313665108	Wet Footstep 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BA\{BA5F7844-C1E2-7050-EBA2-F8094975F796}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 5		594096
+	313903301	Pink Melee Growl	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\5C\{5C785BAE-7E02-855C-F10E-CFB7C5BA62E0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Pink\Pink Melee Growl		3072096
+	320826241	Pink Melee Death	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F3\{F3C927C4-4205-903B-6628-99DE446FC72D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Pink\Pink Melee Death		3045636
 	332449225	Grass Footstep 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\33\{33BB98BE-CB28-49F8-D064-F6B565F1B1A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Grass Footstep 7		594096
 	367911780	Floor Plate	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\18\{18684D3F-C929-EE50-FFA3-FCE292354E8E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Floor Plate		3504096
 	407247424	On Click UI	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DD\{DDDF9DF5-23A7-2E25-1D06-069AE8E84653}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\On Click UI		594096
 	444590937	Jump	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\83\{838B20F7-38B1-7A49-7D09-DB3F9AB69933}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump		100716
 	451513684	Spawn	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\3D\{3D9D7BBE-9752-87D8-8074-A0B3374BB154}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Spawn		384096
+	474225728	Pink Melee Footsteps 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\63\{63F2E06D-0B0D-4278-E69B-9B9BE0682A1D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Pink\Random_Pink_Footsteps\Pink Melee Footsteps 4		1536096
 	485018638	Grass Footstep 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\CA\{CAA35FE7-F0F9-6276-FAAC-F3ECC7310555}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Grass Footstep 8		594096
 	486235602	Wet Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C8\{C8FE8A31-F3C0-5DD1-55D1-025AF065826F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 6		594096
 	488128510	Collected Key	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\29\{29789661-456C-1B12-EFCE-8A715B4AD8EC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Collected Key		3504096
@@ -81,10 +90,12 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	822765433	On Hover UI	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E8\{E87FD7AD-0858-5C03-27F1-58E5551B14D9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\On Hover UI		594096
 	847188992	Stone Footstep 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\5C\{5CA1B8AC-3AC5-69BB-42CF-C3B742F47C81}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 3		594096
 	852370679	Stone Footstep 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AC\{AC58CA05-7FA2-AD25-DEEB-44BDDC690896}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 1		594096
+	863312578	Pink Melee Bite	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\1C\{1C912BF1-421E-556C-25A5-F094814AE670}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Pink\Pink Melee Bite		1536096
 	886788897	Wet Footstep 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DC\{DC4481BA-05AB-B3EC-7E79-9D395E4C3F91}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Wet\Wet Footstep 7		594096
 	927327608	Stone Footstep 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\33\{3362754B-1FCE-6BC4-7F62-701BFC6590F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Stone Footstep 8		594096
 	944740841	Box Break	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DD\{DDF72310-FB59-1D52-AE25-BFB7729E2231}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Box Break		3504096
 	946211358	Stone Key (Ongoing)	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\4E\{4E2D9E8B-8D67-540C-1520-87DF3E8F0ED9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Stone Key (Ongoing)		3072096
+	951446669	Pink Melee Footsteps 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A0\{A064EDBB-601F-ED28-A6C5-7F2510048D7A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Pink\Random_Pink_Footsteps\Pink Melee Footsteps 3		1536096
 	978485341	Open UI (PM)	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\1F\{1FBFD280-8892-4D9F-6EA6-8F376CF4F398}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Open UI (PM)		594096
 	1020663270	Door Open	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6E\{6E7A85ED-C145-E32A-9884-CB63DD0C632C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door Open		322084
 	1023886576	Grass Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F2\{F28F60DB-CAC6-E08D-5D5E-940E583BA1B6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass\Grass Footstep 6		594096

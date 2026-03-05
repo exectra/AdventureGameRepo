@@ -28,6 +28,10 @@ namespace AK
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_MAINMENUBGM = 1063700270U;
         static const AkUniqueID PLAY_MAINMUSICSWITCH = 3684206702U;
+        static const AkUniqueID PLAY_PINK_BITE = 3928572679U;
+        static const AkUniqueID PLAY_PINK_DEATH = 2779656009U;
+        static const AkUniqueID PLAY_PINK_FOOTSTEPS = 924162606U;
+        static const AkUniqueID PLAY_PINK_GROWL = 289026184U;
         static const AkUniqueID PLAY_PORTALENTER = 4016738326U;
         static const AkUniqueID PLAY_SPAWN = 1012143543U;
         static const AkUniqueID PLAY_STONEKEY = 3865522774U;
@@ -95,6 +99,18 @@ namespace AK
                 static const AkUniqueID WET = 1181096339U;
             } // namespace SWITCH
         } // namespace FOOTSTEPS
+
+        namespace PINK_FOOTSTEPS
+        {
+            static const AkUniqueID GROUP = 927575501U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WET = 1181096339U;
+            } // namespace SWITCH
+        } // namespace PINK_FOOTSTEPS
 
     } // namespace SWITCHES
 

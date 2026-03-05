@@ -293,6 +293,58 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Play_Enemy" ID="{4555B44B-8AEA-47B6-8A07-7F2B60CAE39A}" ShortID="996355248">
+					<ChildrenList>
+						<Folder Name="Play_Pink" ID="{57C7E624-296E-420B-8608-5CBE2EABDF4A}" ShortID="628748300">
+							<ChildrenList>
+								<Event Name="Play_Pink_Bite" ID="{F28F1767-1F8B-45F1-9866-1F089FD0FF0D}">
+									<ChildrenList>
+										<Action Name="" ID="{057C766B-46CC-43B6-A31F-DF339400B99A}" ShortID="920766646">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pink Melee Bite" ID="{9BE9D6C3-11F3-4E3B-B876-C3028768FFDF}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Pink_Death" ID="{93EED90F-951B-42F7-97CD-31B23B3E9397}">
+									<ChildrenList>
+										<Action Name="" ID="{652421C2-A98B-4136-B9D4-FA9990EC2370}" ShortID="503763815">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pink Melee Death" ID="{DECF3CE5-462D-4914-876B-A0C0980C1D52}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Pink_Growl" ID="{5D837E16-8F39-4DF1-9D3D-C582B182ECD3}">
+									<ChildrenList>
+										<Action Name="" ID="{051A2408-F4C6-4E6A-9211-D1EF6F63B539}" ShortID="714117290">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pink Melee Growl" ID="{CAD255A3-AA21-4335-9669-A3F5471F103F}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Pink_Footsteps" ID="{0FBD1D55-E1CE-4552-AD65-E03FD56EAD85}">
+									<ChildrenList>
+										<Action Name="" ID="{A5B6DFBE-68FA-4C4E-8D03-DBFF477BFF46}" ShortID="382292726">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Random_Pink_Footsteps" ID="{FD376594-6012-4F15-BCD2-CB9D360D83F6}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
