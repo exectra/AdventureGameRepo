@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{85C44364-57E1-B701-F2CD-27D981F50C86}",
+    "Hash": "{4893B908-5B5D-6F6D-62CD-03158AAC9C12}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -590,7 +590,7 @@
      {
       "Id": "3854155799",
       "Name": "Play_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Footsteps",
       "GUID": "{2344C942-454D-4557-898D-E8EDFE507AB2}",
       "DurationType": "OneShot",
       "DurationMin": "2.219431",
@@ -755,6 +755,7 @@
       "Name": "Play_Pink_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Footsteps",
       "GUID": "{0FBD1D55-E1CE-4552-AD65-E03FD56EAD85}",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
       "DurationMin": "6.0804014",
       "DurationMax": "10.374717",
@@ -972,6 +973,6 @@
     ]
    }
   ],
-  "FileHash": "{E109DDD7-583D-228E-7EEE-896598DD67FD}"
+  "FileHash": "{C44F45FA-8886-737A-3F84-F7736D0FD95D}"
  }
 }

@@ -152,6 +152,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Footsteps" ID="{2344C942-454D-4557-898D-E8EDFE507AB2}">
+							<ChildrenList>
+								<Action Name="" ID="{5E29ABE4-696F-465A-9F3F-20665430A937}" ShortID="638292246">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Footsteps" ID="{F9D3B9A4-4701-4AE8-B9DB-CA859F3F7A84}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Play_Environment" ID="{9E9FA043-E316-40A2-902A-A64266774350}" ShortID="639767109">
@@ -277,17 +288,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Main Menu Playlist" ID="{DFF86B49-4330-4FAD-8976-0ED6CB59EDEA}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Play_Footsteps" ID="{2344C942-454D-4557-898D-E8EDFE507AB2}">
-					<ChildrenList>
-						<Action Name="" ID="{5E29ABE4-696F-465A-9F3F-20665430A937}" ShortID="638292246">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Footsteps" ID="{F9D3B9A4-4701-4AE8-B9DB-CA859F3F7A84}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
