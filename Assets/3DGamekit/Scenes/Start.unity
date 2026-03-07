@@ -2684,51 +2684,6 @@ Transform:
   - {fileID: 748049520}
   m_Father: {fileID: 1632431268}
   m_LocalEulerAnglesHint: {x: -4.560298, y: -180, z: 7.038993e-15}
---- !u!1001 &316286337
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_RootOrder
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4846409573490966, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b4cf643983ea04f3f82b9e0bc5238ebc, type: 3}
 --- !u!1 &320628508
 GameObject:
   m_ObjectHideFlags: 0
@@ -22772,7 +22727,6 @@ SceneRoots:
   - {fileID: 1480188521}
   - {fileID: 1421748717}
   - {fileID: 372823314}
-  - {fileID: 316286337}
   - {fileID: 521543115}
   - {fileID: 52710356}
   - {fileID: 1519403767}

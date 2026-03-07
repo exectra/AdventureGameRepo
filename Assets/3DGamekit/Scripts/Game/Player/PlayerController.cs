@@ -422,6 +422,8 @@ namespace Gamekit3D
         // Called each physics step to check if audio should be played and if so instruct the relevant random audio player to do so.
         void PlayAudio()
         {
+            if (footstepPlayer == null)
+                return;
             float footfallCurve = m_Animator.GetFloat(m_HashFootFall);
 
             if (footfallCurve > 0.01f && !footstepPlayer.playing && footstepPlayer.canPlay)
