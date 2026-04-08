@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{4893B908-5B5D-6F6D-62CD-03158AAC9C12}",
+    "Hash": "{97BDCBB5-9BBC-6C29-828E-32A899546965}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chest Available (Ongoing).wav",
-      "CachePath": "27/{27A98200-FBB7-35D9-B812-2A13A963F4C9}.wem"
+      "CachePath": "A6/{A6073584-CD0A-BB80-F7E1-7B92EF4048AC}.wem"
      },
      {
       "Id": "180435172",
@@ -117,7 +117,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pink Melee Growl.wav",
-      "CachePath": "5C/{5C785BAE-7E02-855C-F10E-CFB7C5BA62E0}.wem"
+      "CachePath": "9E/{9E53AA98-D181-0B3B-F675-3A64F766FCC9}.wem"
      },
      {
       "Id": "320826241",
@@ -125,7 +125,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pink Melee Death.wav",
-      "CachePath": "F3/{F3C927C4-4205-903B-6628-99DE446FC72D}.wem"
+      "CachePath": "03/{030475CC-5EC0-AF58-ECF8-22678D0C17BF}.wem"
      },
      {
       "Id": "332449225",
@@ -141,7 +141,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Floor Plate.wav",
-      "CachePath": "18/{18684D3F-C929-EE50-FFA3-FCE292354E8E}.wem"
+      "CachePath": "BE/{BEC485EE-0497-15DF-A4AB-C4A861AFF85D}.wem"
+     },
+     {
+      "Id": "402853597",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Forest BGM.wav",
+      "CachePath": "57/{57FB0CB9-2B8A-37DA-D37F-DE209BBC50F3}.wem"
      },
      {
       "Id": "407247424",
@@ -197,7 +205,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Collected Key.wav",
-      "CachePath": "29/{29789661-456C-1B12-EFCE-8A715B4AD8EC}.wem"
+      "CachePath": "D0/{D00C7EA9-999D-47B1-ECA0-C793866AC36D}.wem"
      },
      {
       "Id": "508198366",
@@ -238,6 +246,14 @@
       "Location": "Memory",
       "ShortName": "Wet Footstep 3.wav",
       "CachePath": "CB/{CB031B61-57D6-ACD8-575C-ADF9722D1B31}.wem"
+     },
+     {
+      "Id": "678185154",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Main Menu BGM.wav",
+      "CachePath": "06/{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem"
      },
      {
       "Id": "693894459",
@@ -309,7 +325,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chest Open.wav",
-      "CachePath": "7B/{7B127B47-4BC9-975E-D802-C9C0E91DA3B2}.wem"
+      "CachePath": "85/{853869F8-7038-2DDC-B631-1130E971E8AE}.wem"
      },
      {
       "Id": "806057922",
@@ -349,7 +365,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Pink Melee Bite.wav",
-      "CachePath": "1C/{1C912BF1-421E-556C-25A5-F094814AE670}.wem"
+      "CachePath": "7E/{7E0B128F-7FCB-A0B2-ED1F-0D728B26AA62}.wem"
      },
      {
       "Id": "886788897",
@@ -429,10 +445,22 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Portal Enter.wav",
-      "CachePath": "02/{02A81F95-F4B0-0CC1-A015-DE273F18921B}.wem"
+      "CachePath": "6C/{6C77FF97-05C8-0F65-5D87-FC2E4BDD2305}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "278617630",
+      "Name": "Play_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambience",
+      "GUID": "{698B5D68-335C-4726-B98B-21CF87E10135}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "402853597"
+       }
+      ]
+     },
      {
       "Id": "36701028",
       "Name": "Play_Atk_1",
@@ -508,9 +536,7 @@
       "Name": "Play_ChestAvailable",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_ChestAvailable",
       "GUID": "{E8F2DA44-7BAA-464D-A6C4-3EA6B19F57B4}",
-      "DurationType": "OneShot",
-      "DurationMin": "18.25",
-      "DurationMax": "18.25",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "180245698"
@@ -523,8 +549,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_ChestOpen",
       "GUID": "{BAE7F893-402F-4079-B774-4A87CC0110F7}",
       "DurationType": "OneShot",
-      "DurationMin": "18.25",
-      "DurationMax": "18.25",
+      "DurationMin": "1.2299184",
+      "DurationMax": "1.2299184",
       "MediaRefs": [
        {
         "Id": "788642920"
@@ -537,8 +563,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_CollectedKey",
       "GUID": "{7BDDFFCA-3781-44DE-A75E-84B5AB920929}",
       "DurationType": "OneShot",
-      "DurationMin": "18.25",
-      "DurationMax": "18.25",
+      "DurationMin": "4.5750847",
+      "DurationMax": "4.5750847",
       "MediaRefs": [
        {
         "Id": "488128510"
@@ -579,8 +605,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_FloorPlate",
       "GUID": "{A5E25542-718F-4466-BB80-E9677A4B182B}",
       "DurationType": "OneShot",
-      "DurationMin": "18.25",
-      "DurationMax": "18.25",
+      "DurationMin": "1.2547652",
+      "DurationMax": "1.2547652",
       "MediaRefs": [
        {
         "Id": "367911780"
@@ -716,11 +742,16 @@
       ]
      },
      {
-      "Id": "3684206702",
-      "Name": "Play_MainMusicSwitch",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_MainMusicSwitch",
-      "GUID": "{D19DBB5A-16C6-4ACE-9127-A0FFB7179244}",
-      "DurationType": "Infinite"
+      "Id": "1063700270",
+      "Name": "Play_MainMenuBGM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MainMenuBGM",
+      "GUID": "{50899D19-8C54-453B-BA93-A55545E72436}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "678185154"
+       }
+      ]
      },
      {
       "Id": "3928572679",
@@ -728,8 +759,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Bite",
       "GUID": "{F28F1767-1F8B-45F1-9866-1F089FD0FF0D}",
       "DurationType": "OneShot",
-      "DurationMin": "5.3393593",
-      "DurationMax": "13.261451",
+      "DurationMin": "0.6978604",
+      "DurationMax": "1.733287",
       "MediaRefs": [
        {
         "Id": "863312578"
@@ -742,8 +773,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Death",
       "GUID": "{93EED90F-951B-42F7-97CD-31B23B3E9397}",
       "DurationType": "OneShot",
-      "DurationMin": "11.544921",
-      "DurationMax": "17.549442",
+      "DurationMin": "0.5338817",
+      "DurationMax": "0.81155396",
       "MediaRefs": [
        {
         "Id": "320826241"
@@ -780,8 +811,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Growl",
       "GUID": "{5D837E16-8F39-4DF1-9D3D-C582B182ECD3}",
       "DurationType": "OneShot",
-      "DurationMin": "11.81461",
-      "DurationMax": "17.701914",
+      "DurationMin": "2.4127862",
+      "DurationMax": "3.615095",
       "MediaRefs": [
        {
         "Id": "313903301"
@@ -794,8 +825,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_PortalEnter",
       "GUID": "{957A316D-61A4-410F-ADE5-6BCB2CC7494F}",
       "DurationType": "OneShot",
-      "DurationMin": "18.25",
-      "DurationMax": "18.25",
+      "DurationMin": "4.6215115",
+      "DurationMax": "4.6215115",
       "MediaRefs": [
        {
         "Id": "1047727185"
@@ -913,34 +944,16 @@
         "Id": "233327949"
        }
       ]
-     }
-    ],
-    "StateGroups": [
+     },
      {
-      "Id": "1021618141",
-      "Name": "MusicState",
-      "ObjectPath": "\\States\\Default Work Unit\\MusicState",
-      "GUID": "{91C850C4-1F17-47BE-B814-C0EADA5A7899}",
-      "States": [
-       {
-        "Id": "89505537",
-        "Name": "Gameplay",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Gameplay",
-        "GUID": "{E61EAB80-B1AD-4BE7-A428-4976B16CD519}"
-       },
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\None",
-        "GUID": "{3E2E97EA-7D9B-46F2-88DC-B2548343D207}"
-       },
-       {
-        "Id": "2607556080",
-        "Name": "Menu",
-        "ObjectPath": "\\States\\Default Work Unit\\MusicState\\Menu",
-        "GUID": "{97ED0AFE-33A5-4FF0-B500-4B9D6B156880}"
-       }
-      ]
+      "Id": "1323942960",
+      "Name": "Stop_MainMenuBGM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_MainMenuBGM",
+      "GUID": "{EA59AA07-149C-4AF8-9FFD-744D70981688}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "SwitchGroups": [
@@ -973,6 +986,6 @@
     ]
    }
   ],
-  "FileHash": "{C44F45FA-8886-737A-3F84-F7736D0FD95D}"
+  "FileHash": "{43B40155-A5D7-F5F5-1DEB-1FDC8C9760FF}"
  }
 }

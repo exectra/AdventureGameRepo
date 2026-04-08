@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 65133821601074194}
   - component: {fileID: 4582232548174901304}
   - component: {fileID: 2163622942332526754}
+  - component: {fileID: 5360618497132413533}
   m_Layer: 16
   m_Name: PressurePad
   m_TagString: Untagged
@@ -417,6 +418,23 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &5360618497132413533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194134621077526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17f0a4c592f00243a3ed1e1274b23a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Play_FloorPlate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 1736da4a04e79ae498b12a26d3a387ec,
+      type: 2}
 --- !u!1 &1267796015796786
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Folder Name="UI" ID="{DE7210EB-6A5F-4568-9DD7-51CCE67DCEC5}" ShortID="214118245">
 					<ChildrenList>
-						<Sound Name="Exit UI" ID="{0A071257-29EE-464C-B3B3-2CE67F525D62}" ShortID="559475446">
+						<Sound Name="UI_Exit" ID="{0A071257-29EE-464C-B3B3-2CE67F525D62}" ShortID="559475446">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -27,7 +27,7 @@
 								<ActiveSource Name="Exit UI" ID="{8F3737BA-5B9A-45EB-87D9-2347E4A235F8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="On Click UI" ID="{5D0C1839-148D-4B88-A4E9-F84C8AF38540}" ShortID="205106664">
+						<Sound Name="UI_On Click" ID="{5D0C1839-148D-4B88-A4E9-F84C8AF38540}" ShortID="205106664">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -49,7 +49,7 @@
 								<ActiveSource Name="On Click UI" ID="{3FA40785-EFB7-4ADC-8DC6-761A49BEC887}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="On Hover UI" ID="{D8F748FB-421B-46EA-BF6E-D0C1D04DCACC}" ShortID="406514214">
+						<Sound Name="UI_On Hover" ID="{D8F748FB-421B-46EA-BF6E-D0C1D04DCACC}" ShortID="406514214">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -71,7 +71,7 @@
 								<ActiveSource Name="On Hover UI" ID="{0284F18A-6599-4259-B7FB-EE09E21C92C0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Open UI (PM)" ID="{A00AB36A-FC39-4CB4-AF54-CE8D710343CB}" ShortID="590313058">
+						<Sound Name="UI_Open_PauseMenu" ID="{A00AB36A-FC39-4CB4-AF54-CE8D710343CB}" ShortID="590313058">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -93,7 +93,7 @@
 								<ActiveSource Name="Open UI" ID="{518C0EB7-21A3-4A67-9BD5-265EA5B79CB4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Start Game" ID="{C8132225-B453-4CEC-A2CE-92D0E24B1A97}" ShortID="481417838">
+						<Sound Name="UI_Start Game" ID="{C8132225-B453-4CEC-A2CE-92D0E24B1A97}" ShortID="481417838">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -119,7 +119,7 @@
 				</Folder>
 				<Folder Name="Ellen" ID="{85DD522C-1544-46AF-BD80-93F516E54D38}" ShortID="154525403">
 					<ChildrenList>
-						<Sound Name="Jump" ID="{5123C1FB-46CB-472D-9B81-010437DE4B91}" ShortID="909975708">
+						<Sound Name="Ellen_Jump" ID="{5123C1FB-46CB-472D-9B81-010437DE4B91}" ShortID="909975708">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -184,7 +184,7 @@
 								<ActiveSource Name="Jump" ID="{AFB50014-258D-466E-A7BE-64A308566C1F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Spawn" ID="{447558A3-475A-4313-95D5-4EC82E171353}" ShortID="594438897">
+						<Sound Name="Ellen_Spawn" ID="{447558A3-475A-4313-95D5-4EC82E171353}" ShortID="594438897">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -206,7 +206,7 @@
 								<ActiveSource Name="Spawn" ID="{7A513861-2635-4D72-B8A1-D82952BC2CB0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Death" ID="{81711A8D-6DCF-4F30-A4E5-A8332DE01FCD}" ShortID="145640027">
+						<Sound Name="Ellen_Death" ID="{81711A8D-6DCF-4F30-A4E5-A8332DE01FCD}" ShortID="145640027">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -228,9 +228,9 @@
 								<ActiveSource Name="Death" ID="{D24FF8D1-190A-407C-8BC1-DDC6C8F99024}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Folder Name="Atk" ID="{E309E747-28F6-4D8E-83E5-E53DB092471A}" ShortID="378647741">
+						<Folder Name="Ellen_Atk" ID="{E309E747-28F6-4D8E-83E5-E53DB092471A}" ShortID="378647741">
 							<ChildrenList>
-								<Sound Name="Atk 1" ID="{FC6FE209-EFF4-4044-BBD2-DC45AF373F66}" ShortID="763438654">
+								<Sound Name="Ellen_Atk 1" ID="{FC6FE209-EFF4-4044-BBD2-DC45AF373F66}" ShortID="763438654">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
@@ -298,7 +298,7 @@
 										<ActiveSource Name="Heavy Atk 1" ID="{73C52D18-681D-4558-B3D7-731A9ADE275E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Atk 3" ID="{7EF8C88E-4D34-467D-8D67-146A9D261EE3}" ShortID="279649422">
+								<Sound Name="Ellen_Atk 3" ID="{7EF8C88E-4D34-467D-8D67-146A9D261EE3}" ShortID="279649422">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
@@ -361,7 +361,7 @@
 										<ActiveSource Name="Light Atk 2" ID="{81D907AB-EF0E-4815-9454-35FB48DE48EF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Atk 2" ID="{D0B16A9D-725B-4D0B-8C5F-8DAE4538EC7A}" ShortID="300861770">
+								<Sound Name="Ellen_Atk 2" ID="{D0B16A9D-725B-4D0B-8C5F-8DAE4538EC7A}" ShortID="300861770">
 									<PropertyList>
 										<Property Name="Highpass" Type="int16">
 											<ModifierList>
@@ -424,7 +424,7 @@
 										<ActiveSource Name="Light Atk 1" ID="{4C8A60E9-662A-4573-885D-3A4D30D97587}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Atk 4" ID="{5937AE07-F813-45B9-83E4-7FE664D73013}" ShortID="618374898">
+								<Sound Name="Ellen_Atk 4" ID="{5937AE07-F813-45B9-83E4-7FE664D73013}" ShortID="618374898">
 									<PropertyList>
 										<Property Name="Lowpass" Type="int16">
 											<ModifierList>
@@ -1223,7 +1223,7 @@
 				</Folder>
 				<Folder Name="Environment" ID="{AB79B531-7140-4685-A9E9-8E87699F8311}" ShortID="346129436">
 					<ChildrenList>
-						<Sound Name="Box Break" ID="{9286FC0F-B49A-4772-8A92-C4756903683A}" ShortID="230756297">
+						<Sound Name="Environment_Box Break" ID="{9286FC0F-B49A-4772-8A92-C4756903683A}" ShortID="230756297">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1245,8 +1245,113 @@
 								<ActiveSource Name="Box Break" ID="{D82FA5D2-1C5C-44F0-AAA6-343A4AE08B92}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Chest Available (Ongoing)" ID="{E499781E-C7E4-47CA-9F92-4A4792320A17}" ShortID="308728555">
+						<Sound Name="Environment_Chest Available_Directional" ID="{E499781E-C7E4-47CA-9F92-4A4792320A17}" ShortID="308728555">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="LoopCount" Type="int32" Value="1"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F111C6B5-D32B-440E-ACCA-0A23617C155E}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="1450"/>
+													<Property Name="Min" Type="Real64" Value="-1075"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<Custom>
+										<Attenuation Name="Attenuation (Custom)" ID="{62C6C10F-327D-4E1A-8B22-1AC8BEC7F41D}" ShortID="850743556">
+											<CurveUsageInfoList>
+												<VolumeDryUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+														<Curve Name="VolumeDry" ID="{4B10EF3D-7790-4046-8349-60EDC9D4DCCE}">
+															<PropertyList>
+																<Property Name="Flags" Type="int32" Value="3"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>0</YPos>
+																	<Flags>5</Flags>
+																</Point>
+																<Point>
+																	<XPos>100</XPos>
+																	<YPos>-200</YPos>
+																	<Flags>37</Flags>
+																</Point>
+															</PointList>
+														</Curve>
+													</CurveUsageInfo>
+												</VolumeDryUsage>
+												<VolumeWetGameUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetGameUsage>
+												<VolumeWetUserUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+												</VolumeWetUserUsage>
+												<LowPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</LowPassFilterUsage>
+												<HighPassFilterUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</HighPassFilterUsage>
+												<SpreadUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</SpreadUsage>
+												<FocusUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+												</FocusUsage>
+												<ObstructionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionVolumeUsage>
+												<ObstructionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionLPFUsage>
+												<ObstructionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</ObstructionHPFUsage>
+												<OcclusionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionVolumeUsage>
+												<OcclusionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionLPFUsage>
+												<OcclusionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</OcclusionHPFUsage>
+												<DiffractionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionVolumeUsage>
+												<DiffractionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionLPFUsage>
+												<DiffractionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</DiffractionHPFUsage>
+												<TransmissionVolumeUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionVolumeUsage>
+												<TransmissionLPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionLPFUsage>
+												<TransmissionHPFUsage>
+													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+												</TransmissionHPFUsage>
+											</CurveUsageInfoList>
+										</Attenuation>
+									</Custom>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
 								</Reference>
@@ -1256,6 +1361,10 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Chest Available (Ongoing)" ID="{A998AE6F-44C4-4FD0-B5D3-D2139492EEF9}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.1321339950372"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Chest Available (Ongoing).wav</AudioFile>
 									<MediaIDList>
@@ -1267,7 +1376,14 @@
 								<ActiveSource Name="Chest Available (Ongoing)" ID="{A998AE6F-44C4-4FD0-B5D3-D2139492EEF9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Chest Open" ID="{B22F0F5F-8540-420E-86F5-FFE667847C05}" ShortID="604982067">
+						<Sound Name="Environment_Chest Open" ID="{B22F0F5F-8540-420E-86F5-FFE667847C05}" ShortID="604982067">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1278,6 +1394,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Chest Open" ID="{F11F535E-3A84-42D8-90EC-828B735982E8}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.397549353301565"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.22991831177672"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Chest Open.wav</AudioFile>
 									<MediaIDList>
@@ -1289,7 +1410,14 @@
 								<ActiveSource Name="Chest Open" ID="{F11F535E-3A84-42D8-90EC-828B735982E8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Collected Key" ID="{6CBE868E-269B-444A-9244-74B3776EA198}" ShortID="924814999">
+						<Sound Name="Environment_Collected Key" ID="{6CBE868E-269B-444A-9244-74B3776EA198}" ShortID="924814999">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1300,6 +1428,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Collected Key" ID="{5C1E4FB2-F8F0-4EE6-8063-2DE80452AF45}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.810242852280464"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.57508492171545"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Collected Key.wav</AudioFile>
 									<MediaIDList>
@@ -1311,7 +1444,7 @@
 								<ActiveSource Name="Collected Key" ID="{5C1E4FB2-F8F0-4EE6-8063-2DE80452AF45}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Floor Plate" ID="{3DBD87D7-A76B-4132-8137-3539E013598D}" ShortID="972170867">
+						<Sound Name="Environment_Floor Plate" ID="{3DBD87D7-A76B-4132-8137-3539E013598D}" ShortID="972170867">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1322,6 +1455,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Floor Plate" ID="{9B892E58-7EC7-4BC7-90A3-0C60A22208B1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.260891763104152"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.25476514635807"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Floor Plate.wav</AudioFile>
 									<MediaIDList>
@@ -1333,7 +1471,7 @@
 								<ActiveSource Name="Floor Plate" ID="{9B892E58-7EC7-4BC7-90A3-0C60A22208B1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Portal Enter" ID="{CBC58A23-98B5-4141-ACFA-06AECD4B5C0C}" ShortID="1027797660">
+						<Sound Name="Environment_Portal Enter" ID="{CBC58A23-98B5-4141-ACFA-06AECD4B5C0C}" ShortID="1027797660">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1344,6 +1482,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Portal Enter" ID="{ED47962A-AC5C-4572-A5F5-56212930CC6D}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.45353982300885"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.6215112321307"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Portal Enter.wav</AudioFile>
 									<MediaIDList>
@@ -1355,7 +1498,7 @@
 								<ActiveSource Name="Portal Enter" ID="{ED47962A-AC5C-4572-A5F5-56212930CC6D}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Stone Key (Ongoing)" ID="{2E2CAA41-8695-492E-AA6B-78BA3C18038E}" ShortID="748718016">
+						<Sound Name="Environment_Stone Key_Directional" ID="{2E2CAA41-8695-492E-AA6B-78BA3C18038E}" ShortID="748718016">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1377,7 +1520,7 @@
 								<ActiveSource Name="Stone Key (Ongoing)" ID="{172152A2-A017-4CBE-A44E-2588FA6201D7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Weapon Pick Up" ID="{7EB0A12D-77FC-4436-BC8D-34A49A6B004A}" ShortID="789188765">
+						<Sound Name="Environment_Weapon Pick Up" ID="{7EB0A12D-77FC-4436-BC8D-34A49A6B004A}" ShortID="789188765">
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
@@ -1408,7 +1551,7 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Door Open" ID="{4A7246E5-19B1-4878-93D2-60BF0D5AA8A7}" ShortID="839967433">
+				<Sound Name="Cutscene_Door Open" ID="{4A7246E5-19B1-4878-93D2-60BF0D5AA8A7}" ShortID="839967433">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1420,8 +1563,9 @@
 					<ChildrenList>
 						<AudioFileSource Name="Door Open" ID="{3D9FD183-E3A4-4333-A08E-B1428F258885}">
 							<PropertyList>
+								<Property Name="FadeOutDuration" Type="Real64" Value="0.226426799007444"/>
 								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="1.67702702702703"/>
+								<Property Name="TrimEnd" Type="Real64" Value="1.38267218831735"/>
 							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>Door Open.wav</AudioFile>
@@ -1436,9 +1580,9 @@
 				</Sound>
 				<Folder Name="Enemies" ID="{BE981B83-AC41-4E70-8FEC-8FFD3F240C9E}" ShortID="770858229">
 					<ChildrenList>
-						<Folder Name="Pink" ID="{9FB3333B-4834-4C86-AEE1-F3142916DB6D}" ShortID="513308261">
+						<Folder Name="Enemies_Pink" ID="{9FB3333B-4834-4C86-AEE1-F3142916DB6D}" ShortID="513308261">
 							<ChildrenList>
-								<Sound Name="Pink Melee Bite" ID="{9BE9D6C3-11F3-4E3B-B876-C3028768FFDF}" ShortID="479605564">
+								<Sound Name="Pink_Melee Bite" ID="{9BE9D6C3-11F3-4E3B-B876-C3028768FFDF}" ShortID="479605564">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1477,6 +1621,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Pink Melee Bite" ID="{B9CC0A0A-9F1E-4CE6-A149-8C4D9F75EAB8}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.272294077603812"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.04560925799864"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Pink Melee Bite.wav</AudioFile>
 											<MediaIDList>
@@ -1488,7 +1637,7 @@
 										<ActiveSource Name="Pink Melee Bite" ID="{B9CC0A0A-9F1E-4CE6-A149-8C4D9F75EAB8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Pink Melee Growl" ID="{CAD255A3-AA21-4335-9669-A3F5471F103F}" ShortID="601697386">
+								<Sound Name="Pink_Melee Growl" ID="{CAD255A3-AA21-4335-9669-A3F5471F103F}" ShortID="601697386">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1505,7 +1654,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>-5</Value>
 											</ValueList>
 											<ModifierList>
 												<ModifierInfo>
@@ -1530,6 +1679,11 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Pink Melee Growl" ID="{D50E89A8-1154-40D0-A65F-E606189E3071}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.511912865895167"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.26752893124574"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Pink Melee Growl.wav</AudioFile>
 											<MediaIDList>
@@ -1541,7 +1695,7 @@
 										<ActiveSource Name="Pink Melee Growl" ID="{D50E89A8-1154-40D0-A65F-E606189E3071}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Pink Melee Death" ID="{DECF3CE5-462D-4914-876B-A0C0980C1D52}" ShortID="222941929">
+								<Sound Name="Pink_Melee Death" ID="{DECF3CE5-462D-4914-876B-A0C0980C1D52}" ShortID="222941929">
 									<PropertyList>
 										<Property Name="Pitch" Type="int32">
 											<ModifierList>
@@ -1584,9 +1738,10 @@
 									<ChildrenList>
 										<AudioFileSource Name="Pink Melee Death" ID="{E796C2EE-80EC-4171-B587-F14FE0BACD83}">
 											<PropertyList>
-												<Property Name="LoopBegin" Type="Real64" Value="0.137812230835487"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.206943498978897"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 												<Property Name="TrimBegin" Type="Real64" Value="0.137812230835487"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.871341048332197"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Pink Melee Death.wav</AudioFile>
@@ -1695,7 +1850,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Pink Melee Footsteps 1" ID="{6AF94F89-2634-42A3-AF58-C613EEAF5859}" ShortID="563433331">
+										<Sound Name="Pink_Melee Footsteps 1" ID="{6AF94F89-2634-42A3-AF58-C613EEAF5859}" ShortID="563433331">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1745,7 +1900,7 @@
 												<ActiveSource Name="Pink Melee Footsteps 1" ID="{AF38CEA2-4FF1-4340-B8C7-743A18BC94A0}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Pink Melee Footsteps 4" ID="{70DABB3D-EEDD-414F-87BC-BA02E9C4D63B}" ShortID="1035828638">
+										<Sound Name="Pink_Melee Footsteps 4" ID="{70DABB3D-EEDD-414F-87BC-BA02E9C4D63B}" ShortID="1035828638">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1794,7 +1949,7 @@
 												<ActiveSource Name="Pink Melee Footsteps 4" ID="{D5FC7FEC-40C0-4F52-AD54-628C08ED0F7F}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Pink Melee Footsteps 2" ID="{7EF92DA5-4DCD-40EB-9851-54ED77B65831}" ShortID="1028928938">
+										<Sound Name="Pink_Melee Footsteps 2" ID="{7EF92DA5-4DCD-40EB-9851-54ED77B65831}" ShortID="1028928938">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1844,7 +1999,7 @@
 												<ActiveSource Name="Pink Melee Footsteps 2" ID="{20E40842-F219-4273-AFED-7508B242A395}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Pink Melee Footsteps 3" ID="{AE2D73A0-5E73-44FA-B414-69C52D048A88}" ShortID="759574234">
+										<Sound Name="Pink_Melee Footsteps 3" ID="{AE2D73A0-5E73-44FA-B414-69C52D048A88}" ShortID="759574234">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>

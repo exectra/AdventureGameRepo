@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_AMBIENCE = 278617630U;
         static const AkUniqueID PLAY_ATK_1 = 36701028U;
         static const AkUniqueID PLAY_ATK_2 = 36701031U;
         static const AkUniqueID PLAY_ATK_3 = 36701030U;
@@ -27,7 +28,6 @@ namespace AK
         static const AkUniqueID PLAY_FOOTSTEPS = 3854155799U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_MAINMENUBGM = 1063700270U;
-        static const AkUniqueID PLAY_MAINMUSICSWITCH = 3684206702U;
         static const AkUniqueID PLAY_PINK_BITE = 3928572679U;
         static const AkUniqueID PLAY_PINK_DEATH = 2779656009U;
         static const AkUniqueID PLAY_PINK_FOOTSTEPS = 924162606U;
@@ -58,31 +58,6 @@ namespace AK
                 static const AkUniqueID WET = 1181096339U;
             } // namespace STATE
         } // namespace FOOTSTEPSSTATE
-
-        namespace LOCATION
-        {
-            static const AkUniqueID GROUP = 1176052424U;
-
-            namespace STATE
-            {
-                static const AkUniqueID CAVE = 4122393694U;
-                static const AkUniqueID FOREST = 491961918U;
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID WATER = 2654748154U;
-            } // namespace STATE
-        } // namespace LOCATION
-
-        namespace MUSICSTATE
-        {
-            static const AkUniqueID GROUP = 1021618141U;
-
-            namespace STATE
-            {
-                static const AkUniqueID GAMEPLAY = 89505537U;
-                static const AkUniqueID MENU = 2607556080U;
-                static const AkUniqueID NONE = 748895195U;
-            } // namespace STATE
-        } // namespace MUSICSTATE
 
     } // namespace STATES
 

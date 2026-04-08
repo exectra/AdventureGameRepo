@@ -24664,6 +24664,7 @@ GameObject:
   - component: {fileID: 82457573920632064}
   - component: {fileID: 7636920397155692135}
   - component: {fileID: 7899651813964026265}
+  - component: {fileID: 1723954093855183565}
   m_Layer: 16
   m_Name: HealthCrate
   m_TagString: Untagged
@@ -24955,6 +24956,27 @@ MonoBehaviour:
   eventIdInternal: 0
   valueGuidInternal: 
   m_callbackDataInternal: {fileID: 0}
+--- !u!114 &1723954093855183565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804881409606774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17f0a4c592f00243a3ed1e1274b23a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Play_FloorPlate:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  Play_ChestOpen:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 6c5d2a4915d642f428fda2322461b257,
+      type: 2}
 --- !u!1 &1879672311206784
 GameObject:
   m_ObjectHideFlags: 0
