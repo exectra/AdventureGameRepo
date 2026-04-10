@@ -8,6 +8,8 @@ public class Environment_Animation_WwiseEvents : MonoBehaviour
     public AK.Wwise.Event Play_ChestOpen;
     public AK.Wwise.Event Play_ChestAvailable;
     public AK.Wwise.Event Play_DoorOpen;
+    public AK.Wwise.Event Play_StoneKey;
+    public AK.Wwise.Event Play_CollectedKey;
 
     public void PlayFloorPlateTrigger()
     {
@@ -25,5 +27,13 @@ public class Environment_Animation_WwiseEvents : MonoBehaviour
     public void PlayDoorOpen()
     {
         Play_DoorOpen.Post(gameObject);
+    }
+    public void PlayStoneKeyDirectional()
+    {
+        Play_StoneKey.Post(gameObject);
+    }
+    public void PlayActivateKey()
+    {
+        Play_CollectedKey.Post(gameObject);
     }
 }

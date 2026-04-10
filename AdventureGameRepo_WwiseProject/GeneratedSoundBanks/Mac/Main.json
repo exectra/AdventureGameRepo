@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{97BDCBB5-9BBC-6C29-828E-32A899546965}",
+    "Hash": "{D9385735-44D0-4C99-50B3-6768219E3E67}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chest Available (Ongoing).wav",
-      "CachePath": "A6/{A6073584-CD0A-BB80-F7E1-7B92EF4048AC}.wem"
+      "CachePath": "2F/{2F9213A7-9AC6-1FFD-31A6-3C158D78689C}.wem"
      },
      {
       "Id": "180435172",
@@ -397,7 +397,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Stone Key (Ongoing).wav",
-      "CachePath": "4E/{4E2D9E8B-8D67-540C-1520-87DF3E8F0ED9}.wem"
+      "CachePath": "78/{78DE475E-8DD9-8B88-7DDE-7DDAA6A2FAAB}.wem"
      },
      {
       "Id": "951446669",
@@ -421,7 +421,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door Open.wav",
-      "CachePath": "6E/{6E7A85ED-C145-E32A-9884-CB63DD0C632C}.wem"
+      "CachePath": "C4/{C427173D-777E-4134-2905-6CE808BCFA25}.wem"
      },
      {
       "Id": "1023886576",
@@ -536,6 +536,7 @@
       "Name": "Play_ChestAvailable",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_ChestAvailable",
       "GUID": "{E8F2DA44-7BAA-464D-A6C4-3EA6B19F57B4}",
+      "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -591,8 +592,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_DoorOpen",
       "GUID": "{43F91AC4-3E3B-4DFE-A0EE-FEB843D5CB4A}",
       "DurationType": "OneShot",
-      "DurationMin": "1.677027",
-      "DurationMax": "1.677027",
+      "DurationMin": "1.3826722",
+      "DurationMax": "1.3826722",
       "MediaRefs": [
        {
         "Id": "1020663270"
@@ -852,9 +853,8 @@
       "Name": "Play_StoneKey",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_StoneKey",
       "GUID": "{E1B07001-B4B6-4EF2-8B1B-3ABACE46F46B}",
-      "DurationType": "OneShot",
-      "DurationMin": "16",
-      "DurationMax": "16",
+      "MaxAttenuation": "100",
+      "DurationType": "Infinite",
       "MediaRefs": [
        {
         "Id": "946211358"
@@ -986,6 +986,6 @@
     ]
    }
   ],
-  "FileHash": "{4E4F8DCA-B9DA-92A7-5C14-6B3805D6C3BE}"
+  "FileHash": "{67B3188D-E785-C5CA-2057-6347970BFE9C}"
  }
 }

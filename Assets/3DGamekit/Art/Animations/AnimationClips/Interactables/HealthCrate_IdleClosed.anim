@@ -870,7 +870,8 @@ AnimationClip:
   - time: 0
     functionName: PlayChestDirectional
     data: 
-    objectReferenceParameter: {fileID: 0}
+    objectReferenceParameter: {fileID: 11500000, guid: f17f0a4c592f00243a3ed1e1274b23a6,
+      type: 3}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
