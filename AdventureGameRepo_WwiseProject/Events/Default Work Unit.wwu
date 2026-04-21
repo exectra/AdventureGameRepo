@@ -62,11 +62,11 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Play_Player" ID="{375B455A-4CF1-4BE4-8AF1-0AE78BC604DA}" ShortID="796570260">
+				<Folder Name="Play_Ellen" ID="{375B455A-4CF1-4BE4-8AF1-0AE78BC604DA}" ShortID="796570260">
 					<ChildrenList>
-						<Event Name="Play_Jump" ID="{01E69410-9337-41D9-9BCA-B68DB87EECA2}">
+						<Event Name="Play_Ellen_Jump" ID="{01E69410-9337-41D9-9BCA-B68DB87EECA2}">
 							<ChildrenList>
-								<Action Name="" ID="{A6B126D4-5FF9-4DCE-B55D-D85F4A796B96}" ShortID="2459033">
+								<Action Name="" ID="{F3618353-CEB4-4201-A1A6-BBC4BC13070C}" ShortID="559565080">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ellen_Jump" ID="{5123C1FB-46CB-472D-9B81-010437DE4B91}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
@@ -75,9 +75,9 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Spawn" ID="{0DDE1191-7319-488E-89D6-EFB1E50A4AE9}">
+						<Event Name="Play_Ellen_Spawn" ID="{0DDE1191-7319-488E-89D6-EFB1E50A4AE9}">
 							<ChildrenList>
-								<Action Name="" ID="{9603FBAB-C19C-4D5C-A9C8-123240982EEF}" ShortID="343237400">
+								<Action Name="" ID="{37A3DAED-EBED-47A2-9A28-463009A29508}" ShortID="770145254">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ellen_Spawn" ID="{447558A3-475A-4313-95D5-4EC82E171353}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
@@ -86,67 +86,100 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Death" ID="{A6086594-2639-4F46-9935-AC792A0D67B1}">
+						<Event Name="Play_Ellen_Death" ID="{A6086594-2639-4F46-9935-AC792A0D67B1}">
 							<ChildrenList>
-								<Action Name="" ID="{6A62EAC4-E8A2-4B5C-A1B2-C395FBD4ECC1}" ShortID="756151127">
+								<Action Name="" ID="{F3827889-1137-40DF-BB78-FC83D19A332E}" ShortID="105800643">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ellen_Death" ID="{81711A8D-6DCF-4F30-A4E5-A8332DE01FCD}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+											<ObjectRef Name="Ellen_Death_VO" ID="{73BFF041-C0D9-43D3-AC38-61D8AD1A0D0A}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Atk_1" ID="{34D1D20C-50CD-4F26-9189-A9B6C527133C}">
+						<Event Name="Play_Ellen_Footsteps" ID="{2344C942-454D-4557-898D-E8EDFE507AB2}">
 							<ChildrenList>
-								<Action Name="" ID="{1F43C558-F274-4049-942F-F6477866EEEF}" ShortID="143928139">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ellen_Atk 1" ID="{FC6FE209-EFF4-4044-BBD2-DC45AF373F66}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Atk_2" ID="{9530D0CB-D2BF-4C82-A059-7C49BACA75EC}">
-							<ChildrenList>
-								<Action Name="" ID="{0FD0ADF6-1099-4CBC-B0DE-4C43371C3911}" ShortID="568653309">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ellen_Atk 2" ID="{D0B16A9D-725B-4D0B-8C5F-8DAE4538EC7A}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Atk_3" ID="{A5E0A8F4-0960-4F62-9DF1-BBBC0EA60969}">
-							<ChildrenList>
-								<Action Name="" ID="{70410F26-8097-423F-AAB8-69979CEB791A}" ShortID="482398613">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ellen_Atk 3" ID="{7EF8C88E-4D34-467D-8D67-146A9D261EE3}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Atk_4" ID="{1A76D9A9-AE48-4271-86A0-65910A18CB16}">
-							<ChildrenList>
-								<Action Name="" ID="{CFC33BB3-A10F-4BDB-9088-456B6CCFD639}" ShortID="123068511">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Ellen_Atk 4" ID="{5937AE07-F813-45B9-83E4-7FE664D73013}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_Footsteps" ID="{2344C942-454D-4557-898D-E8EDFE507AB2}">
-							<ChildrenList>
-								<Action Name="" ID="{5E29ABE4-696F-465A-9F3F-20665430A937}" ShortID="638292246">
+								<Action Name="" ID="{E0A1CD56-71CE-446E-9323-2AC6A2C46B4C}" ShortID="1042521111">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Ellen_Footsteps" ID="{F9D3B9A4-4701-4AE8-B9DB-CA859F3F7A84}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ellen_Heal" ID="{FA16B00F-4647-45EB-982C-CFDBA81C88FC}">
+							<ChildrenList>
+								<Action Name="" ID="{D5C19AAD-2096-4DE8-9899-9AFD2FDA3FEC}" ShortID="443109342">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Heal" ID="{527CA0AB-84BA-44D3-89F9-796A329556D6}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ellen_ShieldCrack" ID="{2C6B5227-BBEC-4EA9-B2D4-0A73C0648DAD}">
+							<ChildrenList>
+								<Action Name="" ID="{2D5AE021-1CDE-432C-AF41-F887C31708B6}" ShortID="1058648707">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Shield Crack" ID="{1884C2F1-3301-4FB8-8217-A6046E653982}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ellen_Land_Roll" ID="{62F30313-0D6E-48A3-8083-0EE3090EB3F4}">
+							<ChildrenList>
+								<Action Name="" ID="{6E6BC216-9375-48BD-BAA3-38452B0DFAD5}" ShortID="969207809">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Land_Roll" ID="{BD17376D-C978-49C7-B5AD-7CA58B854294}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ellen_Hurt" ID="{48317577-93C4-4AAB-97FB-550FDF7059E2}">
+							<ChildrenList>
+								<Action Name="" ID="{111C562D-3976-4EC3-81AB-387E935BB954}" ShortID="393832535">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Hurt_VO" ID="{B1340DA6-35B4-4C19-9245-078FDB4F28F4}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ellen_Attack" ID="{B46CCAE0-8E20-4698-AC9E-C9ADF9F20208}">
+							<ChildrenList>
+								<Action Name="" ID="{514ABB84-7B14-4C7D-99EC-7275331AB708}" ShortID="431970846">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Attack" ID="{CAAE696B-B28B-4E4A-AE23-02A926BBC6EE}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ellen_Attack_VO" ID="{9B7DC0CB-4AD6-4445-BB69-5D811B35F3AE}">
+							<ChildrenList>
+								<Action Name="" ID="{0B18D14F-1B9E-4E09-820B-29B852C6473A}" ShortID="36646476">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Attack_VO" ID="{EE0E517A-8A07-47D3-A068-4CA264349F1B}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Ellen_Attack_Hit" ID="{433B8E91-5F4D-4499-AB13-53454ADC95CA}">
+							<ChildrenList>
+								<Action Name="" ID="{B9E1A697-7382-4F4F-979E-8087F355F935}" ShortID="839380328">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Ellen_Attack_Hit" ID="{8E805898-DDA0-4F05-97F7-CE247C9494AC}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -259,47 +292,165 @@
 				</Event>
 				<Folder Name="Play_Enemy" ID="{4555B44B-8AEA-47B6-8A07-7F2B60CAE39A}" ShortID="996355248">
 					<ChildrenList>
-						<Folder Name="Play_Pink" ID="{57C7E624-296E-420B-8608-5CBE2EABDF4A}" ShortID="628748300">
+						<Folder Name="Play_Chomper" ID="{57C7E624-296E-420B-8608-5CBE2EABDF4A}" ShortID="628748300">
 							<ChildrenList>
-								<Event Name="Play_Pink_Bite" ID="{F28F1767-1F8B-45F1-9866-1F089FD0FF0D}">
+								<Event Name="Play_Chomper_Attack" ID="{74E8346B-7837-48A8-AD55-7273F1318EE3}">
 									<ChildrenList>
-										<Action Name="" ID="{057C766B-46CC-43B6-A31F-DF339400B99A}" ShortID="920766646">
+										<Action Name="" ID="{1B0A4303-3457-40B1-985A-FD51B6FEB5B8}" ShortID="524643066">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pink_Melee Bite" ID="{9BE9D6C3-11F3-4E3B-B876-C3028768FFDF}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+													<ObjectRef Name="Chomper_Attack" ID="{78C2CD99-7E39-4B7D-84FB-7E0B1EC0A914}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Pink_Death" ID="{93EED90F-951B-42F7-97CD-31B23B3E9397}">
+								<Event Name="Play_Chomper_Footsteps" ID="{AF4B185B-F7A1-4E64-97CF-3E547A0BEF54}">
 									<ChildrenList>
-										<Action Name="" ID="{652421C2-A98B-4136-B9D4-FA9990EC2370}" ShortID="503763815">
+										<Action Name="" ID="{8C3BEA2A-3344-4B0B-8913-C62FEBD6B6E6}" ShortID="747533593">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pink_Melee Death" ID="{DECF3CE5-462D-4914-876B-A0C0980C1D52}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+													<ObjectRef Name="Chomper_Footsteps" ID="{BFDC7FBC-1801-460A-9BAE-45826EDCAFF8}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Pink_Growl" ID="{5D837E16-8F39-4DF1-9D3D-C582B182ECD3}">
+								<Event Name="Play_Chomper_Growl" ID="{2BCDBCD0-7A64-4F89-B885-B3465DFB910F}">
 									<ChildrenList>
-										<Action Name="" ID="{051A2408-F4C6-4E6A-9211-D1EF6F63B539}" ShortID="714117290">
+										<Action Name="" ID="{08474B28-EAB7-4D44-B4B8-341A5EDBFAA3}" ShortID="670825100">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pink_Melee Growl" ID="{CAD255A3-AA21-4335-9669-A3F5471F103F}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+													<ObjectRef Name="Chomper_Growl" ID="{90760E5E-A20E-42FE-B003-CBAC9457D7F8}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
 									</ChildrenList>
 								</Event>
-								<Event Name="Play_Pink_Footsteps" ID="{0FBD1D55-E1CE-4552-AD65-E03FD56EAD85}">
+								<Event Name="Play_Chomper_Hurt" ID="{30DCBC20-5C87-454C-9842-983FF55D9A4F}">
 									<ChildrenList>
-										<Action Name="" ID="{A5B6DFBE-68FA-4C4E-8D03-DBFF477BFF46}" ShortID="382292726">
+										<Action Name="" ID="{F5A4AA90-EE9D-4AEC-81A6-FA5A0418002A}" ShortID="671912878">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Random_Pink_Footsteps" ID="{FD376594-6012-4F15-BCD2-CB9D360D83F6}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+													<ObjectRef Name="Chomper_Hurt" ID="{3036FB86-FC15-4781-A746-17529B85013E}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Chomper_Death" ID="{F829EE13-798A-4CD3-8381-7307E0C3096C}">
+									<ChildrenList>
+										<Action Name="" ID="{AEC32346-9E3D-4EAA-83D3-0D3DA83ECF31}" ShortID="718601145">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper_Death" ID="{A3342E80-8D5F-4B38-9C07-EC7F3A8EF726}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Play_Grenadier" ID="{DE83E617-A1B6-445A-90B9-E5ABAD652900}" ShortID="201860309">
+							<ChildrenList>
+								<Event Name="Play_Grenadier_Footsteps" ID="{A12EC7A8-A5B3-4889-AA73-3C649A2E9145}">
+									<ChildrenList>
+										<Action Name="" ID="{029BD967-B959-48DC-AA2A-0C2C05928212}" ShortID="604521776">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Footsteps" ID="{381E456F-F5B4-4CF4-A603-6C77087FED8A}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Hurt" ID="{228895DD-8A57-4527-B64A-9BF50245FA8D}">
+									<ChildrenList>
+										<Action Name="" ID="{DC1F06F2-F2D1-4B81-8FCE-4FBA93D8EF6D}" ShortID="753543678">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Hurt" ID="{0653F0FB-6F44-4193-BF9A-E4B5DB552054}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Melee" ID="{7C75EB50-5214-41A7-95F4-01269E669185}">
+									<ChildrenList>
+										<Action Name="" ID="{7CFB5359-586C-4A16-AF5E-B6E7C284F7E2}" ShortID="218368005">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Melee" ID="{BE5855FE-B669-4096-928D-4577C7050653}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Death" ID="{299AA5FB-E0B8-4C6F-A034-0F518CF846BF}">
+									<ChildrenList>
+										<Action Name="" ID="{06A963B7-F9A7-462E-9689-0AB635B88349}" ShortID="1071865777">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Death" ID="{3D454418-B9A6-4C40-8E2D-B4271BEA7C85}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Range_1" ID="{3942CD31-4DA8-4F97-A7D2-CE195F02D59A}">
+									<ChildrenList>
+										<Action Name="" ID="{7EFC197B-7803-4830-9761-625C1EB6B248}" ShortID="693915913">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Range_1" ID="{FDDC0820-67E2-4D6B-9287-9743067F1897}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Range_2_Ammo" ID="{20251772-0203-4AD8-825F-1E333CB0375D}">
+									<ChildrenList>
+										<Action Name="" ID="{0189FAB0-45CD-4424-AEBD-3511FCD62C54}" ShortID="3692110">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Range_2_Ammo" ID="{AE82A412-09C6-4B88-9614-271A646495B9}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Grenadier_Range_2_Throw" ID="{CA91F0C1-2E8A-4B4B-8C04-595934441806}">
+									<ChildrenList>
+										<Action Name="" ID="{57C508AE-47D9-4AA3-B1B0-05846AC68D11}" ShortID="61691182">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier_Range_2_Throw" ID="{78439315-00C0-460C-BC0E-9AF0C21B29AB}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Play_Spitter" ID="{40168FD0-5F03-471E-9892-0C16739A4E81}" ShortID="609719678">
+							<ChildrenList>
+								<Event Name="Play_Spitter_Attack" ID="{632E46F2-E14F-4991-BF74-1B5F11007C5E}">
+									<ChildrenList>
+										<Action Name="" ID="{569B2009-6972-483E-9A04-3D96695FBE4C}" ShortID="29572242">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Spitter_Attack" ID="{192EFE27-F417-4ADA-A5D3-AE93B4A8D4DC}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Spitter_Attack_Splat" ID="{C87A06E1-C28F-468E-8CA5-B7489AFF75E5}">
+									<ChildrenList>
+										<Action Name="" ID="{B2ECE5BA-A7D4-4628-9742-A5093D4EB891}" ShortID="631609045">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Spitter_Attack_Splat" ID="{719063BD-2FDE-4EDC-9276-7ECCCAF7CF9D}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

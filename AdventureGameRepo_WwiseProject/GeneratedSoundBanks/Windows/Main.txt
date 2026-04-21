@@ -1,33 +1,46 @@
 Event	ID	Name			Wwise Object Path	Notes
-	36701025	Play_Atk_4			\Default Work Unit\Play_Player\Play_Atk_4	
-	36701028	Play_Atk_1			\Default Work Unit\Play_Player\Play_Atk_1	
-	36701030	Play_Atk_3			\Default Work Unit\Play_Player\Play_Atk_3	
-	36701031	Play_Atk_2			\Default Work Unit\Play_Player\Play_Atk_2	
+	231575099	Play_Ellen_Heal			\Default Work Unit\Play_Ellen\Play_Ellen_Heal	
 	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
-	289026184	Play_Pink_Growl			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Growl	
 	364247913	Play_ChestOpen			\Default Work Unit\Play_Environment\Play_ChestOpen	
+	519354622	Play_Ellen_Hurt			\Default Work Unit\Play_Ellen\Play_Ellen_Hurt	
 	594124390	Play_WeaponPickUp			\Default Work Unit\Play_Environment\Play_WeaponPickUp	
+	749645064	Play_Chomper_Hurt			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Hurt	
+	756395797	Play_Ellen_Jump			\Default Work Unit\Play_Ellen\Play_Ellen_Jump	
+	826593012	Play_Grenadier_Melee			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Melee	
 	843996146	Play_BoxBreak			\Default Work Unit\Play_Environment\Play_BoxBreak	
-	924162606	Play_Pink_Footsteps			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Footsteps	
-	1012143543	Play_Spawn			\Default Work Unit\Play_Player\Play_Spawn	
+	931488463	Play_Chomper_Attack			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Attack	
+	985089565	Play_Ellen_Death			\Default Work Unit\Play_Ellen\Play_Ellen_Death	
 	1063700270	Play_MainMenuBGM			\Default Work Unit\Play_MainMenuBGM	
 	1067323442	Play_ChestAvailable			\Default Work Unit\Play_Environment\Play_ChestAvailable	
-	1172822028	Play_Death			\Default Work Unit\Play_Player\Play_Death	
 	1263684764	Play_FloorPlate			\Default Work Unit\Play_Environment\Play_FloorPlate	
 	1323942960	Stop_MainMenuBGM			\Default Work Unit\Stop_MainMenuBGM	
+	1363968655	Play_Grenadier_Range_1			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Range_1	
 	1473547871	Play_UI_StartGame			\Default Work Unit\Play_UI\Play_UI_StartGame	
 	1986548623	Play_UI_Exit			\Default Work Unit\Play_UI\Play_UI_Exit	
+	2086598241	Play_Grenadier_Range_2_Ammo			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Range_2_Ammo	
+	2094447813	Play_Grenadier_Footsteps			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Footsteps	
+	2439963732	Play_Ellen_Land_Roll			\Default Work Unit\Play_Ellen\Play_Ellen_Land_Roll	
 	2640353952	Play_CollectedKey			\Default Work Unit\Play_Environment\Play_CollectedKey	
-	2779656009	Play_Pink_Death			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Death	
+	2696401305	Play_Grenadier_Range_2_Throw			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Range_2_Throw	
+	2761388991	Play_Chomper_Death			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Death	
+	2923999633	Play_Ellen_Attack_VO			\Default Work Unit\Play_Ellen\Play_Ellen_Attack_VO	
 	3111063598	Play_UI_OnHover			\Default Work Unit\Play_UI\Play_UI_OnHover	
 	3197300806	Play_DoorOpen			\Default Work Unit\Play_DoorOpen	
+	3225604978	Play_Ellen_Spawn			\Default Work Unit\Play_Ellen\Play_Ellen_Spawn	
+	3337034902	Play_Grenadier_Death			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Death	
+	3417550891	Play_Grenadier_Hurt			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Hurt	
+	3439843113	Play_Ellen_Attack			\Default Work Unit\Play_Ellen\Play_Ellen_Attack	
+	3523988694	Play_Chomper_Growl			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Growl	
 	3570890048	Play_UI_OnClick			\Default Work Unit\Play_UI\Play_UI_OnClick	
-	3689126666	Play_Jump			\Default Work Unit\Play_Player\Play_Jump	
-	3854155799	Play_Footsteps			\Default Work Unit\Play_Player\Play_Footsteps	
+	3703199980	Play_Ellen_ShieldCrack			\Default Work Unit\Play_Ellen\Play_Ellen_ShieldCrack	
+	3742480528	Play_Chomper_Footsteps			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Footsteps	
+	3756943418	Play_Ellen_Footsteps			\Default Work Unit\Play_Ellen\Play_Ellen_Footsteps	
 	3865522774	Play_StoneKey			\Default Work Unit\Play_Environment\Play_StoneKey	
 	3905148667	Play_UI_Open			\Default Work Unit\Play_UI\Play_UI_Open	
-	3928572679	Play_Pink_Bite			\Default Work Unit\Play_Enemy\Play_Pink\Play_Pink_Bite	
+	3913336272	Play_Spitter_Attack			\Default Work Unit\Play_Enemy\Play_Spitter\Play_Spitter_Attack	
 	4016738326	Play_PortalEnter			\Default Work Unit\Play_Environment\Play_PortalEnter	
+	4018741819	Play_Ellen_Attack_Hit			\Default Work Unit\Play_Ellen\Play_Ellen_Attack_Hit	
+	4160876689	Play_Spitter_Attack_Splat			\Default Work Unit\Play_Enemy\Play_Spitter\Play_Spitter_Attack_Splat	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	2385628198	Footsteps			\Default Work Unit\Footsteps	
@@ -47,58 +60,118 @@ State	ID	Name	State Group			Notes
 	4248645337	Grass	FootstepsState			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	21697968	Ellen_Death	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A3\{A35C99AF-EE26-E611-311D-AFCCA2E3D97D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Death		384096
+	7938178	Player Hurt VO 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C8\{C8F0361A-F03B-F80F-0D63-BD4537524E8C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 3		120096
+	11553382	Chomper Hurt 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\07\{07A9A696-CC36-6EF2-A004-496478AAF471}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Hurt\Chomper Hurt 1		87096
+	19750761	Land (Roll) 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\3B\{3B42CCE0-484F-F4A8-3E05-7B1E6361F72A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Land_Roll\Land (Roll) 4		84096
 	24935733	UI_Start Game	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B8\{B8D76CFB-02C1-7E49-44C1-ED51245FD711}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Start Game		594096
-	37449250	Grass Footstep 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\96\{9632FB17-5DEF-D5A3-42FA-BD15E7BF452E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 1		594096
-	88054370	Stone Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D8\{D87226F8-5B03-906C-ED3E-4850B0CAF445}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 6		594096
+	46837944	Chomper Attack 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B6\{B66AA09D-63CB-17BA-1C77-9B9BF12E5187}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Attack\Chomper Attack 5		54942
+	46870457	Chomper Attack 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BE\{BE690210-8BB6-5CA4-EA91-F08545FB2968}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Attack\Chomper Attack 4		57382
+	95723225	Chomper_Death	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\67\{67E0B8A4-51F7-66C3-35D1-8BD0ED5A462D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Death		73596
+	102714005	Chomper Growl 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6B\{6B9A4916-5061-F5A2-055C-6815502008B5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Growl\Chomper Growl 2		103596
+	117500850	Player Death VO 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\4F\{4F153A1A-2395-4548-36D4-AE57C61E8AC2}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Death_VO\Player Death VO 1		288096
+	117562557	Grass Footsteps 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F8\{F8D33F52-F183-9987-476D-32BD4DFF62D9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 7		36096
+	121873902	Player Atk VO 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\70\{70535CAC-915E-5E8B-4ECE-72A8C4F54EAC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 1		48096
+	123965811	Atk whoosh 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\7D\{7D334896-647D-9F07-8DFE-65C7C24452EB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 5		159096
+	147998254	Grenadier Melee 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AB\{ABCF126F-7DE9-6FFE-9C02-D07BFC068C62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 4		96096
+	166058615	Grenadier_Range_2_Throw	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F4\{F40F52EF-F3A3-69D3-23A8-974AB850FDDC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Range_2_Throw		206324
+	175052703	Grass Footsteps 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\08\{08F52440-FE9A-7FC9-45FF-E8BF457D8D8D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 6		36096
 	180245698	Environment_Chest Available_Directional	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\2F\{2F9213A7-9AC6-1FFD-31A6-3C158D78689C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Chest Available_Directional		217464
-	180435172	Pink_Melee Footsteps 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D3\{D3312923-48FD-7BF7-9ED8-91E28D51EF8F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Pink\Random_Pink_Footsteps\Pink_Melee Footsteps 1		1536096
+	195935305	Chomper Growl 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\95\{9535266E-C990-EBC9-E866-CA87EB7316AF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Growl\Chomper Growl 4		93096
+	220070146	Player Death VO 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E9\{E980763C-9577-AA88-49FE-31614680ECF5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Death_VO\Player Death VO 2		336096
+	229042767	Land (Roll) 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6B\{6BA472EF-1943-BC96-59DD-68859B0F52FB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Land_Roll\Land (Roll) 1		84096
 	233327949	Environment_Weapon Pick Up	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B9\{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Weapon Pick Up		1536096
-	236120033	Pink_Melee Footsteps 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\38\{38E57CD8-763A-A659-E4D0-60728934486D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Pink\Random_Pink_Footsteps\Pink_Melee Footsteps 2		1536096
-	236604024	Ellen_Atk 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\24\{2458FAC9-F466-E34F-2E88-BC2B58C84E0C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Atk\Ellen_Atk 3		384096
-	245820045	Stone Footstep 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AE\{AE1E4347-EB0D-B68A-2458-8B6B576F9C18}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 5		594096
-	302611747	Wet Footstep 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\46\{46DC380B-FAA4-A86E-E07E-AA482B559374}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 4		594096
-	313665108	Wet Footstep 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BA\{BA5F7844-C1E2-7050-EBA2-F8094975F796}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 5		594096
-	313903301	Pink_Melee Growl	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\9E\{9E53AA98-D181-0B3B-F675-3A64F766FCC9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Pink\Pink_Melee Growl		627460
-	320826241	Pink_Melee Death	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\03\{030475CC-5EC0-AF58-ECF8-22678D0C17BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Pink\Pink_Melee Death		140932
-	332449225	Grass Footstep 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\33\{33BB98BE-CB28-49F8-D064-F6B565F1B1A1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 7		594096
+	245141749	Player Death VO 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A5\{A5CE6F78-8AE2-EC46-257F-542356511AB8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Death_VO\Player Death VO 4		384096
+	245858301	Player Hurt VO 11	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\02\{02240E4A-209F-CC6F-126A-96ACF8B3C0B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 11		96096
+	274113596	Chomper Growl 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\EE\{EE15986D-30D3-8F94-6459-0A2222C5101D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Growl\Chomper Growl 1		94596
+	291004337	Player Attack Hit 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\FC\{FCE460FD-5466-0660-3CA1-958C392B384C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_Hit\Player Attack Hit 1		72096
+	307950144	Chomper Footsteps 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6D\{6D79B798-ADF8-3281-E036-8BA1B14A6DC1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Footsteps\Chomper Footsteps 1		31596
+	310388965	Grenadier_Range_1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\96\{9631F314-142C-74F2-43E8-10A533F64629}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Range_1		502446
+	332632446	Chomper Attack 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\4D\{4D0706ED-0CB7-BACF-3491-926B5C6D40A8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Attack\Chomper Attack 2		53176
+	340489665	Player Attack Hit 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\88\{88E0689A-223E-855A-A1D4-804202522776}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_Hit\Player Attack Hit 4		75096
+	349833729	Atk whoosh 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\7D\{7DEF613D-E560-3C68-9F72-FEA5E0FFF054}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 2		51096
+	362534486	Player Death VO 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\32\{32001A04-0A67-4AC7-75EA-B3A8CBCF27D4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Death_VO\Player Death VO 3		93096
 	367911780	Environment_Floor Plate	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BE\{BEC485EE-0497-15DF-A4AB-C4A861AFF85D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Floor Plate		241012
+	372534494	Grenadier Melee 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B2\{B249B0C6-3E57-C515-6FFC-EC896D8CD9DF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 7		96096
+	373168581	Atk whoosh 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A9\{A998CA9D-D4DA-9C00-FFCE-ABBABC3955DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 3		51096
+	382990415	Chomper Hurt 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\23\{2340F8DF-CBBB-F2CC-D216-90C394806211}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Hurt\Chomper Hurt 3		87096
+	397900314	Grass Footsteps 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\73\{7386A35B-1DD2-F4DB-AA78-5306321E601D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 8		36096
 	402853597	Forest BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\57\{57FB0CB9-2B8A-37DA-D37F-DE209BBC50F3}.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience_Playlist\Ambience_Segment\Forest BGM		9990240
 	407247424	UI_On Click	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DD\{DDDF9DF5-23A7-2E25-1D06-069AE8E84653}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_On Click		594096
-	444590937	Ellen_Jump	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\83\{838B20F7-38B1-7A49-7D09-DB3F9AB69933}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Jump		100716
-	451513684	Ellen_Spawn	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\3D\{3D9D7BBE-9752-87D8-8074-A0B3374BB154}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Spawn		384096
-	474225728	Pink_Melee Footsteps 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\63\{63F2E06D-0B0D-4278-E69B-9B9BE0682A1D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Pink\Random_Pink_Footsteps\Pink_Melee Footsteps 4		1536096
-	485018638	Grass Footstep 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\CA\{CAA35FE7-F0F9-6276-FAAC-F3ECC7310555}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 8		594096
-	486235602	Wet Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C8\{C8FE8A31-F3C0-5DD1-55D1-025AF065826F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 6		594096
+	419368078	Player Atk VO 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\61\{61CF13D7-1FAA-A950-9D25-EB7E00419F92}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 2		48096
+	421207500	Atk whoosh 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\45\{455A2D74-2D22-FB5D-83B7-27FC5BD8AE52}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 1		51096
+	430098898	Grenadier Footsteps 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F2\{F2259E24-14AB-D693-382D-ECD1C84E9A71}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Footsteps\Grenadier Footsteps 4		79596
+	434472521	Atk whoosh 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\11\{11254E22-86DD-20C1-2C8A-A71069483B2C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 8		72096
+	434893254	Player Attack Hit 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\3E\{3EFE6E64-C430-CF5B-54F9-D049DEFB2D61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_Hit\Player Attack Hit 2		63096
+	441470848	Atk whoosh 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\05\{05E06A61-C02A-F743-0B67-A2FBBB91529A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 6		64304
+	444590937	Ellen_Jump	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\FD\{FD15DF06-C5D9-B326-F89C-36353BAA83D1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Jump		100716
+	448723925	Player Atk VO 12	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C3\{C31782FB-E9BF-A857-84E4-745BE6D2BF61}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 12		48096
+	451513684	Ellen_Spawn	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A8\{A8C1AD26-B1B7-94ED-B5B7-DBF64B7F6CE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Spawn		222096
+	457380983	Player Atk VO 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\84\{849CE1FD-17FE-60C7-58BA-1A369831C42B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 6		144096
+	473789794	Player Atk VO 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\7E\{7E6B6427-16B0-1182-F7C3-8984430F8445}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 5		48096
+	484984276	Grenadier Footsteps 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D5\{D591B59E-17A2-80FE-C089-7C99C920D367}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Footsteps\Grenadier Footsteps 3		79596
 	488128510	Environment_Collected Key	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D0\{D00C7EA9-999D-47B1-ECA0-C793866AC36D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Collected Key		878512
-	508198366	Ellen_Atk 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\9F\{9F15D6E6-B970-82D3-40F6-91A964AB2837}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Atk\Ellen_Atk 4		384096
+	493340634	Spitter Attack 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\9F\{9FAF9EC1-1C30-B559-CE59-0F99F269428A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Spitter\Spitter_Attack\Spitter Attack 2		96096
 	508803332	UI_Exit	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\D8\{D824FDBE-9EF9-5F0D-968B-E1CBC564A838}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Exit		594096
-	563104404	Wet Footstep 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F3\{F3210B28-2522-2F91-142B-9B5F8AA877DC}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 8		594096
-	631564806	Grass Footstep 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\67\{674222F7-76C3-D1DE-394A-B50783BF7DCF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 4		594096
-	670777352	Wet Footstep 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\CB\{CB031B61-57D6-ACD8-575C-ADF9722D1B31}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 3		594096
+	512803514	Grenadier Melee 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\74\{74E8DACD-2D62-0986-B903-AD5AE999441B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 6		96096
+	524834539	Chomper Footsteps 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\4C\{4CF36EF7-D860-5789-F15F-ACB5138EFD11}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Footsteps\Chomper Footsteps 3		31596
+	529980481	Player Hurt VO 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B3\{B3E0FE18-892E-A7F4-E93B-696D11F031C4}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 2		120096
+	534282987	Chomper Hurt 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F6\{F61EA287-F5BD-DC15-E993-23074E8C3072}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Hurt\Chomper Hurt 4		96096
+	559402150	Player Atk VO 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A3\{A3828CB4-752D-30D0-07C2-1632301E7773}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 8		144096
+	582235645	Atk whoosh 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\57\{57620654-985D-48C3-95C2-740AAE822162}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 4		147096
+	594549966	Grass Footsteps 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E0\{E000C5D8-2CE5-467A-F740-69139EF2A68B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 5		36096
+	603771805	Land (Roll) 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E7\{E7BC0E26-FF88-EB8D-1127-104F903E101F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Land_Roll\Land (Roll) 2		84096
+	612278653	Chomper Footsteps 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\96\{9675FC88-40B2-9E4A-C917-0FDB91B9C66B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Footsteps\Chomper Footsteps 5		31596
+	615341659	Grenadier Melee 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\87\{87929F63-4D7C-58C4-720F-3B64F2C7A093}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 2		96096
+	640909322	Grass Footsteps 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B4\{B4F9158F-E1BA-887B-C19F-3A4F8F5DE9A6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 4		36096
+	641594384	Grass Footsteps 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A2\{A24064D3-EDF1-A9A8-55DA-EB66F3901501}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 3		36096
+	669283822	Chomper Growl 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\01\{011A68A1-14FD-0D96-9DD4-05623F6FBB14}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Growl\Chomper Growl 5		102096
+	675354779	Player Hurt VO 10	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\3E\{3E0D456A-1D7D-8417-C3AF-730B737355B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 10		132096
 	678185154	Main Menu BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\06\{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenuBGM_Playlist\MainMenuBGM_Segment\Main Menu BGM		32887392
-	693894459	Wet Footstep 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AC\{AC884272-BFDF-DA73-8A0B-D00DBD898587}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 2		594096
-	760382886	Grass Footstep 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\21\{219E1801-4199-E489-B230-E1AB2129F995}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 2		594096
-	762819288	Stone Footstep 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\78\{7864748B-4E4D-7273-7E9A-082E90FFEDB1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 2		594096
-	764371594	Stone Footstep 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AA\{AA43285F-B2C3-D123-542C-4AEEE76D8350}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 7		594096
-	765398438	Wet Footstep 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F1\{F1C048CA-40AC-CAB2-BD21-76E3D2A90DB8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 1		594096
-	771442373	Ellen_Atk 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\89\{89B1DFAE-1CB9-D07C-9BC4-C742CC281F2A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Atk\Ellen_Atk 2		384096
-	782236190	Ellen_Atk 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\1C\{1C5E8582-F7E3-AAF5-F4A7-7203E297B047}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Atk\Ellen_Atk 1		362928
-	785042745	Stone Footstep 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\EC\{EC2BE552-60EA-56D2-59E2-5BA28949ED02}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 4		594096
+	687415433	Player Atk VO 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BD\{BD99DFAA-78E1-B9B7-D6A3-E614D316F502}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 7		144096
+	704325677	Grenadier Melee 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\18\{18B067CE-525E-E88C-3C0E-D0CE0389A777}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 8		96096
+	706901007	Grenadier_Range_2_Ammo	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\FD\{FDD68B6C-5E18-2A8B-9D05-E92BC2AD5175}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Range_2_Ammo		455874
+	742048092	Grenadier Footsteps 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\61\{61D91DB5-D809-E3DE-9975-1B65024518B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Footsteps\Grenadier Footsteps 1		79596
+	747924824	Grenadier Melee 9	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F5\{F5D2A72F-13E3-ECCC-2CFE-86E69068859E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 9		96096
+	751394080	Player Hurt VO 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E6\{E60BA1FE-AC9D-1E03-0B3B-C473B2A09018}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 6		120096
+	766544081	Grenadier Melee 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\27\{27C5A9AE-DA94-ECAD-5D9B-BB1BA397FACF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 1		96096
+	771101109	Atk whoosh 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\46\{46E4902F-FB29-BD7A-6C17-8C52F744394D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 7		72096
+	775865603	Chomper Hurt 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B0\{B000576F-EED2-8F31-87B9-3606077CEFF5}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Hurt\Chomper Hurt 2		87096
+	777075956	Spitter Attack 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DF\{DFE02B28-A6AD-185E-3529-710998448FD7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Spitter\Spitter_Attack\Spitter Attack 1		96096
+	781007388	Player Hurt VO 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\0B\{0B66776C-75D4-8D73-CC69-0A6FEA97CBBD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 4		120096
+	782223716	Player Hurt VO 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\83\{8338D118-9ECC-2AAB-8B65-F4B8C123750C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 7		120096
 	788642920	Environment_Chest Open	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\85\{853869F8-7038-2DDC-B631-1130E971E8AE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Chest Open		236240
-	806057922	Grass Footstep 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\56\{56F875FE-46CB-5E58-A6A3-DCC150CE15D7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 3		594096
+	790326140	Grenadier Hurt 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\40\{40A48295-9E4D-551E-8255-6E316338B60A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Hurt\Grenadier Hurt 1		192096
+	800434201	Grass Footsteps 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\29\{29BEFE6D-E630-6104-769B-A35013C35B3A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 1		36096
+	802673161	Ellen_Shield Crack	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C5\{C517BA38-BD57-23F2-B390-FC478A0A1188}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Shield Crack		111756
+	822660692	Chomper Attack 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6D\{6D87EAF9-04D8-C654-996E-F4CCF7DEFED1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Attack\Chomper Attack 1		56670
 	822765433	UI_On Hover	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E8\{E87FD7AD-0858-5C03-27F1-58E5551B14D9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_On Hover		594096
-	847188992	Stone Footstep 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\5C\{5CA1B8AC-3AC5-69BB-42CF-C3B742F47C81}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 3		594096
-	852370679	Stone Footstep 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\AC\{AC58CA05-7FA2-AD25-DEEB-44BDDC690896}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 1		594096
-	863312578	Pink_Melee Bite	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\7E\{7E0B128F-7FCB-A0B2-ED1F-0D728B26AA62}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Pink\Pink_Melee Bite		200852
-	886788897	Wet Footstep 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DC\{DC4481BA-05AB-B3EC-7E79-9D395E4C3F91}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Wet\Wet Footstep 7		594096
-	927327608	Stone Footstep 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\33\{3362754B-1FCE-6BC4-7F62-701BFC6590F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Stone\Stone Footstep 8		594096
+	832352896	Chomper Footsteps 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\89\{89185A7D-12E9-24EA-1D08-533D501FC028}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Footsteps\Chomper Footsteps 2		31596
+	832446364	Spitter_Attack_Splat	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6D\{6DA64066-2DB5-F853-EC66-1B5A6305E2BF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Spitter\Spitter_Attack_Splat		66852
+	833920481	Land (Roll) 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BD\{BD732043-0B18-D8F2-1D76-158911AAC390}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Land_Roll\Land (Roll) 3		84096
+	837390059	Player Hurt VO 9	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\32\{32189325-F280-FF8F-20A8-B535795F7593}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 9		120096
+	854909347	Grenadier Footsteps 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\75\{757F9D62-A6D7-B94D-CDB0-B6FF3C7889BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Footsteps\Grenadier Footsteps 2		79596
+	876037683	Grenadier Hurt 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\9A\{9ABA97B4-8952-4AFE-803B-6D2FF313BF14}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Hurt\Grenadier Hurt 2		192096
+	876441882	Grenadier Melee 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\64\{64EA2368-285F-7221-A4BB-D4DF45229522}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 3		96096
+	878578430	Grenadier Melee 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\24\{2487F763-8989-5E95-69CE-07EE14EB7977}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 5		96096
+	884299520	Ellen_Heal	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\2E\{2EB48FE8-217F-0F7E-B3F1-F9EB6196F69E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Heal		240096
+	894235806	Grenadier_Death	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\B7\{B7EF7E4E-E550-65EE-D9BC-584E460708AE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Death		430454
+	896869809	Player Hurt VO 12	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\60\{60A783F2-D850-3663-1353-B55B1C611273}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 12		96096
+	898454381	Chomper Growl 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A7\{A7DD5040-3815-1C4E-13E0-D73C6E2D0B4C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Growl\Chomper Growl 3		106596
+	917765407	Player Atk VO 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\05\{05FE3662-34B0-FD63-5910-6029EECA8F3E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 4		48096
+	942425098	Grass Footsteps 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\91\{91ACB120-AA99-E8EA-F0A2-041B8CB4B180}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 2		36096
 	944740841	Environment_Box Break	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DD\{DDF72310-FB59-1D52-AE25-BFB7729E2231}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Box Break		3504096
 	946211358	Environment_Stone Key_Directional	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\78\{78DE475E-8DD9-8B88-7DDE-7DDAA6A2FAAB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Stone Key_Directional		3072096
-	951446669	Pink_Melee Footsteps 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A0\{A064EDBB-601F-ED28-A6C5-7F2510048D7A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Pink\Random_Pink_Footsteps\Pink_Melee Footsteps 3		1536096
+	960021163	Chomper Hurt 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\66\{668FCB83-90D9-CA06-C2CC-922F099C25C9}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Hurt\Chomper Hurt 5		81096
+	975136945	Player Attack Hit 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\E4\{E49A7572-E39B-CE0F-B684-015E5C756F0D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_Hit\Player Attack Hit 3		84096
+	975499680	Chomper Attack 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6A\{6AD35BB7-A6F5-3710-8533-DD39480CF6BA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Attack\Chomper Attack 3		56384
+	977261499	Player Atk VO 10	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\11\{113EB310-E140-B0CE-1814-A92D1B63A85C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 10		48096
 	978485341	UI_Open_PauseMenu	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\1F\{1FBFD280-8892-4D9F-6EA6-8F376CF4F398}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_Open_PauseMenu		594096
+	991584780	Player Hurt VO 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F2\{F23000EC-B201-8BF9-8EA3-282A916BF05C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 1		120096
+	1008212862	Chomper Footsteps 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\10\{10AB5C6E-5E82-3BF9-F45B-F24DC5C903D6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Footsteps\Chomper Footsteps 6		31596
+	1009357613	Chomper Footsteps 4	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A5\{A5561675-0CD2-175B-6A74-C5D9C24AF67B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Footsteps\Chomper Footsteps 4		31596
+	1017570172	Player Hurt VO 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C0\{C0AF6D58-4FB5-8E2C-894E-C902C87D4FAB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 8		120096
 	1020663270	Cutscene_Door Open	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C4\{C427173D-777E-4134-2905-6CE808BCFA25}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cutscene_Door Open		265568
-	1023886576	Grass Footstep 6	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\F2\{F28F60DB-CAC6-E08D-5D5E-940E583BA1B6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 6		594096
-	1033025266	Grass Footstep 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\24\{2477A1D5-59A6-379E-D5C8-71E37A5D0739}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footstep 5		594096
+	1046546895	Grenadier Hurt 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\41\{4168A5ED-C4A6-D8BB-B87F-F18E8F35C763}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Hurt\Grenadier Hurt 3		192096
 	1047727185	Environment_Portal Enter	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\6C\{6C77FF97-05C8-0F65-5D87-FC2E4BDD2305}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Portal Enter		887428
+	1056541410	Player Hurt VO 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\0F\{0F26B021-4881-6863-0495-1ADF9633FE44}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 5		120096
 

@@ -76128,7 +76128,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.3
-    functionName: PlayRunFootsteps
+    functionName: PlayFootsteps
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 620ecfb3c7a12084c8d706fd0f3d70b7,
       type: 3}
@@ -76136,7 +76136,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.6666667
-    functionName: PlayRunFootsteps
+    functionName: PlayFootsteps
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 620ecfb3c7a12084c8d706fd0f3d70b7,
       type: 3}

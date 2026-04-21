@@ -4,56 +4,58 @@ using UnityEngine;
 
 public class Ellen_Animation_WwiseEvent : MonoBehaviour
 {
-    public AK.Wwise.Event Play_Footsteps;
-    public AK.Wwise.Event Play_Jump;
-    public AK.Wwise.Event Play_Land;
-    public AK.Wwise.Event Play_Death;
-    public AK.Wwise.Event Play_Spawn;
-    public AK.Wwise.Event Play_Atk_1;
-    public AK.Wwise.Event Play_Atk_2;
-    public AK.Wwise.Event Play_Atk_3;
-    public AK.Wwise.Event Play_Atk_4;
+    public AK.Wwise.Event Play_Ellen_Attack;
+    public AK.Wwise.Event Play_Ellen_Attack_VO;
+    public AK.Wwise.Event Play_Ellen_Death;
+    public AK.Wwise.Event Play_Ellen_Footsteps;
+    public AK.Wwise.Event Play_Ellen_Heal;
+    public AK.Wwise.Event Play_Ellen_Hurt;
+    public AK.Wwise.Event Play_Ellen_Jump;
+    public AK.Wwise.Event Play_Ellen_Land_Roll;
+    public AK.Wwise.Event Play_Ellen_ShieldCrack;
+    public AK.Wwise.Event Play_Ellen_Spawn;
 
-    public void PlayRunFootsteps()
+
+    public void PlayAttack()
     {
-        Debug.Log ("Footsteps Played");
-        Play_Footsteps.Post(gameObject);
+        Play_Ellen_Attack.Post(gameObject);
     }
-
-    public void PlayJump()
+    public void PlayAttackVO()
     {
-        Debug.Log("Jump Played");
-        Play_Jump.Post(gameObject);
+        Play_Ellen_Attack_VO.Post(gameObject);
     }
-
-    public void PlayLand()
-    {
-        Play_Land.Post(gameObject);
-    }
-
     public void PlayDeath()
     {
-        Play_Death.Post(gameObject);
+        Play_Ellen_Death.Post(gameObject);
     }
-
+    public void PlayFootsteps()
+    {
+        Play_Ellen_Footsteps.Post(gameObject);
+    }
+    public void PlayHeal()
+    {
+        Play_Ellen_Heal.Post(gameObject);
+    }
+    public void PlayHurt()
+    {
+        Play_Ellen_Hurt.Post(gameObject);
+    }
+    public void PlayJump()
+    {
+        Play_Ellen_Jump.Post(gameObject);
+    }
+    public void PlayLandRoll()
+    {
+        Play_Ellen_Land_Roll.Post(gameObject);
+    }
+    public void PlayShieldCrack()
+    {
+        Play_Ellen_ShieldCrack.Post(gameObject);
+    }
     public void PlaySpawn()
     {
-        Play_Spawn.Post(gameObject);
+        Play_Ellen_Spawn.Post(gameObject);
     }
-    public void PlayAtk1()
-    {
-        Play_Atk_1.Post(gameObject);
-    }
-    public void PlayAtk2()
-    {
-        Play_Atk_2.Post(gameObject);
-    }
-    public void PlayAtk3()
-    {
-        Play_Atk_3.Post(gameObject);
-    }
-    public void PlayAtk4()
-    {
-        Play_Atk_4.Post(gameObject);
-    }
+
+
 }

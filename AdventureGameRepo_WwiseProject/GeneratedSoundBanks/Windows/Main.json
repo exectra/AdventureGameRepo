@@ -10,18 +10,34 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{D9385735-44D0-4C99-50B3-6768219E3E67}",
+    "Hash": "{B060296E-91EA-AFD1-F292-838F3671A8C4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
      {
-      "Id": "21697968",
+      "Id": "7938178",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Death.wav",
-      "CachePath": "A3/{A35C99AF-EE26-E611-311D-AFCCA2E3D97D}.wem"
+      "ShortName": "Player Hurt VO 3.wav",
+      "CachePath": "C8/{C8F0361A-F03B-F80F-0D63-BD4537524E8C}.wem"
+     },
+     {
+      "Id": "11553382",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hurt 1.wav",
+      "CachePath": "07/{07A9A696-CC36-6EF2-A004-496478AAF471}.wem"
+     },
+     {
+      "Id": "19750761",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Land (Roll) 4.wav",
+      "CachePath": "3B/{3B42CCE0-484F-F4A8-3E05-7B1E6361F72A}.wem"
      },
      {
       "Id": "24935733",
@@ -32,20 +48,92 @@
       "CachePath": "B8/{B8D76CFB-02C1-7E49-44C1-ED51245FD711}.wem"
      },
      {
-      "Id": "37449250",
+      "Id": "46837944",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grass Footstep 1.wav",
-      "CachePath": "96/{9632FB17-5DEF-D5A3-42FA-BD15E7BF452E}.wem"
+      "ShortName": "Chomper Attack 5.wav",
+      "CachePath": "B6/{B66AA09D-63CB-17BA-1C77-9B9BF12E5187}.wem"
      },
      {
-      "Id": "88054370",
+      "Id": "46870457",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 6.wav",
-      "CachePath": "D8/{D87226F8-5B03-906C-ED3E-4850B0CAF445}.wem"
+      "ShortName": "Chomper Attack 4.wav",
+      "CachePath": "BE/{BE690210-8BB6-5CA4-EA91-F08545FB2968}.wem"
+     },
+     {
+      "Id": "95723225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death.wav",
+      "CachePath": "67/{67E0B8A4-51F7-66C3-35D1-8BD0ED5A462D}.wem"
+     },
+     {
+      "Id": "102714005",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Growl 2.wav",
+      "CachePath": "6B/{6B9A4916-5061-F5A2-055C-6815502008B5}.wem"
+     },
+     {
+      "Id": "117500850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Death VO 1.wav",
+      "CachePath": "4F/{4F153A1A-2395-4548-36D4-AE57C61E8AC2}.wem"
+     },
+     {
+      "Id": "117562557",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 7.wav",
+      "CachePath": "F8/{F8D33F52-F183-9987-476D-32BD4DFF62D9}.wem"
+     },
+     {
+      "Id": "121873902",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk VO 1.wav",
+      "CachePath": "70/{70535CAC-915E-5E8B-4ECE-72A8C4F54EAC}.wem"
+     },
+     {
+      "Id": "123965811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Atk whoosh 5.wav",
+      "CachePath": "7D/{7D334896-647D-9F07-8DFE-65C7C24452EB}.wem"
+     },
+     {
+      "Id": "147998254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Melee 4.wav",
+      "CachePath": "AB/{ABCF126F-7DE9-6FFE-9C02-D07BFC068C62}.wem"
+     },
+     {
+      "Id": "166058615",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Range Attack 2 (Throw).wav",
+      "CachePath": "F4/{F40F52EF-F3A3-69D3-23A8-974AB850FDDC}.wem"
+     },
+     {
+      "Id": "175052703",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 6.wav",
+      "CachePath": "08/{08F52440-FE9A-7FC9-45FF-E8BF457D8D8D}.wem"
      },
      {
       "Id": "180245698",
@@ -56,12 +144,28 @@
       "CachePath": "2F/{2F9213A7-9AC6-1FFD-31A6-3C158D78689C}.wem"
      },
      {
-      "Id": "180435172",
+      "Id": "195935305",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pink Melee Footsteps 1.wav",
-      "CachePath": "D3/{D3312923-48FD-7BF7-9ED8-91E28D51EF8F}.wem"
+      "ShortName": "Chomper Growl 4.wav",
+      "CachePath": "95/{9535266E-C990-EBC9-E866-CA87EB7316AF}.wem"
+     },
+     {
+      "Id": "220070146",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Death VO 2.wav",
+      "CachePath": "E9/{E980763C-9577-AA88-49FE-31614680ECF5}.wem"
+     },
+     {
+      "Id": "229042767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Land (Roll) 1.wav",
+      "CachePath": "6B/{6BA472EF-1943-BC96-59DD-68859B0F52FB}.wem"
      },
      {
       "Id": "233327949",
@@ -72,68 +176,84 @@
       "CachePath": "B9/{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem"
      },
      {
-      "Id": "236120033",
+      "Id": "245141749",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pink Melee Footsteps 2.wav",
-      "CachePath": "38/{38E57CD8-763A-A659-E4D0-60728934486D}.wem"
+      "ShortName": "Player Death VO 4.wav",
+      "CachePath": "A5/{A5CE6F78-8AE2-EC46-257F-542356511AB8}.wem"
      },
      {
-      "Id": "236604024",
+      "Id": "245858301",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Light Atk 2.wav",
-      "CachePath": "24/{2458FAC9-F466-E34F-2E88-BC2B58C84E0C}.wem"
+      "ShortName": "Player Hurt VO 11.wav",
+      "CachePath": "02/{02240E4A-209F-CC6F-126A-96ACF8B3C0B8}.wem"
      },
      {
-      "Id": "245820045",
+      "Id": "274113596",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 5.wav",
-      "CachePath": "AE/{AE1E4347-EB0D-B68A-2458-8B6B576F9C18}.wem"
+      "ShortName": "Chomper Growl 1.wav",
+      "CachePath": "EE/{EE15986D-30D3-8F94-6459-0A2222C5101D}.wem"
      },
      {
-      "Id": "302611747",
+      "Id": "291004337",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 4.wav",
-      "CachePath": "46/{46DC380B-FAA4-A86E-E07E-AA482B559374}.wem"
+      "ShortName": "Player Attack Hit 1.wav",
+      "CachePath": "FC/{FCE460FD-5466-0660-3CA1-958C392B384C}.wem"
      },
      {
-      "Id": "313665108",
+      "Id": "307950144",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 5.wav",
-      "CachePath": "BA/{BA5F7844-C1E2-7050-EBA2-F8094975F796}.wem"
+      "ShortName": "Chomper Footsteps 1.wav",
+      "CachePath": "6D/{6D79B798-ADF8-3281-E036-8BA1B14A6DC1}.wem"
      },
      {
-      "Id": "313903301",
+      "Id": "310388965",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pink Melee Growl.wav",
-      "CachePath": "9E/{9E53AA98-D181-0B3B-F675-3A64F766FCC9}.wem"
+      "ShortName": "Grenadier Range Attack 1.wav",
+      "CachePath": "96/{9631F314-142C-74F2-43E8-10A533F64629}.wem"
      },
      {
-      "Id": "320826241",
+      "Id": "332632446",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pink Melee Death.wav",
-      "CachePath": "03/{030475CC-5EC0-AF58-ECF8-22678D0C17BF}.wem"
+      "ShortName": "Chomper Attack 2.wav",
+      "CachePath": "4D/{4D0706ED-0CB7-BACF-3491-926B5C6D40A8}.wem"
      },
      {
-      "Id": "332449225",
+      "Id": "340489665",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grass Footstep 7.wav",
-      "CachePath": "33/{33BB98BE-CB28-49F8-D064-F6B565F1B1A1}.wem"
+      "ShortName": "Player Attack Hit 4.wav",
+      "CachePath": "88/{88E0689A-223E-855A-A1D4-804202522776}.wem"
+     },
+     {
+      "Id": "349833729",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Atk whoosh 2.wav",
+      "CachePath": "7D/{7DEF613D-E560-3C68-9F72-FEA5E0FFF054}.wem"
+     },
+     {
+      "Id": "362534486",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Death VO 3.wav",
+      "CachePath": "32/{32001A04-0A67-4AC7-75EA-B3A8CBCF27D4}.wem"
      },
      {
       "Id": "367911780",
@@ -142,6 +262,38 @@
       "Location": "Memory",
       "ShortName": "Floor Plate.wav",
       "CachePath": "BE/{BEC485EE-0497-15DF-A4AB-C4A861AFF85D}.wem"
+     },
+     {
+      "Id": "372534494",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Melee 7.wav",
+      "CachePath": "B2/{B249B0C6-3E57-C515-6FFC-EC896D8CD9DF}.wem"
+     },
+     {
+      "Id": "373168581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Atk whoosh 3.wav",
+      "CachePath": "A9/{A998CA9D-D4DA-9C00-FFCE-ABBABC3955DE}.wem"
+     },
+     {
+      "Id": "382990415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hurt 3.wav",
+      "CachePath": "23/{2340F8DF-CBBB-F2CC-D216-90C394806211}.wem"
+     },
+     {
+      "Id": "397900314",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 8.wav",
+      "CachePath": "73/{7386A35B-1DD2-F4DB-AA78-5306321E601D}.wem"
      },
      {
       "Id": "402853597",
@@ -160,12 +312,68 @@
       "CachePath": "DD/{DDDF9DF5-23A7-2E25-1D06-069AE8E84653}.wem"
      },
      {
+      "Id": "419368078",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk VO 2.wav",
+      "CachePath": "61/{61CF13D7-1FAA-A950-9D25-EB7E00419F92}.wem"
+     },
+     {
+      "Id": "421207500",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Atk whoosh 1.wav",
+      "CachePath": "45/{455A2D74-2D22-FB5D-83B7-27FC5BD8AE52}.wem"
+     },
+     {
+      "Id": "430098898",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footsteps 4.wav",
+      "CachePath": "F2/{F2259E24-14AB-D693-382D-ECD1C84E9A71}.wem"
+     },
+     {
+      "Id": "434472521",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Atk whoosh 8.wav",
+      "CachePath": "11/{11254E22-86DD-20C1-2C8A-A71069483B2C}.wem"
+     },
+     {
+      "Id": "434893254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Attack Hit 2.wav",
+      "CachePath": "3E/{3EFE6E64-C430-CF5B-54F9-D049DEFB2D61}.wem"
+     },
+     {
+      "Id": "441470848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Atk whoosh 6.wav",
+      "CachePath": "05/{05E06A61-C02A-F743-0B67-A2FBBB91529A}.wem"
+     },
+     {
       "Id": "444590937",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Jump.wav",
-      "CachePath": "83/{838B20F7-38B1-7A49-7D09-DB3F9AB69933}.wem"
+      "CachePath": "FD/{FD15DF06-C5D9-B326-F89C-36353BAA83D1}.wem"
+     },
+     {
+      "Id": "448723925",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk VO 12.wav",
+      "CachePath": "C3/{C31782FB-E9BF-A857-84E4-745BE6D2BF61}.wem"
      },
      {
       "Id": "451513684",
@@ -173,31 +381,31 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Spawn.wav",
-      "CachePath": "3D/{3D9D7BBE-9752-87D8-8074-A0B3374BB154}.wem"
+      "CachePath": "A8/{A8C1AD26-B1B7-94ED-B5B7-DBF64B7F6CE1}.wem"
      },
      {
-      "Id": "474225728",
+      "Id": "457380983",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pink Melee Footsteps 4.wav",
-      "CachePath": "63/{63F2E06D-0B0D-4278-E69B-9B9BE0682A1D}.wem"
+      "ShortName": "Player Atk VO 6.wav",
+      "CachePath": "84/{849CE1FD-17FE-60C7-58BA-1A369831C42B}.wem"
      },
      {
-      "Id": "485018638",
+      "Id": "473789794",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grass Footstep 8.wav",
-      "CachePath": "CA/{CAA35FE7-F0F9-6276-FAAC-F3ECC7310555}.wem"
+      "ShortName": "Player Atk VO 5.wav",
+      "CachePath": "7E/{7E6B6427-16B0-1182-F7C3-8984430F8445}.wem"
      },
      {
-      "Id": "486235602",
+      "Id": "484984276",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 6.wav",
-      "CachePath": "C8/{C8FE8A31-F3C0-5DD1-55D1-025AF065826F}.wem"
+      "ShortName": "Grenadier Footsteps 3.wav",
+      "CachePath": "D5/{D591B59E-17A2-80FE-C089-7C99C920D367}.wem"
      },
      {
       "Id": "488128510",
@@ -208,12 +416,12 @@
       "CachePath": "D0/{D00C7EA9-999D-47B1-ECA0-C793866AC36D}.wem"
      },
      {
-      "Id": "508198366",
+      "Id": "493340634",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Heavy Atk 2.wav",
-      "CachePath": "9F/{9F15D6E6-B970-82D3-40F6-91A964AB2837}.wem"
+      "ShortName": "Spitter Attack 2.wav",
+      "CachePath": "9F/{9FAF9EC1-1C30-B559-CE59-0F99F269428A}.wem"
      },
      {
       "Id": "508803332",
@@ -224,28 +432,116 @@
       "CachePath": "D8/{D824FDBE-9EF9-5F0D-968B-E1CBC564A838}.wem"
      },
      {
-      "Id": "563104404",
+      "Id": "512803514",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 8.wav",
-      "CachePath": "F3/{F3210B28-2522-2F91-142B-9B5F8AA877DC}.wem"
+      "ShortName": "Grenadier Melee 6.wav",
+      "CachePath": "74/{74E8DACD-2D62-0986-B903-AD5AE999441B}.wem"
      },
      {
-      "Id": "631564806",
+      "Id": "524834539",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grass Footstep 4.wav",
-      "CachePath": "67/{674222F7-76C3-D1DE-394A-B50783BF7DCF}.wem"
+      "ShortName": "Chomper Footsteps 3.wav",
+      "CachePath": "4C/{4CF36EF7-D860-5789-F15F-ACB5138EFD11}.wem"
      },
      {
-      "Id": "670777352",
+      "Id": "529980481",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 3.wav",
-      "CachePath": "CB/{CB031B61-57D6-ACD8-575C-ADF9722D1B31}.wem"
+      "ShortName": "Player Hurt VO 2.wav",
+      "CachePath": "B3/{B3E0FE18-892E-A7F4-E93B-696D11F031C4}.wem"
+     },
+     {
+      "Id": "534282987",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hurt 4.wav",
+      "CachePath": "F6/{F61EA287-F5BD-DC15-E993-23074E8C3072}.wem"
+     },
+     {
+      "Id": "559402150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk VO 8.wav",
+      "CachePath": "A3/{A3828CB4-752D-30D0-07C2-1632301E7773}.wem"
+     },
+     {
+      "Id": "582235645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Atk whoosh 4.wav",
+      "CachePath": "57/{57620654-985D-48C3-95C2-740AAE822162}.wem"
+     },
+     {
+      "Id": "594549966",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 5.wav",
+      "CachePath": "E0/{E000C5D8-2CE5-467A-F740-69139EF2A68B}.wem"
+     },
+     {
+      "Id": "603771805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Land (Roll) 2.wav",
+      "CachePath": "E7/{E7BC0E26-FF88-EB8D-1127-104F903E101F}.wem"
+     },
+     {
+      "Id": "612278653",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps 5.wav",
+      "CachePath": "96/{9675FC88-40B2-9E4A-C917-0FDB91B9C66B}.wem"
+     },
+     {
+      "Id": "615341659",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Melee 2.wav",
+      "CachePath": "87/{87929F63-4D7C-58C4-720F-3B64F2C7A093}.wem"
+     },
+     {
+      "Id": "640909322",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 4.wav",
+      "CachePath": "B4/{B4F9158F-E1BA-887B-C19F-3A4F8F5DE9A6}.wem"
+     },
+     {
+      "Id": "641594384",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 3.wav",
+      "CachePath": "A2/{A24064D3-EDF1-A9A8-55DA-EB66F3901501}.wem"
+     },
+     {
+      "Id": "669283822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Growl 5.wav",
+      "CachePath": "01/{011A68A1-14FD-0D96-9DD4-05623F6FBB14}.wem"
+     },
+     {
+      "Id": "675354779",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Hurt VO 10.wav",
+      "CachePath": "3E/{3E0D456A-1D7D-8417-C3AF-730B737355B8}.wem"
      },
      {
       "Id": "678185154",
@@ -256,68 +552,100 @@
       "CachePath": "06/{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem"
      },
      {
-      "Id": "693894459",
+      "Id": "687415433",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 2.wav",
-      "CachePath": "AC/{AC884272-BFDF-DA73-8A0B-D00DBD898587}.wem"
+      "ShortName": "Player Atk VO 7.wav",
+      "CachePath": "BD/{BD99DFAA-78E1-B9B7-D6A3-E614D316F502}.wem"
      },
      {
-      "Id": "760382886",
+      "Id": "704325677",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grass Footstep 2.wav",
-      "CachePath": "21/{219E1801-4199-E489-B230-E1AB2129F995}.wem"
+      "ShortName": "Grenadier Melee 8.wav",
+      "CachePath": "18/{18B067CE-525E-E88C-3C0E-D0CE0389A777}.wem"
      },
      {
-      "Id": "762819288",
+      "Id": "706901007",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 2.wav",
-      "CachePath": "78/{7864748B-4E4D-7273-7E9A-082E90FFEDB1}.wem"
+      "ShortName": "Grenadier Range Attack 2 (Ammo).wav",
+      "CachePath": "FD/{FDD68B6C-5E18-2A8B-9D05-E92BC2AD5175}.wem"
      },
      {
-      "Id": "764371594",
+      "Id": "742048092",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 7.wav",
-      "CachePath": "AA/{AA43285F-B2C3-D123-542C-4AEEE76D8350}.wem"
+      "ShortName": "Grenadier Footsteps 1.wav",
+      "CachePath": "61/{61D91DB5-D809-E3DE-9975-1B65024518B8}.wem"
      },
      {
-      "Id": "765398438",
+      "Id": "747924824",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 1.wav",
-      "CachePath": "F1/{F1C048CA-40AC-CAB2-BD21-76E3D2A90DB8}.wem"
+      "ShortName": "Grenadier Melee 9.wav",
+      "CachePath": "F5/{F5D2A72F-13E3-ECCC-2CFE-86E69068859E}.wem"
      },
      {
-      "Id": "771442373",
+      "Id": "751394080",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Light Atk 1.wav",
-      "CachePath": "89/{89B1DFAE-1CB9-D07C-9BC4-C742CC281F2A}.wem"
+      "ShortName": "Player Hurt VO 6.wav",
+      "CachePath": "E6/{E60BA1FE-AC9D-1E03-0B3B-C473B2A09018}.wem"
      },
      {
-      "Id": "782236190",
+      "Id": "766544081",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Heavy Atk 1.wav",
-      "CachePath": "1C/{1C5E8582-F7E3-AAF5-F4A7-7203E297B047}.wem"
+      "ShortName": "Grenadier Melee 1.wav",
+      "CachePath": "27/{27C5A9AE-DA94-ECAD-5D9B-BB1BA397FACF}.wem"
      },
      {
-      "Id": "785042745",
+      "Id": "771101109",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 4.wav",
-      "CachePath": "EC/{EC2BE552-60EA-56D2-59E2-5BA28949ED02}.wem"
+      "ShortName": "Atk whoosh 7.wav",
+      "CachePath": "46/{46E4902F-FB29-BD7A-6C17-8C52F744394D}.wem"
+     },
+     {
+      "Id": "775865603",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hurt 2.wav",
+      "CachePath": "B0/{B000576F-EED2-8F31-87B9-3606077CEFF5}.wem"
+     },
+     {
+      "Id": "777075956",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Spitter Attack 1.wav",
+      "CachePath": "DF/{DFE02B28-A6AD-185E-3529-710998448FD7}.wem"
+     },
+     {
+      "Id": "781007388",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Hurt VO 4.wav",
+      "CachePath": "0B/{0B66776C-75D4-8D73-CC69-0A6FEA97CBBD}.wem"
+     },
+     {
+      "Id": "782223716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Hurt VO 7.wav",
+      "CachePath": "83/{8338D118-9ECC-2AAB-8B65-F4B8C123750C}.wem"
      },
      {
       "Id": "788642920",
@@ -328,12 +656,36 @@
       "CachePath": "85/{853869F8-7038-2DDC-B631-1130E971E8AE}.wem"
      },
      {
-      "Id": "806057922",
+      "Id": "790326140",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grass Footstep 3.wav",
-      "CachePath": "56/{56F875FE-46CB-5E58-A6A3-DCC150CE15D7}.wem"
+      "ShortName": "Grenadier Hurt 1.wav",
+      "CachePath": "40/{40A48295-9E4D-551E-8255-6E316338B60A}.wem"
+     },
+     {
+      "Id": "800434201",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 1.wav",
+      "CachePath": "29/{29BEFE6D-E630-6104-769B-A35013C35B3A}.wem"
+     },
+     {
+      "Id": "802673161",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Shield Crack.wav",
+      "CachePath": "C5/{C517BA38-BD57-23F2-B390-FC478A0A1188}.wem"
+     },
+     {
+      "Id": "822660692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack 1.wav",
+      "CachePath": "6D/{6D87EAF9-04D8-C654-996E-F4CCF7DEFED1}.wem"
      },
      {
       "Id": "822765433",
@@ -344,44 +696,116 @@
       "CachePath": "E8/{E87FD7AD-0858-5C03-27F1-58E5551B14D9}.wem"
      },
      {
-      "Id": "847188992",
+      "Id": "832352896",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 3.wav",
-      "CachePath": "5C/{5CA1B8AC-3AC5-69BB-42CF-C3B742F47C81}.wem"
+      "ShortName": "Chomper Footsteps 2.wav",
+      "CachePath": "89/{89185A7D-12E9-24EA-1D08-533D501FC028}.wem"
      },
      {
-      "Id": "852370679",
+      "Id": "832446364",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 1.wav",
-      "CachePath": "AC/{AC58CA05-7FA2-AD25-DEEB-44BDDC690896}.wem"
+      "ShortName": "Spitter Attack Splat.wav",
+      "CachePath": "6D/{6DA64066-2DB5-F853-EC66-1B5A6305E2BF}.wem"
      },
      {
-      "Id": "863312578",
+      "Id": "833920481",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pink Melee Bite.wav",
-      "CachePath": "7E/{7E0B128F-7FCB-A0B2-ED1F-0D728B26AA62}.wem"
+      "ShortName": "Land (Roll) 3.wav",
+      "CachePath": "BD/{BD732043-0B18-D8F2-1D76-158911AAC390}.wem"
      },
      {
-      "Id": "886788897",
+      "Id": "837390059",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wet Footstep 7.wav",
-      "CachePath": "DC/{DC4481BA-05AB-B3EC-7E79-9D395E4C3F91}.wem"
+      "ShortName": "Player Hurt VO 9.wav",
+      "CachePath": "32/{32189325-F280-FF8F-20A8-B535795F7593}.wem"
      },
      {
-      "Id": "927327608",
+      "Id": "854909347",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Stone Footstep 8.wav",
-      "CachePath": "33/{3362754B-1FCE-6BC4-7F62-701BFC6590F0}.wem"
+      "ShortName": "Grenadier Footsteps 2.wav",
+      "CachePath": "75/{757F9D62-A6D7-B94D-CDB0-B6FF3C7889BD}.wem"
+     },
+     {
+      "Id": "876037683",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Hurt 2.wav",
+      "CachePath": "9A/{9ABA97B4-8952-4AFE-803B-6D2FF313BF14}.wem"
+     },
+     {
+      "Id": "876441882",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Melee 3.wav",
+      "CachePath": "64/{64EA2368-285F-7221-A4BB-D4DF45229522}.wem"
+     },
+     {
+      "Id": "878578430",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Melee 5.wav",
+      "CachePath": "24/{2487F763-8989-5E95-69CE-07EE14EB7977}.wem"
+     },
+     {
+      "Id": "884299520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Heal.wav",
+      "CachePath": "2E/{2EB48FE8-217F-0F7E-B3F1-F9EB6196F69E}.wem"
+     },
+     {
+      "Id": "894235806",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Death.wav",
+      "CachePath": "B7/{B7EF7E4E-E550-65EE-D9BC-584E460708AE}.wem"
+     },
+     {
+      "Id": "896869809",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Hurt VO 12.wav",
+      "CachePath": "60/{60A783F2-D850-3663-1353-B55B1C611273}.wem"
+     },
+     {
+      "Id": "898454381",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Growl 3.wav",
+      "CachePath": "A7/{A7DD5040-3815-1C4E-13E0-D73C6E2D0B4C}.wem"
+     },
+     {
+      "Id": "917765407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk VO 4.wav",
+      "CachePath": "05/{05FE3662-34B0-FD63-5910-6029EECA8F3E}.wem"
+     },
+     {
+      "Id": "942425098",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grass Footsteps 2.wav",
+      "CachePath": "91/{91ACB120-AA99-E8EA-F0A2-041B8CB4B180}.wem"
      },
      {
       "Id": "944740841",
@@ -400,12 +824,36 @@
       "CachePath": "78/{78DE475E-8DD9-8B88-7DDE-7DDAA6A2FAAB}.wem"
      },
      {
-      "Id": "951446669",
+      "Id": "960021163",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Pink Melee Footsteps 3.wav",
-      "CachePath": "A0/{A064EDBB-601F-ED28-A6C5-7F2510048D7A}.wem"
+      "ShortName": "Chomper Hurt 5.wav",
+      "CachePath": "66/{668FCB83-90D9-CA06-C2CC-922F099C25C9}.wem"
+     },
+     {
+      "Id": "975136945",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Attack Hit 3.wav",
+      "CachePath": "E4/{E49A7572-E39B-CE0F-B684-015E5C756F0D}.wem"
+     },
+     {
+      "Id": "975499680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack 3.wav",
+      "CachePath": "6A/{6AD35BB7-A6F5-3710-8533-DD39480CF6BA}.wem"
+     },
+     {
+      "Id": "977261499",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk VO 10.wav",
+      "CachePath": "11/{113EB310-E140-B0CE-1814-A92D1B63A85C}.wem"
      },
      {
       "Id": "978485341",
@@ -416,6 +864,38 @@
       "CachePath": "1F/{1FBFD280-8892-4D9F-6EA6-8F376CF4F398}.wem"
      },
      {
+      "Id": "991584780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Hurt VO 1.wav",
+      "CachePath": "F2/{F23000EC-B201-8BF9-8EA3-282A916BF05C}.wem"
+     },
+     {
+      "Id": "1008212862",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps 6.wav",
+      "CachePath": "10/{10AB5C6E-5E82-3BF9-F45B-F24DC5C903D6}.wem"
+     },
+     {
+      "Id": "1009357613",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps 4.wav",
+      "CachePath": "A5/{A5561675-0CD2-175B-6A74-C5D9C24AF67B}.wem"
+     },
+     {
+      "Id": "1017570172",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Hurt VO 8.wav",
+      "CachePath": "C0/{C0AF6D58-4FB5-8E2C-894E-C902C87D4FAB}.wem"
+     },
+     {
       "Id": "1020663270",
       "Language": "SFX",
       "Streaming": "false",
@@ -424,20 +904,12 @@
       "CachePath": "C4/{C427173D-777E-4134-2905-6CE808BCFA25}.wem"
      },
      {
-      "Id": "1023886576",
+      "Id": "1046546895",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grass Footstep 6.wav",
-      "CachePath": "F2/{F28F60DB-CAC6-E08D-5D5E-940E583BA1B6}.wem"
-     },
-     {
-      "Id": "1033025266",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Grass Footstep 5.wav",
-      "CachePath": "24/{2477A1D5-59A6-379E-D5C8-71E37A5D0739}.wem"
+      "ShortName": "Grenadier Hurt 3.wav",
+      "CachePath": "41/{4168A5ED-C4A6-D8BB-B87F-F18E8F35C763}.wem"
      },
      {
       "Id": "1047727185",
@@ -446,6 +918,14 @@
       "Location": "Memory",
       "ShortName": "Portal Enter.wav",
       "CachePath": "6C/{6C77FF97-05C8-0F65-5D87-FC2E4BDD2305}.wem"
+     },
+     {
+      "Id": "1056541410",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Hurt VO 5.wav",
+      "CachePath": "0F/{0F26B021-4881-6863-0495-1ADF9633FE44}.wem"
      }
     ],
     "Events": [
@@ -458,62 +938,6 @@
       "MediaRefs": [
        {
         "Id": "402853597"
-       }
-      ]
-     },
-     {
-      "Id": "36701028",
-      "Name": "Play_Atk_1",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_1",
-      "GUID": "{34D1D20C-50CD-4F26-9189-A9B6C527133C}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.3556914",
-      "DurationMax": "2.9143932",
-      "MediaRefs": [
-       {
-        "Id": "782236190"
-       }
-      ]
-     },
-     {
-      "Id": "36701031",
-      "Name": "Play_Atk_2",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_2",
-      "GUID": "{9530D0CB-D2BF-4C82-A059-7C49BACA75EC}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.2240536",
-      "DurationMax": "3.220981",
-      "MediaRefs": [
-       {
-        "Id": "771442373"
-       }
-      ]
-     },
-     {
-      "Id": "36701030",
-      "Name": "Play_Atk_3",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_3",
-      "GUID": "{A5E0A8F4-0960-4F62-9DF1-BBBC0EA60969}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.4347837",
-      "DurationMax": "2.9536524",
-      "MediaRefs": [
-       {
-        "Id": "236604024"
-       }
-      ]
-     },
-     {
-      "Id": "36701025",
-      "Name": "Play_Atk_4",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Atk_4",
-      "GUID": "{1A76D9A9-AE48-4271-86A0-65910A18CB16}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.4556531",
-      "DurationMax": "2.7479072",
-      "MediaRefs": [
-       {
-        "Id": "508198366"
        }
       ]
      },
@@ -559,6 +983,132 @@
       ]
      },
      {
+      "Id": "931488463",
+      "Name": "Play_Chomper_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Attack",
+      "GUID": "{74E8346B-7837-48A8-AD55-7273F1318EE3}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5144053",
+      "DurationMax": "0.66021127",
+      "MediaRefs": [
+       {
+        "Id": "46837944"
+       },
+       {
+        "Id": "46870457"
+       },
+       {
+        "Id": "332632446"
+       },
+       {
+        "Id": "822660692"
+       },
+       {
+        "Id": "975499680"
+       }
+      ]
+     },
+     {
+      "Id": "2761388991",
+      "Name": "Play_Chomper_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Death",
+      "GUID": "{F829EE13-798A-4CD3-8381-7307E0C3096C}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.765625",
+      "DurationMax": "0.765625",
+      "MediaRefs": [
+       {
+        "Id": "95723225"
+       }
+      ]
+     },
+     {
+      "Id": "3742480528",
+      "Name": "Play_Chomper_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Footsteps",
+      "GUID": "{AF4B185B-F7A1-4E64-97CF-3E547A0BEF54}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27993247",
+      "DurationMax": "0.373665",
+      "MediaRefs": [
+       {
+        "Id": "307950144"
+       },
+       {
+        "Id": "524834539"
+       },
+       {
+        "Id": "612278653"
+       },
+       {
+        "Id": "832352896"
+       },
+       {
+        "Id": "1008212862"
+       },
+       {
+        "Id": "1009357613"
+       }
+      ]
+     },
+     {
+      "Id": "3523988694",
+      "Name": "Play_Chomper_Growl",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Growl",
+      "GUID": "{2BCDBCD0-7A64-4F89-B885-B3465DFB910F}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.7470084",
+      "DurationMax": "1.2817194",
+      "MediaRefs": [
+       {
+        "Id": "102714005"
+       },
+       {
+        "Id": "195935305"
+       },
+       {
+        "Id": "274113596"
+       },
+       {
+        "Id": "669283822"
+       },
+       {
+        "Id": "898454381"
+       }
+      ]
+     },
+     {
+      "Id": "749645064",
+      "Name": "Play_Chomper_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Hurt",
+      "GUID": "{30DCBC20-5C87-454C-9842-983FF55D9A4F}",
+      "MaxAttenuation": "100",
+      "DurationType": "OneShot",
+      "DurationMin": "0.71982634",
+      "DurationMax": "1.1553527",
+      "MediaRefs": [
+       {
+        "Id": "11553382"
+       },
+       {
+        "Id": "382990415"
+       },
+       {
+        "Id": "534282987"
+       },
+       {
+        "Id": "775865603"
+       },
+       {
+        "Id": "960021163"
+       }
+      ]
+     },
+     {
       "Id": "2640353952",
       "Name": "Play_CollectedKey",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_CollectedKey",
@@ -569,20 +1119,6 @@
       "MediaRefs": [
        {
         "Id": "488128510"
-       }
-      ]
-     },
-     {
-      "Id": "1172822028",
-      "Name": "Play_Death",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Death",
-      "GUID": "{A6086594-2639-4F46-9935-AC792A0D67B1}",
-      "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
-      "MediaRefs": [
-       {
-        "Id": "21697968"
        }
       ]
      },
@@ -601,6 +1137,297 @@
       ]
      },
      {
+      "Id": "3439843113",
+      "Name": "Play_Ellen_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Attack",
+      "GUID": "{B46CCAE0-8E20-4698-AC9E-C9ADF9F20208}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2435792",
+      "DurationMax": "0.8647892",
+      "MediaRefs": [
+       {
+        "Id": "123965811"
+       },
+       {
+        "Id": "349833729"
+       },
+       {
+        "Id": "373168581"
+       },
+       {
+        "Id": "421207500"
+       },
+       {
+        "Id": "434472521"
+       },
+       {
+        "Id": "441470848"
+       },
+       {
+        "Id": "582235645"
+       },
+       {
+        "Id": "771101109"
+       }
+      ]
+     },
+     {
+      "Id": "4018741819",
+      "Name": "Play_Ellen_Attack_Hit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Attack_Hit",
+      "GUID": "{433B8E91-5F4D-4499-AB13-53454ADC95CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.328125",
+      "DurationMax": "0.4375",
+      "MediaRefs": [
+       {
+        "Id": "291004337"
+       },
+       {
+        "Id": "340489665"
+       },
+       {
+        "Id": "434893254"
+       },
+       {
+        "Id": "975136945"
+       }
+      ]
+     },
+     {
+      "Id": "2923999633",
+      "Name": "Play_Ellen_Attack_VO",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Attack_VO",
+      "GUID": "{9B7DC0CB-4AD6-4445-BB69-5D811B35F3AE}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25",
+      "DurationMax": "0.75",
+      "MediaRefs": [
+       {
+        "Id": "121873902"
+       },
+       {
+        "Id": "419368078"
+       },
+       {
+        "Id": "448723925"
+       },
+       {
+        "Id": "457380983"
+       },
+       {
+        "Id": "473789794"
+       },
+       {
+        "Id": "559402150"
+       },
+       {
+        "Id": "687415433"
+       },
+       {
+        "Id": "917765407"
+       },
+       {
+        "Id": "977261499"
+       }
+      ]
+     },
+     {
+      "Id": "985089565",
+      "Name": "Play_Ellen_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Death",
+      "GUID": "{A6086594-2639-4F46-9935-AC792A0D67B1}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.484375",
+      "DurationMax": "2",
+      "MediaRefs": [
+       {
+        "Id": "117500850"
+       },
+       {
+        "Id": "220070146"
+       },
+       {
+        "Id": "245141749"
+       },
+       {
+        "Id": "362534486"
+       }
+      ]
+     },
+     {
+      "Id": "3756943418",
+      "Name": "Play_Ellen_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Footsteps",
+      "GUID": "{2344C942-454D-4557-898D-E8EDFE507AB2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.14668526",
+      "DurationMax": "0.2362352",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "2385628198",
+         "Id": "4248645337",
+         "GUID": "{B20CD519-C618-4384-AFF9-0C7048A09E96}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "117562557"
+         },
+         {
+          "Id": "175052703"
+         },
+         {
+          "Id": "397900314"
+         },
+         {
+          "Id": "594549966"
+         },
+         {
+          "Id": "640909322"
+         },
+         {
+          "Id": "641594384"
+         },
+         {
+          "Id": "800434201"
+         },
+         {
+          "Id": "942425098"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "231575099",
+      "Name": "Play_Ellen_Heal",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Heal",
+      "GUID": "{FA16B00F-4647-45EB-982C-CFDBA81C88FC}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.25",
+      "DurationMax": "1.25",
+      "MediaRefs": [
+       {
+        "Id": "884299520"
+       }
+      ]
+     },
+     {
+      "Id": "519354622",
+      "Name": "Play_Ellen_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Hurt",
+      "GUID": "{48317577-93C4-4AAB-97FB-550FDF7059E2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5",
+      "DurationMax": "0.6875",
+      "MediaRefs": [
+       {
+        "Id": "7938178"
+       },
+       {
+        "Id": "245858301"
+       },
+       {
+        "Id": "529980481"
+       },
+       {
+        "Id": "675354779"
+       },
+       {
+        "Id": "751394080"
+       },
+       {
+        "Id": "781007388"
+       },
+       {
+        "Id": "782223716"
+       },
+       {
+        "Id": "837390059"
+       },
+       {
+        "Id": "896869809"
+       },
+       {
+        "Id": "991584780"
+       },
+       {
+        "Id": "1017570172"
+       },
+       {
+        "Id": "1056541410"
+       }
+      ]
+     },
+     {
+      "Id": "756395797",
+      "Name": "Play_Ellen_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Jump",
+      "GUID": "{01E69410-9337-41D9-9BCA-B68DB87EECA2}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.37595755",
+      "DurationMax": "0.77394795",
+      "MediaRefs": [
+       {
+        "Id": "444590937"
+       }
+      ]
+     },
+     {
+      "Id": "2439963732",
+      "Name": "Play_Ellen_Land_Roll",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Land_Roll",
+      "GUID": "{62F30313-0D6E-48A3-8083-0EE3090EB3F4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.41895145",
+      "DurationMax": "0.45031974",
+      "MediaRefs": [
+       {
+        "Id": "19750761"
+       },
+       {
+        "Id": "229042767"
+       },
+       {
+        "Id": "603771805"
+       },
+       {
+        "Id": "833920481"
+       }
+      ]
+     },
+     {
+      "Id": "3703199980",
+      "Name": "Play_Ellen_ShieldCrack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_ShieldCrack",
+      "GUID": "{2C6B5227-BBEC-4EA9-B2D4-0A73C0648DAD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5815542",
+      "DurationMax": "0.5815542",
+      "MediaRefs": [
+       {
+        "Id": "802673161"
+       }
+      ]
+     },
+     {
+      "Id": "3225604978",
+      "Name": "Play_Ellen_Spawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Spawn",
+      "GUID": "{0DDE1191-7319-488E-89D6-EFB1E50A4AE9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.15625",
+      "DurationMax": "1.15625",
+      "MediaRefs": [
+       {
+        "Id": "451513684"
+       }
+      ]
+     },
+     {
       "Id": "1263684764",
       "Name": "Play_FloorPlate",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_FloorPlate",
@@ -615,130 +1442,139 @@
       ]
      },
      {
-      "Id": "3854155799",
-      "Name": "Play_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Footsteps",
-      "GUID": "{2344C942-454D-4557-898D-E8EDFE507AB2}",
+      "Id": "3337034902",
+      "Name": "Play_Grenadier_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Death",
+      "GUID": "{299AA5FB-E0B8-4C6F-A034-0F518CF846BF}",
       "DurationType": "OneShot",
-      "DurationMin": "2.219431",
-      "DurationMax": "4.438862",
-      "SwitchContainers": [
+      "DurationMin": "4.482906",
+      "DurationMax": "4.482906",
+      "MediaRefs": [
        {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "2385628198",
-         "Id": "1216965916",
-         "GUID": "{CFB5010A-FEFF-4194-9302-F1230C907E7F}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "88054370"
-         },
-         {
-          "Id": "245820045"
-         },
-         {
-          "Id": "762819288"
-         },
-         {
-          "Id": "764371594"
-         },
-         {
-          "Id": "785042745"
-         },
-         {
-          "Id": "847188992"
-         },
-         {
-          "Id": "852370679"
-         },
-         {
-          "Id": "927327608"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "2385628198",
-         "Id": "4248645337",
-         "GUID": "{B20CD519-C618-4384-AFF9-0C7048A09E96}",
-         "Default": "true"
-        },
-        "MediaRefs": [
-         {
-          "Id": "37449250"
-         },
-         {
-          "Id": "332449225"
-         },
-         {
-          "Id": "485018638"
-         },
-         {
-          "Id": "631564806"
-         },
-         {
-          "Id": "760382886"
-         },
-         {
-          "Id": "806057922"
-         },
-         {
-          "Id": "1023886576"
-         },
-         {
-          "Id": "1033025266"
-         }
-        ]
-       },
-       {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "2385628198",
-         "Id": "1181096339",
-         "GUID": "{B8226082-79EC-4D8C-B6FC-1705DC9E318A}"
-        },
-        "MediaRefs": [
-         {
-          "Id": "302611747"
-         },
-         {
-          "Id": "313665108"
-         },
-         {
-          "Id": "486235602"
-         },
-         {
-          "Id": "563104404"
-         },
-         {
-          "Id": "670777352"
-         },
-         {
-          "Id": "693894459"
-         },
-         {
-          "Id": "765398438"
-         },
-         {
-          "Id": "886788897"
-         }
-        ]
+        "Id": "894235806"
        }
       ]
      },
      {
-      "Id": "3689126666",
-      "Name": "Play_Jump",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Jump",
-      "GUID": "{01E69410-9337-41D9-9BCA-B68DB87EECA2}",
+      "Id": "2094447813",
+      "Name": "Play_Grenadier_Footsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Footsteps",
+      "GUID": "{A12EC7A8-A5B3-4889-AA73-3C649A2E9145}",
       "DurationType": "OneShot",
-      "DurationMin": "0.37595755",
-      "DurationMax": "0.77394795",
+      "DurationMin": "0.828125",
+      "DurationMax": "0.828125",
       "MediaRefs": [
        {
-        "Id": "444590937"
+        "Id": "430098898"
+       },
+       {
+        "Id": "484984276"
+       },
+       {
+        "Id": "742048092"
+       },
+       {
+        "Id": "854909347"
+       }
+      ]
+     },
+     {
+      "Id": "3417550891",
+      "Name": "Play_Grenadier_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Hurt",
+      "GUID": "{228895DD-8A57-4527-B64A-9BF50245FA8D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6339155",
+      "DurationMax": "2.3443153",
+      "MediaRefs": [
+       {
+        "Id": "790326140"
+       },
+       {
+        "Id": "876037683"
+       },
+       {
+        "Id": "1046546895"
+       }
+      ]
+     },
+     {
+      "Id": "826593012",
+      "Name": "Play_Grenadier_Melee",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Melee",
+      "GUID": "{7C75EB50-5214-41A7-95F4-01269E669185}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.91700405",
+      "DurationMax": "1.122462",
+      "MediaRefs": [
+       {
+        "Id": "147998254"
+       },
+       {
+        "Id": "372534494"
+       },
+       {
+        "Id": "512803514"
+       },
+       {
+        "Id": "615341659"
+       },
+       {
+        "Id": "704325677"
+       },
+       {
+        "Id": "747924824"
+       },
+       {
+        "Id": "766544081"
+       },
+       {
+        "Id": "876441882"
+       },
+       {
+        "Id": "878578430"
+       }
+      ]
+     },
+     {
+      "Id": "1363968655",
+      "Name": "Play_Grenadier_Range_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Range_1",
+      "GUID": "{3942CD31-4DA8-4F97-A7D2-CE195F02D59A}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.2328205",
+      "DurationMax": "5.2328205",
+      "MediaRefs": [
+       {
+        "Id": "310388965"
+       }
+      ]
+     },
+     {
+      "Id": "2086598241",
+      "Name": "Play_Grenadier_Range_2_Ammo",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Range_2_Ammo",
+      "GUID": "{20251772-0203-4AD8-825F-1E333CB0375D}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.747692",
+      "DurationMax": "4.747692",
+      "MediaRefs": [
+       {
+        "Id": "706901007"
+       }
+      ]
+     },
+     {
+      "Id": "2696401305",
+      "Name": "Play_Grenadier_Range_2_Throw",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Range_2_Throw",
+      "GUID": "{CA91F0C1-2E8A-4B4B-8C04-595934441806}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.148205",
+      "DurationMax": "2.148205",
+      "MediaRefs": [
+       {
+        "Id": "166058615"
        }
       ]
      },
@@ -751,72 +1587,6 @@
       "MediaRefs": [
        {
         "Id": "678185154"
-       }
-      ]
-     },
-     {
-      "Id": "3928572679",
-      "Name": "Play_Pink_Bite",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Bite",
-      "GUID": "{F28F1767-1F8B-45F1-9866-1F089FD0FF0D}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.6978604",
-      "DurationMax": "1.733287",
-      "MediaRefs": [
-       {
-        "Id": "863312578"
-       }
-      ]
-     },
-     {
-      "Id": "2779656009",
-      "Name": "Play_Pink_Death",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Death",
-      "GUID": "{93EED90F-951B-42F7-97CD-31B23B3E9397}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.5338817",
-      "DurationMax": "0.81155396",
-      "MediaRefs": [
-       {
-        "Id": "320826241"
-       }
-      ]
-     },
-     {
-      "Id": "924162606",
-      "Name": "Play_Pink_Footsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Footsteps",
-      "GUID": "{0FBD1D55-E1CE-4552-AD65-E03FD56EAD85}",
-      "MaxAttenuation": "100",
-      "DurationType": "OneShot",
-      "DurationMin": "6.0804014",
-      "DurationMax": "10.374717",
-      "MediaRefs": [
-       {
-        "Id": "180435172"
-       },
-       {
-        "Id": "236120033"
-       },
-       {
-        "Id": "474225728"
-       },
-       {
-        "Id": "951446669"
-       }
-      ]
-     },
-     {
-      "Id": "289026184",
-      "Name": "Play_Pink_Growl",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Pink\\Play_Pink_Growl",
-      "GUID": "{5D837E16-8F39-4DF1-9D3D-C582B182ECD3}",
-      "DurationType": "OneShot",
-      "DurationMin": "2.4127862",
-      "DurationMax": "3.615095",
-      "MediaRefs": [
-       {
-        "Id": "313903301"
        }
       ]
      },
@@ -835,16 +1605,33 @@
       ]
      },
      {
-      "Id": "1012143543",
-      "Name": "Play_Spawn",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Player\\Play_Spawn",
-      "GUID": "{0DDE1191-7319-488E-89D6-EFB1E50A4AE9}",
+      "Id": "3913336272",
+      "Name": "Play_Spitter_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Spitter\\Play_Spitter_Attack",
+      "GUID": "{632E46F2-E14F-4991-BF74-1B5F11007C5E}",
       "DurationType": "OneShot",
-      "DurationMin": "2",
-      "DurationMax": "2",
+      "DurationMin": "0.8408964",
+      "DurationMax": "1.1721576",
       "MediaRefs": [
        {
-        "Id": "451513684"
+        "Id": "493340634"
+       },
+       {
+        "Id": "777075956"
+       }
+      ]
+     },
+     {
+      "Id": "4160876689",
+      "Name": "Play_Spitter_Attack_Splat",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Spitter\\Play_Spitter_Attack_Splat",
+      "GUID": "{C87A06E1-C28F-468E-8CA5-B7489AFF75E5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5285272",
+      "DurationMax": "0.8635688",
+      "MediaRefs": [
+       {
+        "Id": "832446364"
        }
       ]
      },
@@ -986,6 +1773,6 @@
     ]
    }
   ],
-  "FileHash": "{404DC67D-D041-53F9-A0D9-04D084F60FE6}"
+  "FileHash": "{9CCC956D-B8B1-F3CB-4D48-FB2C8961BDE8}"
  }
 }

@@ -94847,7 +94847,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.06666667
-    functionName: PlayLand
+    functionName: PlayFootsteps
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: 620ecfb3c7a12084c8d706fd0f3d70b7,
       type: 3}

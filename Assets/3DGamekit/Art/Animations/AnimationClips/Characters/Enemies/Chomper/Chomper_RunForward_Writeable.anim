@@ -87065,8 +87065,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.033333335
-    functionName: PlayPinkFootsteps
+  - time: 0.05
+    functionName: PlayChomperFootsteps
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -87079,19 +87079,19 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.06666667
-    functionName: PlayPinkFootsteps
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 0.24317789
     functionName: PlayStep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 1
+    messageOptions: 0
+  - time: 0.25
+    functionName: PlayChomperFootsteps
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
     messageOptions: 0
   - time: 0.2982729
     functionName: PlayStep

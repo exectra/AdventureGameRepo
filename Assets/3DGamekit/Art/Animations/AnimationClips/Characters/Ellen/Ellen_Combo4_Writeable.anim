@@ -122885,13 +122885,22 @@ AnimationClip:
   m_Events:
   - time: 0.2865309
     functionName: MeleeAttackStart
+  - time: 0
+    functionName: PlayAttack
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
-    intParameter: 1
+    intParameter: 0
     messageOptions: 0
-  - time: 0.35
-    functionName: PlayAtk1
+  - time: 0
+    functionName: PlayAttackVO
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 0.33333334
+    functionName: PlayFootsteps
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -122899,6 +122908,8 @@ AnimationClip:
     messageOptions: 0
   - time: 0.4493988
     functionName: MeleeAttackEnd
+  - time: 0.73333335
+    functionName: PlayFootsteps
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
