@@ -72676,6 +72676,7 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0.053305488
     functionName: MeleeAttackStart
     data: 
     objectReferenceParameter: {fileID: 0}
