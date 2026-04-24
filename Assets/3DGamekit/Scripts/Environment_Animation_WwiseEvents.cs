@@ -4,36 +4,51 @@ using UnityEngine;
 
 public class Environment_Animation_WwiseEvents : MonoBehaviour
 {
-    //public AK.Wwise.Event Play_FloorPlate;
-    //public AK.Wwise.Event Play_ChestOpen;
-    //public AK.Wwise.Event Play_ChestAvailable;
-    //public AK.Wwise.Event Play_DoorOpen;
-    //public AK.Wwise.Event Play_StoneKey;
-    //public AK.Wwise.Event Play_CollectedKey;
+    public AK.Wwise.Event Play_DestructibleBox;
+    public AK.Wwise.Event Play_DoorOpen;
+    public AK.Wwise.Event Play_FloorPlate_Activated;
+    public AK.Wwise.Event Play_HealthCrate_Open;
+    public AK.Wwise.Event Play_Switch_Activated;
+    public AK.Wwise.Event Play_Switch_Idle;
+    public AK.Wwise.Event Play_Teleport_Enter;
+    public AK.Wwise.Event Play_Teleport_Idle;
+    public AK.Wwise.Event Play_WeaponPickUp;
 
-    //public void PlayFloorPlateTrigger()
-    //{
-    //    Play_FloorPlate.Post(gameObject);
-    //}
+    public void PlayDestructibleBox()
+    {
+        Play_DestructibleBox.Post(gameObject);
+    }
+    public void PlayDoorOpen()
+    {
+        Play_DoorOpen.Post(gameObject);
+    }
+    public void PlayFloorPlateActivated()
+    {
+        Play_FloorPlate_Activated.Post(gameObject);
+    }
+    public void PlayHealthCrateOpen()
+    {
+        Play_HealthCrate_Open.Post(gameObject);
+    }
+    public void PlaySwitchActivated()
+    {
+        Play_Switch_Activated.Post(gameObject);
+    }
+    public void PlaySwitchIdle()
+    {
+        Play_Switch_Idle.Post(gameObject);
+    }
+    public void PlayTeleportEnter()
+    {
+        Play_Teleport_Enter.Post(gameObject);
+    }
+    public void PlayTeleportIdle()
+    {
+        Play_Teleport_Idle.Post(gameObject);
+    }
+    public void PlayWeaponPickUp()
+    {
+        Play_WeaponPickUp.Post(gameObject);
+    }
 
-    //public void PlayChestOpen()
-    //{
-    //    Play_ChestOpen.Post(gameObject);
-    //}
-    //public void PlayChestDirectional()
-    //{
-    //    Play_ChestAvailable.Post(gameObject);
-    //}
-    //public void PlayDoorOpen()
-    //{
-    //    Play_DoorOpen.Post(gameObject);
-    //}
-    //public void PlayStoneKeyDirectional()
-    //{
-    //    Play_StoneKey.Post(gameObject);
-    //}
-    //public void PlayActivateKey()
-    //{
-    //    Play_CollectedKey.Post(gameObject);
-    //}
 }

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{B060296E-91EA-AFD1-F292-838F3671A8C4}",
+    "Hash": "{5C415F10-953D-921E-8927-3AF4D2F08A16}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack 5.wav",
-      "CachePath": "B6/{B66AA09D-63CB-17BA-1C77-9B9BF12E5187}.wem"
+      "CachePath": "E5/{E532087B-E173-3EB2-38BE-1740B454B1D3}.wem"
      },
      {
       "Id": "46870457",
@@ -61,7 +61,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack 4.wav",
-      "CachePath": "BE/{BE690210-8BB6-5CA4-EA91-F08545FB2968}.wem"
+      "CachePath": "A7/{A7420442-E3CE-83B2-3E16-D21ADC02BDD5}.wem"
      },
      {
       "Id": "95723225",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Death.wav",
-      "CachePath": "67/{67E0B8A4-51F7-66C3-35D1-8BD0ED5A462D}.wem"
+      "CachePath": "56/{56F04828-FC40-B023-2E8A-30B8E52B3C1D}.wem"
      },
      {
       "Id": "102714005",
@@ -112,6 +112,14 @@
       "CachePath": "7D/{7D334896-647D-9F07-8DFE-65C7C24452EB}.wem"
      },
      {
+      "Id": "143798836",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Teleport Enter.wav",
+      "CachePath": "C0/{C0DD615F-045B-AD30-EE18-AF5706DA3CC7}.wem"
+     },
+     {
       "Id": "147998254",
       "Language": "SFX",
       "Streaming": "false",
@@ -125,7 +133,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Range Attack 2 (Throw).wav",
-      "CachePath": "F4/{F40F52EF-F3A3-69D3-23A8-974AB850FDDC}.wem"
+      "CachePath": "5A/{5A44977E-6A9B-9A5C-0F58-1CF9DDEE68CE}.wem"
+     },
+     {
+      "Id": "173446042",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Switch Idle.wav",
+      "CachePath": "57/{57A0C5EF-A08A-CA8A-CCCA-7EABC80349B0}.wem"
      },
      {
       "Id": "175052703",
@@ -136,12 +152,12 @@
       "CachePath": "08/{08F52440-FE9A-7FC9-45FF-E8BF457D8D8D}.wem"
      },
      {
-      "Id": "180245698",
+      "Id": "181081779",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Chest Available (Ongoing).wav",
-      "CachePath": "2F/{2F9213A7-9AC6-1FFD-31A6-3C158D78689C}.wem"
+      "ShortName": "Moving Platform (UP).wav",
+      "CachePath": "0C/{0CD287E3-B62B-DA66-0CBC-810CF6EDDA20}.wem"
      },
      {
       "Id": "195935305",
@@ -173,7 +189,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Weapon Pick Up.wav",
-      "CachePath": "B9/{B9DBCB6E-44AA-0CAC-1EE4-FB2244694DBC}.wem"
+      "CachePath": "51/{5102BE4A-9F62-92A4-A711-ADFEA2ADDF8E}.wem"
      },
      {
       "Id": "245141749",
@@ -205,7 +221,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player Attack Hit 1.wav",
-      "CachePath": "FC/{FCE460FD-5466-0660-3CA1-958C392B384C}.wem"
+      "CachePath": "74/{74A3726B-75F0-868C-0BBE-8D2AD7F7E48C}.wem"
      },
      {
       "Id": "307950144",
@@ -221,7 +237,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Range Attack 1.wav",
-      "CachePath": "96/{9631F314-142C-74F2-43E8-10A533F64629}.wem"
+      "CachePath": "B3/{B34E22CE-DF9E-2BB6-E09F-720F3D278103}.wem"
      },
      {
       "Id": "332632446",
@@ -229,7 +245,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack 2.wav",
-      "CachePath": "4D/{4D0706ED-0CB7-BACF-3491-926B5C6D40A8}.wem"
+      "CachePath": "45/{45AA7B99-1871-5DDF-0FFB-DC6A6801C969}.wem"
      },
      {
       "Id": "340489665",
@@ -237,7 +253,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player Attack Hit 4.wav",
-      "CachePath": "88/{88E0689A-223E-855A-A1D4-804202522776}.wem"
+      "CachePath": "23/{232EC35E-0C73-6759-E821-682BE5E41246}.wem"
+     },
+     {
+      "Id": "342187078",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "HealthCrate Open.wav",
+      "CachePath": "21/{2102FD96-FF0D-9EE5-0228-5A7EAE34E09C}.wem"
      },
      {
       "Id": "349833729",
@@ -261,7 +285,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Floor Plate.wav",
-      "CachePath": "BE/{BEC485EE-0497-15DF-A4AB-C4A861AFF85D}.wem"
+      "CachePath": "C7/{C770FBF6-C779-8AC3-FD0D-063B0D887C70}.wem"
      },
      {
       "Id": "372534494",
@@ -349,7 +373,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player Attack Hit 2.wav",
-      "CachePath": "3E/{3EFE6E64-C430-CF5B-54F9-D049DEFB2D61}.wem"
+      "CachePath": "7E/{7E69DB3B-63B5-6A40-3B8F-A5E3B70793EA}.wem"
      },
      {
       "Id": "441470848",
@@ -381,7 +405,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Spawn.wav",
-      "CachePath": "A8/{A8C1AD26-B1B7-94ED-B5B7-DBF64B7F6CE1}.wem"
+      "CachePath": "13/{134A8674-2F11-C26E-4241-B4133D29FD6D}.wem"
      },
      {
       "Id": "457380983",
@@ -392,6 +416,14 @@
       "CachePath": "84/{849CE1FD-17FE-60C7-58BA-1A369831C42B}.wem"
      },
      {
+      "Id": "466663775",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Switch Activated.wav",
+      "CachePath": "6C/{6C85F04E-3262-2D72-64AD-67FDB5A19A25}.wem"
+     },
+     {
       "Id": "473789794",
       "Language": "SFX",
       "Streaming": "false",
@@ -400,20 +432,20 @@
       "CachePath": "7E/{7E6B6427-16B0-1182-F7C3-8984430F8445}.wem"
      },
      {
+      "Id": "477039215",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Moving Platform (DOWN).wav",
+      "CachePath": "12/{12583ABE-589B-6575-C8A7-E89A2AD1FC4F}.wem"
+     },
+     {
       "Id": "484984276",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Footsteps 3.wav",
       "CachePath": "D5/{D591B59E-17A2-80FE-C089-7C99C920D367}.wem"
-     },
-     {
-      "Id": "488128510",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Collected Key.wav",
-      "CachePath": "D0/{D00C7EA9-999D-47B1-ECA0-C793866AC36D}.wem"
      },
      {
       "Id": "493340634",
@@ -552,6 +584,14 @@
       "CachePath": "06/{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem"
      },
      {
+      "Id": "679952210",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Teleport Idle.wav",
+      "CachePath": "A6/{A66C9A50-99C9-1B3A-054B-F55CFCFB46CF}.wem"
+     },
+     {
       "Id": "687415433",
       "Language": "SFX",
       "Streaming": "false",
@@ -573,7 +613,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Range Attack 2 (Ammo).wav",
-      "CachePath": "FD/{FDD68B6C-5E18-2A8B-9D05-E92BC2AD5175}.wem"
+      "CachePath": "DD/{DD7DBBCA-9BBC-05A3-AFD6-C88B5E84274B}.wem"
      },
      {
       "Id": "742048092",
@@ -648,14 +688,6 @@
       "CachePath": "83/{8338D118-9ECC-2AAB-8B65-F4B8C123750C}.wem"
      },
      {
-      "Id": "788642920",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Chest Open.wav",
-      "CachePath": "85/{853869F8-7038-2DDC-B631-1130E971E8AE}.wem"
-     },
-     {
       "Id": "790326140",
       "Language": "SFX",
       "Streaming": "false",
@@ -685,7 +717,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack 1.wav",
-      "CachePath": "6D/{6D87EAF9-04D8-C654-996E-F4CCF7DEFED1}.wem"
+      "CachePath": "92/{92267B97-090F-B943-1A2D-77EA6AFB3553}.wem"
      },
      {
       "Id": "822765433",
@@ -709,7 +741,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Spitter Attack Splat.wav",
-      "CachePath": "6D/{6DA64066-2DB5-F853-EC66-1B5A6305E2BF}.wem"
+      "CachePath": "2F/{2F409413-9313-512E-F9E6-BBE859BE5D7B}.wem"
      },
      {
       "Id": "833920481",
@@ -773,7 +805,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Death.wav",
-      "CachePath": "B7/{B7EF7E4E-E550-65EE-D9BC-584E460708AE}.wem"
+      "CachePath": "2C/{2C55D435-D574-7CFF-6FB4-1E587AF01381}.wem"
      },
      {
       "Id": "896869809",
@@ -813,15 +845,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box Break.wav",
-      "CachePath": "DD/{DDF72310-FB59-1D52-AE25-BFB7729E2231}.wem"
-     },
-     {
-      "Id": "946211358",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Stone Key (Ongoing).wav",
-      "CachePath": "78/{78DE475E-8DD9-8B88-7DDE-7DDAA6A2FAAB}.wem"
+      "CachePath": "E9/{E9FBC669-E72E-F089-B1A2-42AAAF5C5CFE}.wem"
      },
      {
       "Id": "960021163",
@@ -837,7 +861,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Player Attack Hit 3.wav",
-      "CachePath": "E4/{E49A7572-E39B-CE0F-B684-015E5C756F0D}.wem"
+      "CachePath": "DF/{DF46A2C6-EF1C-2291-F9F6-3FF8CDE4DA94}.wem"
      },
      {
       "Id": "975499680",
@@ -845,7 +869,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack 3.wav",
-      "CachePath": "6A/{6AD35BB7-A6F5-3710-8533-DD39480CF6BA}.wem"
+      "CachePath": "8A/{8A072857-DF04-E74E-9490-38F4FB6438BE}.wem"
      },
      {
       "Id": "977261499",
@@ -901,7 +925,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Door Open.wav",
-      "CachePath": "C4/{C427173D-777E-4134-2905-6CE808BCFA25}.wem"
+      "CachePath": "31/{312A97D0-0485-31F3-C279-E9C955619811}.wem"
      },
      {
       "Id": "1046546895",
@@ -910,14 +934,6 @@
       "Location": "Memory",
       "ShortName": "Grenadier Hurt 3.wav",
       "CachePath": "41/{4168A5ED-C4A6-D8BB-B87F-F18E8F35C763}.wem"
-     },
-     {
-      "Id": "1047727185",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Portal Enter.wav",
-      "CachePath": "6C/{6C77FF97-05C8-0F65-5D87-FC2E4BDD2305}.wem"
      },
      {
       "Id": "1056541410",
@@ -938,47 +954,6 @@
       "MediaRefs": [
        {
         "Id": "402853597"
-       }
-      ]
-     },
-     {
-      "Id": "843996146",
-      "Name": "Play_BoxBreak",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_BoxBreak",
-      "GUID": "{7933F669-8532-4C5D-9C10-6071EC273DAC}",
-      "DurationType": "OneShot",
-      "DurationMin": "18.25",
-      "DurationMax": "18.25",
-      "MediaRefs": [
-       {
-        "Id": "944740841"
-       }
-      ]
-     },
-     {
-      "Id": "1067323442",
-      "Name": "Play_ChestAvailable",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_ChestAvailable",
-      "GUID": "{E8F2DA44-7BAA-464D-A6C4-3EA6B19F57B4}",
-      "MaxAttenuation": "100",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "180245698"
-       }
-      ]
-     },
-     {
-      "Id": "364247913",
-      "Name": "Play_ChestOpen",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_ChestOpen",
-      "GUID": "{BAE7F893-402F-4079-B774-4A87CC0110F7}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.2299184",
-      "DurationMax": "1.2299184",
-      "MediaRefs": [
-       {
-        "Id": "788642920"
        }
       ]
      },
@@ -1109,27 +1084,27 @@
       ]
      },
      {
-      "Id": "2640353952",
-      "Name": "Play_CollectedKey",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_CollectedKey",
-      "GUID": "{7BDDFFCA-3781-44DE-A75E-84B5AB920929}",
+      "Id": "4151201399",
+      "Name": "Play_DestructibleBox",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_DestructibleBox",
+      "GUID": "{7933F669-8532-4C5D-9C10-6071EC273DAC}",
       "DurationType": "OneShot",
-      "DurationMin": "4.5750847",
-      "DurationMax": "4.5750847",
+      "DurationMin": "1.5833334",
+      "DurationMax": "1.5833334",
       "MediaRefs": [
        {
-        "Id": "488128510"
+        "Id": "944740841"
        }
       ]
      },
      {
       "Id": "3197300806",
       "Name": "Play_DoorOpen",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_DoorOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_DoorOpen",
       "GUID": "{43F91AC4-3E3B-4DFE-A0EE-FEB843D5CB4A}",
       "DurationType": "OneShot",
-      "DurationMin": "1.3826722",
-      "DurationMax": "1.3826722",
+      "DurationMin": "5.304338",
+      "DurationMax": "5.304338",
       "MediaRefs": [
        {
         "Id": "1020663270"
@@ -1428,9 +1403,9 @@
       ]
      },
      {
-      "Id": "1263684764",
-      "Name": "Play_FloorPlate",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_FloorPlate",
+      "Id": "3631107208",
+      "Name": "Play_FloorPlate_Activated",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_FloorPlate_Activated",
       "GUID": "{A5E25542-718F-4466-BB80-E9677A4B182B}",
       "DurationType": "OneShot",
       "DurationMin": "1.2547652",
@@ -1579,6 +1554,20 @@
       ]
      },
      {
+      "Id": "3862797904",
+      "Name": "Play_HealthCrate_Open",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_HealthCrate_Open",
+      "GUID": "{BAE7F893-402F-4079-B774-4A87CC0110F7}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.1702545",
+      "DurationMax": "2.1702545",
+      "MediaRefs": [
+       {
+        "Id": "342187078"
+       }
+      ]
+     },
+     {
       "Id": "1063700270",
       "Name": "Play_MainMenuBGM",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_MainMenuBGM",
@@ -1591,16 +1580,30 @@
       ]
      },
      {
-      "Id": "4016738326",
-      "Name": "Play_PortalEnter",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_PortalEnter",
-      "GUID": "{957A316D-61A4-410F-ADE5-6BCB2CC7494F}",
+      "Id": "3679527148",
+      "Name": "Play_MovingPlatform_Down",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_MovingPlatform_Down",
+      "GUID": "{99D7D394-5590-43B1-AD79-4348B018EAF1}",
       "DurationType": "OneShot",
-      "DurationMin": "4.6215115",
-      "DurationMax": "4.6215115",
+      "DurationMin": "3.140949",
+      "DurationMax": "3.140949",
       "MediaRefs": [
        {
-        "Id": "1047727185"
+        "Id": "477039215"
+       }
+      ]
+     },
+     {
+      "Id": "571167591",
+      "Name": "Play_MovingPlatform_Up",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_MovingPlatform_Up",
+      "GUID": "{7347E983-1683-4FCA-9B47-C56C91979094}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.2556825",
+      "DurationMax": "3.2556825",
+      "MediaRefs": [
+       {
+        "Id": "181081779"
        }
       ]
      },
@@ -1636,15 +1639,55 @@
       ]
      },
      {
-      "Id": "3865522774",
-      "Name": "Play_StoneKey",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_StoneKey",
+      "Id": "3572783242",
+      "Name": "Play_Switch_Activated",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_Switch_Activated",
+      "GUID": "{7BDDFFCA-3781-44DE-A75E-84B5AB920929}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0496576",
+      "DurationMax": "1.0496576",
+      "MediaRefs": [
+       {
+        "Id": "466663775"
+       }
+      ]
+     },
+     {
+      "Id": "3260921235",
+      "Name": "Play_Switch_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_Switch_Idle",
       "GUID": "{E1B07001-B4B6-4EF2-8B1B-3ABACE46F46B}",
       "MaxAttenuation": "100",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "946211358"
+        "Id": "173446042"
+       }
+      ]
+     },
+     {
+      "Id": "2317718668",
+      "Name": "Play_Teleport_Enter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_Teleport_Enter",
+      "GUID": "{957A316D-61A4-410F-ADE5-6BCB2CC7494F}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.105349",
+      "DurationMax": "2.105349",
+      "MediaRefs": [
+       {
+        "Id": "143798836"
+       }
+      ]
+     },
+     {
+      "Id": "3511716172",
+      "Name": "Play_Teleport_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_Teleport_Idle",
+      "GUID": "{2F403153-E0DD-4412-8A60-9C16AD669EAA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "679952210"
        }
       ]
      },
@@ -1724,8 +1767,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_WeaponPickUp",
       "GUID": "{4F77382E-38B9-429C-A358-235BD6574605}",
       "DurationType": "OneShot",
-      "DurationMin": "8",
-      "DurationMax": "8",
+      "DurationMin": "1.1463813",
+      "DurationMax": "1.1463813",
       "MediaRefs": [
        {
         "Id": "233327949"
@@ -1773,6 +1816,6 @@
     ]
    }
   ],
-  "FileHash": "{9CCC956D-B8B1-F3CB-4D48-FB2C8961BDE8}"
+  "FileHash": "{4BAC56F1-2CAB-245B-E2A0-395EBD580FA7}"
  }
 }

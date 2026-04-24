@@ -866,12 +866,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0
-    functionName: PlayChestDirectional
-    data: 
-    objectReferenceParameter: {fileID: 11500000, guid: f17f0a4c592f00243a3ed1e1274b23a6,
-      type: 3}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []

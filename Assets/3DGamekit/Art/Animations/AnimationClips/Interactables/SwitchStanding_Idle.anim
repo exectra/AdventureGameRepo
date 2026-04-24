@@ -1494,7 +1494,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0
-    functionName: PlayStoneKeyDirectional
+    functionName: PlaySwitchIdle
     data: 
     objectReferenceParameter: {fileID: 11500000, guid: f17f0a4c592f00243a3ed1e1274b23a6,
       type: 3}

@@ -14,15 +14,12 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_AMBIENCE = 278617630U;
-        static const AkUniqueID PLAY_BOXBREAK = 843996146U;
-        static const AkUniqueID PLAY_CHESTAVAILABLE = 1067323442U;
-        static const AkUniqueID PLAY_CHESTOPEN = 364247913U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_DEATH = 2761388991U;
         static const AkUniqueID PLAY_CHOMPER_FOOTSTEPS = 3742480528U;
         static const AkUniqueID PLAY_CHOMPER_GROWL = 3523988694U;
         static const AkUniqueID PLAY_CHOMPER_HURT = 749645064U;
-        static const AkUniqueID PLAY_COLLECTEDKEY = 2640353952U;
+        static const AkUniqueID PLAY_DESTRUCTIBLEBOX = 4151201399U;
         static const AkUniqueID PLAY_DOOROPEN = 3197300806U;
         static const AkUniqueID PLAY_ELLEN_ATTACK = 3439843113U;
         static const AkUniqueID PLAY_ELLEN_ATTACK_HIT = 4018741819U;
@@ -35,7 +32,7 @@ namespace AK
         static const AkUniqueID PLAY_ELLEN_LAND_ROLL = 2439963732U;
         static const AkUniqueID PLAY_ELLEN_SHIELDCRACK = 3703199980U;
         static const AkUniqueID PLAY_ELLEN_SPAWN = 3225604978U;
-        static const AkUniqueID PLAY_FLOORPLATE = 1263684764U;
+        static const AkUniqueID PLAY_FLOORPLATE_ACTIVATED = 3631107208U;
         static const AkUniqueID PLAY_GRENADIER_DEATH = 3337034902U;
         static const AkUniqueID PLAY_GRENADIER_FOOTSTEPS = 2094447813U;
         static const AkUniqueID PLAY_GRENADIER_HURT = 3417550891U;
@@ -43,11 +40,16 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIER_RANGE_1 = 1363968655U;
         static const AkUniqueID PLAY_GRENADIER_RANGE_2_AMMO = 2086598241U;
         static const AkUniqueID PLAY_GRENADIER_RANGE_2_THROW = 2696401305U;
+        static const AkUniqueID PLAY_HEALTHCRATE_OPEN = 3862797904U;
         static const AkUniqueID PLAY_MAINMENUBGM = 1063700270U;
-        static const AkUniqueID PLAY_PORTALENTER = 4016738326U;
+        static const AkUniqueID PLAY_MOVINGPLATFORM_DOWN = 3679527148U;
+        static const AkUniqueID PLAY_MOVINGPLATFORM_UP = 571167591U;
         static const AkUniqueID PLAY_SPITTER_ATTACK = 3913336272U;
         static const AkUniqueID PLAY_SPITTER_ATTACK_SPLAT = 4160876689U;
-        static const AkUniqueID PLAY_STONEKEY = 3865522774U;
+        static const AkUniqueID PLAY_SWITCH_ACTIVATED = 3572783242U;
+        static const AkUniqueID PLAY_SWITCH_IDLE = 3260921235U;
+        static const AkUniqueID PLAY_TELEPORT_ENTER = 2317718668U;
+        static const AkUniqueID PLAY_TELEPORT_IDLE = 3511716172U;
         static const AkUniqueID PLAY_UI_EXIT = 1986548623U;
         static const AkUniqueID PLAY_UI_ONCLICK = 3570890048U;
         static const AkUniqueID PLAY_UI_ONHOVER = 3111063598U;

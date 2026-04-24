@@ -1756,7 +1756,14 @@
 				</Folder>
 				<Folder Name="Environment" ID="{AB79B531-7140-4685-A9E9-8E87699F8311}" ShortID="346129436">
 					<ChildrenList>
-						<Sound Name="Environment_Box Break" ID="{9286FC0F-B49A-4772-8A92-C4756903683A}" ShortID="230756297">
+						<Sound Name="Environment_Destructible Box" ID="{9286FC0F-B49A-4772-8A92-C4756903683A}" ShortID="230756297">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1767,6 +1774,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Box Break" ID="{D82FA5D2-1C5C-44F0-AAA6-343A4AE08B92}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.738095238095238"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.58333333333334"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Box Break.wav</AudioFile>
 									<MediaIDList>
@@ -1778,145 +1790,7 @@
 								<ActiveSource Name="Box Break" ID="{D82FA5D2-1C5C-44F0-AAA6-343A4AE08B92}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Environment_Chest Available_Directional" ID="{E499781E-C7E4-47CA-9F92-4A4792320A17}" ShortID="308728555">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="LoopCount" Type="int32" Value="1"/>
-								<Property Name="Pitch" Type="int32">
-									<ModifierList>
-										<ModifierInfo>
-											<Modifier Name="" ID="{F111C6B5-D32B-440E-ACCA-0A23617C155E}">
-												<PropertyList>
-													<Property Name="Max" Type="Real64" Value="1450"/>
-													<Property Name="Min" Type="Real64" Value="-1075"/>
-												</PropertyList>
-											</Modifier>
-										</ModifierInfo>
-									</ModifierList>
-								</Property>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Attenuation">
-									<Custom>
-										<Attenuation Name="Attenuation (Custom)" ID="{62C6C10F-327D-4E1A-8B22-1AC8BEC7F41D}" ShortID="850743556">
-											<CurveUsageInfoList>
-												<VolumeDryUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
-														<Curve Name="VolumeDry" ID="{4B10EF3D-7790-4046-8349-60EDC9D4DCCE}">
-															<PropertyList>
-																<Property Name="Flags" Type="int32" Value="3"/>
-															</PropertyList>
-															<PointList>
-																<Point>
-																	<XPos>0</XPos>
-																	<YPos>0</YPos>
-																	<Flags>5</Flags>
-																</Point>
-																<Point>
-																	<XPos>100</XPos>
-																	<YPos>-200</YPos>
-																	<Flags>37</Flags>
-																</Point>
-															</PointList>
-														</Curve>
-													</CurveUsageInfo>
-												</VolumeDryUsage>
-												<VolumeWetGameUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetGameUsage>
-												<VolumeWetUserUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
-												</VolumeWetUserUsage>
-												<LowPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</LowPassFilterUsage>
-												<HighPassFilterUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</HighPassFilterUsage>
-												<SpreadUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</SpreadUsage>
-												<FocusUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
-												</FocusUsage>
-												<ObstructionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionVolumeUsage>
-												<ObstructionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionLPFUsage>
-												<ObstructionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</ObstructionHPFUsage>
-												<OcclusionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionVolumeUsage>
-												<OcclusionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionLPFUsage>
-												<OcclusionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</OcclusionHPFUsage>
-												<DiffractionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionVolumeUsage>
-												<DiffractionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionLPFUsage>
-												<DiffractionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</DiffractionHPFUsage>
-												<TransmissionVolumeUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionVolumeUsage>
-												<TransmissionLPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionLPFUsage>
-												<TransmissionHPFUsage>
-													<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
-												</TransmissionHPFUsage>
-											</CurveUsageInfoList>
-										</Attenuation>
-									</Custom>
-								</Reference>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="Chest Available (Ongoing)" ID="{A998AE6F-44C4-4FD0-B5D3-D2139492EEF9}">
-									<PropertyList>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="1.1321339950372"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Chest Available (Ongoing).wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="180245698"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="Chest Available (Ongoing)" ID="{A998AE6F-44C4-4FD0-B5D3-D2139492EEF9}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="Environment_Chest Open" ID="{B22F0F5F-8540-420E-86F5-FFE667847C05}" ShortID="604982067">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="Environment_HealthCrate Open" ID="{B22F0F5F-8540-420E-86F5-FFE667847C05}" ShortID="604982067">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1938,19 +1812,24 @@
 										<MediaID ID="788642920"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="HealthCrate Open" ID="{3CE3292C-CD8A-49C4-B5FE-61AAE900585F}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.870841487279844"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.17025440313112"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>HealthCrate Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="342187078"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Chest Open" ID="{F11F535E-3A84-42D8-90EC-828B735982E8}" Platform="Linked"/>
+								<ActiveSource Name="HealthCrate Open" ID="{3CE3292C-CD8A-49C4-B5FE-61AAE900585F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Environment_Collected Key" ID="{6CBE868E-269B-444A-9244-74B3776EA198}" ShortID="924814999">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="Environment_Switch Activated" ID="{6CBE868E-269B-444A-9244-74B3776EA198}" ShortID="924814999">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1972,12 +1851,24 @@
 										<MediaID ID="488128510"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Switch Activated" ID="{F2E5ECC9-75F9-4AD3-8B10-D6DEA83A37DC}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.328767123287671"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.04965753424658"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Switch Activated.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="466663775"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Collected Key" ID="{5C1E4FB2-F8F0-4EE6-8063-2DE80452AF45}" Platform="Linked"/>
+								<ActiveSource Name="Switch Activated" ID="{F2E5ECC9-75F9-4AD3-8B10-D6DEA83A37DC}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Environment_Floor Plate" ID="{3DBD87D7-A76B-4132-8137-3539E013598D}" ShortID="972170867">
+						<Sound Name="Environment_Floor Plate Activated" ID="{3DBD87D7-A76B-4132-8137-3539E013598D}" ShortID="972170867">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -2004,7 +1895,7 @@
 								<ActiveSource Name="Floor Plate" ID="{9B892E58-7EC7-4BC7-90A3-0C60A22208B1}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Environment_Portal Enter" ID="{CBC58A23-98B5-4141-ACFA-06AECD4B5C0C}" ShortID="1027797660">
+						<Sound Name="Environment_Teleport Enter" ID="{CBC58A23-98B5-4141-ACFA-06AECD4B5C0C}" ShortID="1027797660">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -2026,12 +1917,24 @@
 										<MediaID ID="1047727185"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Teleport Enter" ID="{70126124-CD1A-4BF7-9A11-C232A3D37AA9}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.633414872798435"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.10534898891063"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Teleport Enter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1044131345"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Portal Enter" ID="{ED47962A-AC5C-4572-A5F5-56212930CC6D}" Platform="Linked"/>
+								<ActiveSource Name="Teleport Enter" ID="{70126124-CD1A-4BF7-9A11-C232A3D37AA9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="Environment_Stone Key_Directional" ID="{2E2CAA41-8695-492E-AA6B-78BA3C18038E}" ShortID="748718016">
+						<Sound Name="Environment_Switch Idle" ID="{2E2CAA41-8695-492E-AA6B-78BA3C18038E}" ShortID="748718016">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
@@ -2135,19 +2038,19 @@
 										<MediaID ID="946211358"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Switch Idle" ID="{83CC8456-A90E-4F07-AF95-D9BBFD72E2DD}">
+									<Language>SFX</Language>
+									<AudioFile>Switch Idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="173446042"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Stone Key (Ongoing)" ID="{172152A2-A017-4CBE-A44E-2588FA6201D7}" Platform="Linked"/>
+								<ActiveSource Name="Switch Idle" ID="{83CC8456-A90E-4F07-AF95-D9BBFD72E2DD}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Environment_Weapon Pick Up" ID="{7EB0A12D-77FC-4436-BC8D-34A49A6B004A}" ShortID="789188765">
-							<PropertyList>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>-8</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -2158,6 +2061,11 @@
 							</ReferenceList>
 							<ChildrenList>
 								<AudioFileSource Name="Weapon Pick Up" ID="{97DDC472-AD47-4F02-AABB-066A005FBE80}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.222385844748858"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.14638127853881"/>
+									</PropertyList>
 									<Language>SFX</Language>
 									<AudioFile>Weapon Pick Up.wav</AudioFile>
 									<MediaIDList>
@@ -2169,35 +2077,162 @@
 								<ActiveSource Name="Weapon Pick Up" ID="{97DDC472-AD47-4F02-AABB-066A005FBE80}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Environment_Door Open" ID="{4A7246E5-19B1-4878-93D2-60BF0D5AA8A7}" ShortID="839967433">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door Open" ID="{3D9FD183-E3A4-4333-A08E-B1428F258885}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.714032800312075"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.30433789954338"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Door Open.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1020663270"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door Open" ID="{3D9FD183-E3A4-4333-A08E-B1428F258885}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Environment_Teleport Idle" ID="{4921CC25-AFD8-4459-9289-F3F3DDD245A9}" ShortID="73185889">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Portal Enter" ID="{9DC0625B-CECA-4BC5-ADAB-BB5A9B701B4C}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.45353982300885"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.6215112321307"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Portal Enter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1047727185"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Teleport Enter" ID="{7080D374-8941-456D-A3F5-BFC1D89E3E15}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.633414872798435"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.10534898891063"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Teleport Enter.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1044131345"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Teleport Idle" ID="{8FCA0450-8DD0-4414-AFDE-FC135CEDC458}">
+									<Language>SFX</Language>
+									<AudioFile>Teleport Idle.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="679952210"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Teleport Idle" ID="{8FCA0450-8DD0-4414-AFDE-FC135CEDC458}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Environment_Moving Platform_UP" ID="{3DCCF430-60F0-4A45-8402-700D342731F6}" ShortID="211000292">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weapon Pick Up" ID="{3115C31B-EA05-4374-85BD-C923B488D190}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.222385844748858"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.14638127853881"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Weapon Pick Up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="233327949"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Moving Platform (UP)" ID="{911A7430-231A-4EBD-AABF-AB4C613E02B6}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.846526418786693"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.2556824853229"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Moving Platform (UP).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="181081779"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Moving Platform (UP)" ID="{911A7430-231A-4EBD-AABF-AB4C613E02B6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Environment_Moving Platform_DOWN" ID="{2C79ADDD-D166-4116-B67F-44F2E95BC51C}" ShortID="660486938">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Weapon Pick Up" ID="{644923F4-8EAE-40F7-9A33-09DB4DBCACE1}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.222385844748858"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.14638127853881"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Weapon Pick Up.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="233327949"/>
+									</MediaIDList>
+								</AudioFileSource>
+								<AudioFileSource Name="Moving Platform (DOWN)" ID="{BEE23984-6259-4C86-B58E-79EE06A7AD06}">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.650636007827789"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.14094911937378"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Moving Platform (DOWN).wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477039215"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Moving Platform (DOWN)" ID="{BEE23984-6259-4C86-B58E-79EE06A7AD06}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
-				<Sound Name="Cutscene_Door Open" ID="{4A7246E5-19B1-4878-93D2-60BF0D5AA8A7}" ShortID="839967433">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Door Open" ID="{3D9FD183-E3A4-4333-A08E-B1428F258885}">
-							<PropertyList>
-								<Property Name="FadeOutDuration" Type="Real64" Value="0.226426799007444"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimEnd" Type="Real64" Value="1.38267218831735"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Door Open.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1020663270"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Door Open" ID="{3D9FD183-E3A4-4333-A08E-B1428F258885}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Folder Name="Enemies" ID="{BE981B83-AC41-4E70-8FEC-8FFD3F240C9E}" ShortID="770858229">
 					<ChildrenList>
 						<Folder Name="Enemies_Chomper" ID="{9FB3333B-4834-4C86-AEE1-F3142916DB6D}" ShortID="513308261">
