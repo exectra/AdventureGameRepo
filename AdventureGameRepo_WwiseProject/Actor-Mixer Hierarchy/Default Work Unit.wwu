@@ -1914,7 +1914,7 @@
 									<Language>SFX</Language>
 									<AudioFile>Portal Enter.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1047727185"/>
+										<MediaID ID="556874446"/>
 									</MediaIDList>
 								</AudioFileSource>
 								<AudioFileSource Name="Teleport Enter" ID="{70126124-CD1A-4BF7-9A11-C232A3D37AA9}">
@@ -1926,7 +1926,7 @@
 									<Language>SFX</Language>
 									<AudioFile>Teleport Enter.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1044131345"/>
+										<MediaID ID="143798836"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>

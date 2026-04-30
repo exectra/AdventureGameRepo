@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2989050186	Stop_Forest_Ambience			\Default Work Unit\Stop_Forest_Ambience	
+

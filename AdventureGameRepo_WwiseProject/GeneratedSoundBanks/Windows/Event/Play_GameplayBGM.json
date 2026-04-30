@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "2227815452",
+    "Type": "Event",
+    "GUID": "{1C2185F0-09CE-4CF0-9836-B3D424A6D63A}",
+    "Language": "SFX",
+    "Hash": "{721433A7-5C9B-FF13-C187-E7619572EC98}",
+    "ObjectPath": "Play_GameplayBGM",
+    "ShortName": "Play_GameplayBGM",
+    "Path": "Event/Play_GameplayBGM.bnk",
+    "Media": [
+     {
+      "Id": "89056517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Gameplay BGM.wav",
+      "Path": "Media/89056517.wem",
+      "CachePath": "6D/{6DD6A3EA-0E0A-0F23-4A5D-89497BE51646}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2227815452",
+      "Name": "Play_GameplayBGM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_GameplayBGM",
+      "GUID": "{1C2185F0-09CE-4CF0-9836-B3D424A6D63A}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "89056517"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{073530DD-BB84-D350-4863-B6B75A5FAF1C}"
+ }
+}

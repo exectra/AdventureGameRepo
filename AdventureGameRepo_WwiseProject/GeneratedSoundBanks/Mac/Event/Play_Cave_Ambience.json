@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1911082204",
+    "Type": "Event",
+    "GUID": "{8BBE884A-AF82-4481-8F37-B7270C8B46DE}",
+    "Language": "SFX",
+    "Hash": "{11EDEA7B-99C9-C802-7868-A054563F501C}",
+    "ObjectPath": "Play_Cave_Ambience",
+    "ShortName": "Play_Cave_Ambience",
+    "Path": "Event/Play_Cave_Ambience.bnk",
+    "Media": [
+     {
+      "Id": "677572175",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Cave Ambience.wav",
+      "Path": "Media/677572175.wem",
+      "CachePath": "27/{2717C1B0-3A54-742F-900D-BF9E89C0DB70}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1911082204",
+      "Name": "Play_Cave_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Cave_Ambience",
+      "GUID": "{8BBE884A-AF82-4481-8F37-B7270C8B46DE}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "677572175"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{386DDD15-CA3D-D894-79A5-FDAA3B6A32D0}"
+ }
+}

@@ -1,11 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
 	231575099	Play_Ellen_Heal			\Default Work Unit\Play_Ellen\Play_Ellen_Heal	
-	278617630	Play_Ambience			\Default Work Unit\Play_Ambience	
 	519354622	Play_Ellen_Hurt			\Default Work Unit\Play_Ellen\Play_Ellen_Hurt	
 	571167591	Play_MovingPlatform_Up			\Default Work Unit\Play_Environment\Play_MovingPlatform_Up	
 	594124390	Play_WeaponPickUp			\Default Work Unit\Play_Environment\Play_WeaponPickUp	
 	749645064	Play_Chomper_Hurt			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Hurt	
 	756395797	Play_Ellen_Jump			\Default Work Unit\Play_Ellen\Play_Ellen_Jump	
+	811708576	Play_Forest_Ambience			\Default Work Unit\Play_Forest_Ambience	
 	826593012	Play_Grenadier_Melee			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Melee	
 	931488463	Play_Chomper_Attack			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Attack	
 	985089565	Play_Ellen_Death			\Default Work Unit\Play_Ellen\Play_Ellen_Death	
@@ -100,7 +100,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	373168581	Atk whoosh 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A9\{A998CA9D-D4DA-9C00-FFCE-ABBABC3955DE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 3		51096
 	382990415	Chomper Hurt 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\23\{2340F8DF-CBBB-F2CC-D216-90C394806211}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Hurt\Chomper Hurt 3		87096
 	397900314	Grass Footsteps 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\73\{7386A35B-1DD2-F4DB-AA78-5306321E601D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 8		36096
-	402853597	Forest BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\57\{57FB0CB9-2B8A-37DA-D37F-DE209BBC50F3}.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience_Playlist\Ambience_Segment\Forest BGM		9990240
+	402853597	Forest Ambience	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\57\{57FB0CB9-2B8A-37DA-D37F-DE209BBC50F3}.wem		\Interactive Music Hierarchy\Default Work Unit\Ambience\Forest_Ambience_Playlist\Forest_Ambience_Segment\Forest Ambience		9990240
 	407247424	UI_On Click	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\DD\{DDDF9DF5-23A7-2E25-1D06-069AE8E84653}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI_On Click		594096
 	419368078	Player Atk VO 2	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\61\{61CF13D7-1FAA-A950-9D25-EB7E00419F92}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 2		48096
 	421207500	Atk whoosh 1	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\45\{455A2D74-2D22-FB5D-83B7-27FC5BD8AE52}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack\Atk whoosh 1		51096
@@ -132,7 +132,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	641594384	Grass Footsteps 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A2\{A24064D3-EDF1-A9A8-55DA-EB66F3901501}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Footsteps\Grass\Grass Footsteps 3		36096
 	669283822	Chomper Growl 5	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\01\{011A68A1-14FD-0D96-9DD4-05623F6FBB14}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Chomper\Chomper_Growl\Chomper Growl 5		102096
 	675354779	Player Hurt VO 10	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\3E\{3E0D456A-1D7D-8417-C3AF-730B737355B8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 10		132096
-	678185154	Main Menu BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\06\{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem		\Interactive Music Hierarchy\Default Work Unit\MainMenuBGM_Playlist\MainMenuBGM_Segment\Main Menu BGM		32887392
+	678185154	Main Menu BGM	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\06\{06CA49A3-9A4A-B00E-5A21-94BB06BCD208}.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\MainMenuBGM_Playlist\MainMenuBGM_Segment\Main Menu BGM		32887392
 	679952210	Environment_Teleport Idle	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\A6\{A66C9A50-99C9-1B3A-054B-F55CFCFB46CF}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Environment_Teleport Idle		456096
 	687415433	Player Atk VO 7	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\BD\{BD99DFAA-78E1-B9B7-D6A3-E614D316F502}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Attack_VO\Player Atk VO 7		144096
 	704325677	Grenadier Melee 8	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\18\{18B067CE-525E-E88C-3C0E-D0CE0389A777}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Enemies_Grenadier\Grenadier_Melee\Grenadier Melee 8		96096

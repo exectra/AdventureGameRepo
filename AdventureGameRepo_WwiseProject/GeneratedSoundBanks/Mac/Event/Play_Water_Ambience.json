@@ -1,0 +1,46 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3130396874",
+    "Type": "Event",
+    "GUID": "{36C4C4F6-1A44-4FDA-B3DF-C6D30FC097FA}",
+    "Language": "SFX",
+    "Hash": "{A231BD17-6078-3BE7-4B4E-F97FE96B50D0}",
+    "ObjectPath": "Play_Water_Ambience",
+    "ShortName": "Play_Water_Ambience",
+    "Path": "Event/Play_Water_Ambience.bnk",
+    "Media": [
+     {
+      "Id": "337447225",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Loose",
+      "ShortName": "Water Ambience.wav",
+      "Path": "Media/337447225.wem",
+      "CachePath": "61/{61E0F36A-8D81-6B16-3280-42601BE94A04}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "3130396874",
+      "Name": "Play_Water_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Water_Ambience",
+      "GUID": "{36C4C4F6-1A44-4FDA-B3DF-C6D30FC097FA}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "337447225"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{E3B09512-55E3-40CA-31C3-1D3708DC8754}"
+ }
+}

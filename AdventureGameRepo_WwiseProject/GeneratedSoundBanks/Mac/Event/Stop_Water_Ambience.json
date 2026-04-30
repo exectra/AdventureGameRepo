@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4006853768",
+    "Type": "Event",
+    "GUID": "{FCF2184F-9E75-4AFF-AEE4-E975FBF21B37}",
+    "Language": "SFX",
+    "Hash": "{81C7F7B4-157A-B0B4-8D6F-0B340FFB5910}",
+    "ObjectPath": "Stop_Water_Ambience",
+    "ShortName": "Stop_Water_Ambience",
+    "Path": "Event/Stop_Water_Ambience.bnk",
+    "Events": [
+     {
+      "Id": "4006853768",
+      "Name": "Stop_Water_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Water_Ambience",
+      "GUID": "{FCF2184F-9E75-4AFF-AEE4-E975FBF21B37}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{9D4D03E2-5A74-3EC6-EDDB-B9270BFC83C0}"
+ }
+}

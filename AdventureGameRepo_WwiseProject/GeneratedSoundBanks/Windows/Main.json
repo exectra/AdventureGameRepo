@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{5C415F10-953D-921E-8927-3AF4D2F08A16}",
+    "Hash": "{C53C001E-5CD9-0C6B-3EA4-B3B68F8042A0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -946,18 +946,6 @@
     ],
     "Events": [
      {
-      "Id": "278617630",
-      "Name": "Play_Ambience",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Ambience",
-      "GUID": "{698B5D68-335C-4726-B98B-21CF87E10135}",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "402853597"
-       }
-      ]
-     },
-     {
       "Id": "931488463",
       "Name": "Play_Chomper_Attack",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Attack",
@@ -1417,6 +1405,18 @@
       ]
      },
      {
+      "Id": "811708576",
+      "Name": "Play_Forest_Ambience",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Forest_Ambience",
+      "GUID": "{698B5D68-335C-4726-B98B-21CF87E10135}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "402853597"
+       }
+      ]
+     },
+     {
       "Id": "3337034902",
       "Name": "Play_Grenadier_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Death",
@@ -1816,6 +1816,6 @@
     ]
    }
   ],
-  "FileHash": "{4BAC56F1-2CAB-245B-E2A0-395EBD580FA7}"
+  "FileHash": "{82D961CB-F6BF-D051-1D35-454E8D28B9C3}"
  }
 }

@@ -7,7 +7,7 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="Play_Environment" ID="{9E9FA043-E316-40A2-902A-A64266774350}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_MainMenuBGM" ID="{50899D19-8C54-453B-BA93-A55545E72436}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Play_Ambience" ID="{698B5D68-335C-4726-B98B-21CF87E10135}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Forest_Ambience" ID="{698B5D68-335C-4726-B98B-21CF87E10135}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Enemy" ID="{4555B44B-8AEA-47B6-8A07-7F2B60CAE39A}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_MainMenuBGM" ID="{EA59AA07-149C-4AF8-9FFD-744D70981688}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_UI" ID="{074E651E-86B3-4BB8-91E4-AC96F5481ECF}" WorkUnitID="{3CF8E8F4-5492-4BEE-B77C-9B806350AA5A}" Origin="Manual" Filter="7"/>

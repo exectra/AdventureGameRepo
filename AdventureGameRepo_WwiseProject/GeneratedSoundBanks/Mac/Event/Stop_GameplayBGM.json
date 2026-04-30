@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "4011792610",
+    "Type": "Event",
+    "GUID": "{9AD58618-4DCB-48E4-85D2-B28AD60E7FB4}",
+    "Language": "SFX",
+    "Hash": "{D2936EB0-132A-6BC9-8E1D-76D427B54196}",
+    "ObjectPath": "Stop_GameplayBGM",
+    "ShortName": "Stop_GameplayBGM",
+    "Path": "Event/Stop_GameplayBGM.bnk",
+    "Events": [
+     {
+      "Id": "4011792610",
+      "Name": "Stop_GameplayBGM",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_GameplayBGM",
+      "GUID": "{9AD58618-4DCB-48E4-85D2-B28AD60E7FB4}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{2CBEBF08-5E38-36CB-9C7C-31EAF28FC767}"
+ }
+}

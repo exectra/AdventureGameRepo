@@ -507,12 +507,101 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Ambience" ID="{698B5D68-335C-4726-B98B-21CF87E10135}">
+				<Event Name="Play_Forest_Ambience" ID="{698B5D68-335C-4726-B98B-21CF87E10135}">
 					<ChildrenList>
 						<Action Name="" ID="{017AE798-4206-460B-990E-62C44B4901E9}" ShortID="432470022">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Ambience_Playlist" ID="{F8712A81-93E2-4974-9B46-CAE4B9147417}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+									<ObjectRef Name="Forest_Ambience_Playlist" ID="{F8712A81-93E2-4974-9B46-CAE4B9147417}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Water_Ambience" ID="{36C4C4F6-1A44-4FDA-B3DF-C6D30FC097FA}">
+					<ChildrenList>
+						<Action Name="" ID="{3B1E8F23-0001-4BA3-BDAB-A5A8149BB1F9}" ShortID="150286188">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water_Ambience_Playlist" ID="{36F23B41-B72C-4A3C-8A01-6522025E85A0}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Cave_Ambience" ID="{8BBE884A-AF82-4481-8F37-B7270C8B46DE}">
+					<ChildrenList>
+						<Action Name="" ID="{3DC19F7D-8E18-4E2B-B1D7-7DA41EAEADFB}" ShortID="849875724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cave_Ambience_Playlist" ID="{43E2478F-2079-41AB-89EA-F2DF3B6C9042}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GameplayBGM" ID="{1C2185F0-09CE-4CF0-9836-B3D424A6D63A}">
+					<ChildrenList>
+						<Action Name="" ID="{207E984A-ED5F-4E31-B3A5-30B812DEE747}" ShortID="888625381">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameplayBGM_Playlist" ID="{7E2E3D31-C77F-48D5-918D-ADB9B66805D8}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_GameplayBGM" ID="{9AD58618-4DCB-48E4-85D2-B28AD60E7FB4}">
+					<ChildrenList>
+						<Action Name="" ID="{33843D32-E450-4934-902A-9455BC098E91}" ShortID="471864569">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GameplayBGM_Playlist" ID="{7E2E3D31-C77F-48D5-918D-ADB9B66805D8}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Forest_Ambience" ID="{BBC1FB91-38B0-44B4-B604-6E84052EF01C}">
+					<ChildrenList>
+						<Action Name="" ID="{7513256F-80C0-4473-916B-C6381B8081D7}" ShortID="219884741">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Forest_Ambience_Playlist" ID="{F8712A81-93E2-4974-9B46-CAE4B9147417}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Cave_Ambience" ID="{D4AA9FFE-8894-4DFE-9135-D8D22BD9159B}">
+					<ChildrenList>
+						<Action Name="" ID="{F98BF483-530A-4AD4-ADCC-3BAB4C062413}" ShortID="662916774">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cave_Ambience_Playlist" ID="{43E2478F-2079-41AB-89EA-F2DF3B6C9042}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Water_Ambience" ID="{FCF2184F-9E75-4AFF-AEE4-E975FBF21B37}">
+					<ChildrenList>
+						<Action Name="" ID="{43BF83C3-4F34-4285-8A0E-F8004F53D602}" ShortID="736354495">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Water_Ambience_Playlist" ID="{36F23B41-B72C-4A3C-8A01-6522025E85A0}" WorkUnitID="{42AF2E26-2D00-4CEF-BB96-4EFDB5EDEF7F}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

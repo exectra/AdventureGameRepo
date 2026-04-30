@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4011792610	Stop_GameplayBGM			\Default Work Unit\Stop_GameplayBGM	
+

@@ -13,7 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_AMBIENCE = 278617630U;
+        static const AkUniqueID PLAY_CAVE_AMBIENCE = 1911082204U;
         static const AkUniqueID PLAY_CHOMPER_ATTACK = 931488463U;
         static const AkUniqueID PLAY_CHOMPER_DEATH = 2761388991U;
         static const AkUniqueID PLAY_CHOMPER_FOOTSTEPS = 3742480528U;
@@ -33,6 +33,8 @@ namespace AK
         static const AkUniqueID PLAY_ELLEN_SHIELDCRACK = 3703199980U;
         static const AkUniqueID PLAY_ELLEN_SPAWN = 3225604978U;
         static const AkUniqueID PLAY_FLOORPLATE_ACTIVATED = 3631107208U;
+        static const AkUniqueID PLAY_FOREST_AMBIENCE = 811708576U;
+        static const AkUniqueID PLAY_GAMEPLAYBGM = 2227815452U;
         static const AkUniqueID PLAY_GRENADIER_DEATH = 3337034902U;
         static const AkUniqueID PLAY_GRENADIER_FOOTSTEPS = 2094447813U;
         static const AkUniqueID PLAY_GRENADIER_HURT = 3417550891U;
@@ -55,8 +57,13 @@ namespace AK
         static const AkUniqueID PLAY_UI_ONHOVER = 3111063598U;
         static const AkUniqueID PLAY_UI_OPEN = 3905148667U;
         static const AkUniqueID PLAY_UI_STARTGAME = 1473547871U;
+        static const AkUniqueID PLAY_WATER_AMBIENCE = 3130396874U;
         static const AkUniqueID PLAY_WEAPONPICKUP = 594124390U;
+        static const AkUniqueID STOP_CAVE_AMBIENCE = 221660262U;
+        static const AkUniqueID STOP_FOREST_AMBIENCE = 2989050186U;
+        static const AkUniqueID STOP_GAMEPLAYBGM = 4011792610U;
         static const AkUniqueID STOP_MAINMENUBGM = 1323942960U;
+        static const AkUniqueID STOP_WATER_AMBIENCE = 4006853768U;
     } // namespace EVENTS
 
     namespace STATES
