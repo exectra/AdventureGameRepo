@@ -1,14 +1,13 @@
-State Group	ID	Name			Wwise Object Path	Notes
-	2507554221	FootstepsState			\Default Work Unit\FootstepsState	
-
-State	ID	Name	State Group			Notes
-	748895195	None	FootstepsState			
-	1181096339	Wet	FootstepsState			
-	1216965916	Stone	FootstepsState			
-	4248645337	Grass	FootstepsState			
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	552066128	Enemy_Playing			\Default Work Unit\Enemy_Playing	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	2833159698	Environment Bus			\Default Work Unit\Master Audio Bus\Environment Bus	
+	3071607971	Combat Bus			\Default Work Unit\Master Audio Bus\Combat Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1992114213	Sidechain_Meter	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

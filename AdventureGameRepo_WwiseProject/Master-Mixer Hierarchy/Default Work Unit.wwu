@@ -9,6 +9,72 @@
 							<ObjectRef Name="System" ID="{D62D1AC8-4AAD-462A-B48C-F342AD7069E4}" WorkUnitID="{AC25AA7E-FC41-4DC2-9463-8544D4D637F1}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Combat Bus" ID="{71A329A0-4E6E-4F37-A6E5-E33149E52E41}">
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{0F93E1BA-7DA9-406D-8DD0-47D16B4012F0}" ShortID="410820669">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+														<ObjectRef Name="Sidechain_Meter" ID="{FAC4C097-D2ED-4E30-8529-7D59E836B6E2}" WorkUnitID="{FBAC12FC-748C-433C-B4AA-C8401DE406E4}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+						<Bus Name="Environment Bus" ID="{8B7E205F-253B-4169-BBB3-6325685C940B}">
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{2E33A222-D84A-4029-A0AC-352377FC8C0B}" ShortID="117560421">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="Enemy_Playing" ID="{0E4A6E55-550B-464A-9682-A52C0D6CE224}" WorkUnitID="{1B8A0689-DB2F-42DA-A0F4-3255EC611C5F}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{1B79B735-67B4-46D9-850C-83B3108E2170}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-48</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>-24.95053</XPos>
+																		<YPos>0</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log1</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-12</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</Bus>
+					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

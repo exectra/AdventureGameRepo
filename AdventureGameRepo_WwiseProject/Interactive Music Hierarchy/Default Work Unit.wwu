@@ -6,6 +6,13 @@
 				<Folder Name="Ambience" ID="{BD0F561C-948A-409C-9AA5-621C48EBD51F}" ShortID="827990503">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="Forest_Ambience_Playlist" ID="{F8712A81-93E2-4974-9B46-CAE4B9147417}" ShortID="128234541">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -146,6 +153,21 @@
 									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A60DAA77-C232-4F10-9EE4-ED9773253C44}" ShortID="533914097">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Have_U_Ever_Been_Outside" ID="{FE29AE8D-FD86-4652-A95D-68D32F5760EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Cave_Ambience_Playlist" ID="{43E2478F-2079-41AB-89EA-F2DF3B6C9042}" ShortID="623159144">
 							<ReferenceList>
@@ -153,7 +175,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
+									<ObjectRef Name="Environment Bus" ID="{8B7E205F-253B-4169-BBB3-6325685C940B}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
 								</Reference>
 								<Reference Name="PlaylistRoot">
 									<Custom>
@@ -196,7 +218,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Cave_Ambience_Segment" ID="{2E9CF2BF-362B-4401-B9CC-CA3F7CE73104}" ShortID="177142787">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="24000"/>
+										<Property Name="EndPosition" Type="Real64" Value="27156.8426317492"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -208,6 +230,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<MusicTrack Name="Cave Ambience" ID="{2782BA68-93E9-4F2B-813F-7AC84C89FD5D}" ShortID="616497531">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
@@ -243,11 +272,70 @@
 																			<Local>
 																				<MusicClip Name="Cave Ambience" ID="{54473C7B-9E65-4AF8-88E6-299D117F3917}">
 																					<PropertyList>
-																						<Property Name="EndTrimOffset" Type="Real64" Value="24000"/>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="27156.8426317492"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Cave Ambience" ID="{586EEB67-B0B6-4B76-8D37-BE3B764320C8}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{56BB4180-22D9-4266-887C-0AB0C31FAC67}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>27.15684</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{BAA2A14C-4E51-4C69-BD8E-03109ED0720E}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>27.15684</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{1BD35EF9-3405-43B4-8E47-BB2D5AE732D1}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>27.15684</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -272,7 +360,7 @@
 													<MusicCue Name="Exit Cue" ID="{9551FDC2-229E-464E-802A-4761E744FB86}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="24000"/>
+															<Property Name="TimeMs" Type="Real64" Value="23737.1356841943"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -281,6 +369,21 @@
 									</ObjectLists>
 								</MusicSegment>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{4532F5EF-00AA-4217-994C-EFD56C403880}" ShortID="449737209">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Not_A_Yellow_Submarine" ID="{B5719071-C58D-49FA-8766-B1D986D017EC}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Water_Ambience_Playlist" ID="{36F23B41-B72C-4A3C-8A01-6522025E85A0}" ShortID="785580553">
 							<ReferenceList>
@@ -422,12 +525,19 @@
 				<Folder Name="BGM" ID="{4219B00F-7D10-4E93-801F-D565E43C2183}" ShortID="649386272">
 					<ChildrenList>
 						<MusicPlaylistContainer Name="GameplayBGM_Playlist" ID="{7E2E3D31-C77F-48D5-918D-ADB9B66805D8}" ShortID="761193704">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
+									<ObjectRef Name="Environment Bus" ID="{8B7E205F-253B-4169-BBB3-6325685C940B}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
 								</Reference>
 								<Reference Name="PlaylistRoot">
 									<Custom>

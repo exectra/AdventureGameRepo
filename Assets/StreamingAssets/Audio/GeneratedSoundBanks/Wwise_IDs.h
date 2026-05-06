@@ -42,6 +42,7 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIER_RANGE_1 = 1363968655U;
         static const AkUniqueID PLAY_GRENADIER_RANGE_2_AMMO = 2086598241U;
         static const AkUniqueID PLAY_GRENADIER_RANGE_2_THROW = 2696401305U;
+        static const AkUniqueID PLAY_HEALTHCRATE_IDLE = 1840834974U;
         static const AkUniqueID PLAY_HEALTHCRATE_OPEN = 3862797904U;
         static const AkUniqueID PLAY_MAINMENUBGM = 1063700270U;
         static const AkUniqueID PLAY_MOVINGPLATFORM_DOWN = 3679527148U;
@@ -49,7 +50,6 @@ namespace AK
         static const AkUniqueID PLAY_SPITTER_ATTACK = 3913336272U;
         static const AkUniqueID PLAY_SPITTER_ATTACK_SPLAT = 4160876689U;
         static const AkUniqueID PLAY_SWITCH_ACTIVATED = 3572783242U;
-        static const AkUniqueID PLAY_SWITCH_IDLE = 3260921235U;
         static const AkUniqueID PLAY_TELEPORT_ENTER = 2317718668U;
         static const AkUniqueID PLAY_TELEPORT_IDLE = 3511716172U;
         static const AkUniqueID PLAY_UI_EXIT = 1986548623U;
@@ -66,50 +66,10 @@ namespace AK
         static const AkUniqueID STOP_WATER_AMBIENCE = 4006853768U;
     } // namespace EVENTS
 
-    namespace STATES
+    namespace GAME_PARAMETERS
     {
-        namespace FOOTSTEPSSTATE
-        {
-            static const AkUniqueID GROUP = 2507554221U;
-
-            namespace STATE
-            {
-                static const AkUniqueID GRASS = 4248645337U;
-                static const AkUniqueID NONE = 748895195U;
-                static const AkUniqueID STONE = 1216965916U;
-                static const AkUniqueID WET = 1181096339U;
-            } // namespace STATE
-        } // namespace FOOTSTEPSSTATE
-
-    } // namespace STATES
-
-    namespace SWITCHES
-    {
-        namespace FOOTSTEPS
-        {
-            static const AkUniqueID GROUP = 2385628198U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID GRASS = 4248645337U;
-                static const AkUniqueID STONE = 1216965916U;
-                static const AkUniqueID WET = 1181096339U;
-            } // namespace SWITCH
-        } // namespace FOOTSTEPS
-
-        namespace PINK_FOOTSTEPS
-        {
-            static const AkUniqueID GROUP = 927575501U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID GRASS = 4248645337U;
-                static const AkUniqueID STONE = 1216965916U;
-                static const AkUniqueID WET = 1181096339U;
-            } // namespace SWITCH
-        } // namespace PINK_FOOTSTEPS
-
-    } // namespace SWITCHES
+        static const AkUniqueID ENEMY_PLAYING = 552066128U;
+    } // namespace GAME_PARAMETERS
 
     namespace BANKS
     {
@@ -119,6 +79,8 @@ namespace AK
 
     namespace BUSSES
     {
+        static const AkUniqueID COMBAT_BUS = 3071607971U;
+        static const AkUniqueID ENVIRONMENT_BUS = 2833159698U;
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
 

@@ -102,7 +102,7 @@
 								<Action Name="" ID="{E0A1CD56-71CE-446E-9323-2AC6A2C46B4C}" ShortID="1042521111">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Ellen_Footsteps" ID="{F9D3B9A4-4701-4AE8-B9DB-CA859F3F7A84}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+											<ObjectRef Name="Ellen_Footsteps" ID="{8DC66C03-3840-47AC-8F2B-3E087A884F05}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -244,12 +244,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Switch_Idle" ID="{E1B07001-B4B6-4EF2-8B1B-3ABACE46F46B}">
+						<Event Name="Play_HealthCrate_Idle" ID="{E1B07001-B4B6-4EF2-8B1B-3ABACE46F46B}">
 							<ChildrenList>
 								<Action Name="" ID="{F3C42EA5-8227-463A-A00B-620A40F44C6D}" ShortID="287311186">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Environment_Switch Idle" ID="{2E2CAA41-8695-492E-AA6B-78BA3C18038E}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+											<ObjectRef Name="Environment_HealthCrate Idle" ID="{2E2CAA41-8695-492E-AA6B-78BA3C18038E}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

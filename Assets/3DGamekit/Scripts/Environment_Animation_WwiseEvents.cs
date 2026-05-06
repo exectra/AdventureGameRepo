@@ -9,7 +9,7 @@ public class Environment_Animation_WwiseEvents : MonoBehaviour
     public AK.Wwise.Event Play_FloorPlate_Activated;
     public AK.Wwise.Event Play_HealthCrate_Open;
     public AK.Wwise.Event Play_Switch_Activated;
-    public AK.Wwise.Event Play_Switch_Idle;
+    public AK.Wwise.Event Play_HealthCrate_Idle;
     public AK.Wwise.Event Play_Teleport_Enter;
     public AK.Wwise.Event Play_Teleport_Idle;
     public AK.Wwise.Event Play_WeaponPickUp;
@@ -34,9 +34,9 @@ public class Environment_Animation_WwiseEvents : MonoBehaviour
     {
         Play_Switch_Activated.Post(gameObject);
     }
-    public void PlaySwitchIdle()
+    public void PlayHealthCrateIdle()
     {
-        Play_Switch_Idle.Post(gameObject);
+        Play_HealthCrate_Idle.Post(gameObject);
     }
     public void PlayTeleportEnter()
     {

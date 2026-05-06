@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{C53C001E-5CD9-0C6B-3EA4-B3B68F8042A0}",
+    "Hash": "{1F64203D-6D6A-A9A2-79F4-DEF8FDEB57F5}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -950,7 +950,7 @@
       "Name": "Play_Chomper_Attack",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Attack",
       "GUID": "{74E8346B-7837-48A8-AD55-7273F1318EE3}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.5144053",
       "DurationMax": "0.66021127",
@@ -977,7 +977,7 @@
       "Name": "Play_Chomper_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Death",
       "GUID": "{F829EE13-798A-4CD3-8381-7307E0C3096C}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.765625",
       "DurationMax": "0.765625",
@@ -992,7 +992,7 @@
       "Name": "Play_Chomper_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Footsteps",
       "GUID": "{AF4B185B-F7A1-4E64-97CF-3E547A0BEF54}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.27993247",
       "DurationMax": "0.373665",
@@ -1022,7 +1022,7 @@
       "Name": "Play_Chomper_Growl",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Growl",
       "GUID": "{2BCDBCD0-7A64-4F89-B885-B3465DFB910F}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.7470084",
       "DurationMax": "1.2817194",
@@ -1049,7 +1049,7 @@
       "Name": "Play_Chomper_Hurt",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Chomper\\Play_Chomper_Hurt",
       "GUID": "{30DCBC20-5C87-454C-9842-983FF55D9A4F}",
-      "MaxAttenuation": "100",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.71982634",
       "DurationMax": "1.1553527",
@@ -1076,6 +1076,7 @@
       "Name": "Play_DestructibleBox",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_DestructibleBox",
       "GUID": "{7933F669-8532-4C5D-9C10-6071EC273DAC}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "1.5833334",
       "DurationMax": "1.5833334",
@@ -1090,6 +1091,7 @@
       "Name": "Play_DoorOpen",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_DoorOpen",
       "GUID": "{43F91AC4-3E3B-4DFE-A0EE-FEB843D5CB4A}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "5.304338",
       "DurationMax": "5.304338",
@@ -1226,41 +1228,30 @@
       "DurationType": "OneShot",
       "DurationMin": "0.14668526",
       "DurationMax": "0.2362352",
-      "SwitchContainers": [
+      "MediaRefs": [
        {
-        "SwitchValue": {
-         "GroupType": "Switch",
-         "GroupId": "2385628198",
-         "Id": "4248645337",
-         "GUID": "{B20CD519-C618-4384-AFF9-0C7048A09E96}",
-         "Default": "true"
-        },
-        "MediaRefs": [
-         {
-          "Id": "117562557"
-         },
-         {
-          "Id": "175052703"
-         },
-         {
-          "Id": "397900314"
-         },
-         {
-          "Id": "594549966"
-         },
-         {
-          "Id": "640909322"
-         },
-         {
-          "Id": "641594384"
-         },
-         {
-          "Id": "800434201"
-         },
-         {
-          "Id": "942425098"
-         }
-        ]
+        "Id": "117562557"
+       },
+       {
+        "Id": "175052703"
+       },
+       {
+        "Id": "397900314"
+       },
+       {
+        "Id": "594549966"
+       },
+       {
+        "Id": "640909322"
+       },
+       {
+        "Id": "641594384"
+       },
+       {
+        "Id": "800434201"
+       },
+       {
+        "Id": "942425098"
        }
       ]
      },
@@ -1421,6 +1412,7 @@
       "Name": "Play_Grenadier_Death",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Death",
       "GUID": "{299AA5FB-E0B8-4C6F-A034-0F518CF846BF}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "4.482906",
       "DurationMax": "4.482906",
@@ -1435,6 +1427,7 @@
       "Name": "Play_Grenadier_Footsteps",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Footsteps",
       "GUID": "{A12EC7A8-A5B3-4889-AA73-3C649A2E9145}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.828125",
       "DurationMax": "0.828125",
@@ -1458,6 +1451,7 @@
       "Name": "Play_Grenadier_Hurt",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Hurt",
       "GUID": "{228895DD-8A57-4527-B64A-9BF50245FA8D}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "1.6339155",
       "DurationMax": "2.3443153",
@@ -1478,6 +1472,7 @@
       "Name": "Play_Grenadier_Melee",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Melee",
       "GUID": "{7C75EB50-5214-41A7-95F4-01269E669185}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.91700405",
       "DurationMax": "1.122462",
@@ -1516,6 +1511,7 @@
       "Name": "Play_Grenadier_Range_1",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Range_1",
       "GUID": "{3942CD31-4DA8-4F97-A7D2-CE195F02D59A}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "5.2328205",
       "DurationMax": "5.2328205",
@@ -1530,6 +1526,7 @@
       "Name": "Play_Grenadier_Range_2_Ammo",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Range_2_Ammo",
       "GUID": "{20251772-0203-4AD8-825F-1E333CB0375D}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "4.747692",
       "DurationMax": "4.747692",
@@ -1544,6 +1541,7 @@
       "Name": "Play_Grenadier_Range_2_Throw",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Grenadier\\Play_Grenadier_Range_2_Throw",
       "GUID": "{CA91F0C1-2E8A-4B4B-8C04-595934441806}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "2.148205",
       "DurationMax": "2.148205",
@@ -1554,10 +1552,24 @@
       ]
      },
      {
+      "Id": "1840834974",
+      "Name": "Play_HealthCrate_Idle",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_HealthCrate_Idle",
+      "GUID": "{E1B07001-B4B6-4EF2-8B1B-3ABACE46F46B}",
+      "MaxAttenuation": "40",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "173446042"
+       }
+      ]
+     },
+     {
       "Id": "3862797904",
       "Name": "Play_HealthCrate_Open",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_HealthCrate_Open",
       "GUID": "{BAE7F893-402F-4079-B774-4A87CC0110F7}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "2.1702545",
       "DurationMax": "2.1702545",
@@ -1584,6 +1596,7 @@
       "Name": "Play_MovingPlatform_Down",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_MovingPlatform_Down",
       "GUID": "{99D7D394-5590-43B1-AD79-4348B018EAF1}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "3.140949",
       "DurationMax": "3.140949",
@@ -1598,6 +1611,7 @@
       "Name": "Play_MovingPlatform_Up",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_MovingPlatform_Up",
       "GUID": "{7347E983-1683-4FCA-9B47-C56C91979094}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "3.2556825",
       "DurationMax": "3.2556825",
@@ -1612,6 +1626,7 @@
       "Name": "Play_Spitter_Attack",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Spitter\\Play_Spitter_Attack",
       "GUID": "{632E46F2-E14F-4991-BF74-1B5F11007C5E}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.8408964",
       "DurationMax": "1.1721576",
@@ -1629,6 +1644,7 @@
       "Name": "Play_Spitter_Attack_Splat",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Enemy\\Play_Spitter\\Play_Spitter_Attack_Splat",
       "GUID": "{C87A06E1-C28F-468E-8CA5-B7489AFF75E5}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.5285272",
       "DurationMax": "0.8635688",
@@ -1649,19 +1665,6 @@
       "MediaRefs": [
        {
         "Id": "466663775"
-       }
-      ]
-     },
-     {
-      "Id": "3260921235",
-      "Name": "Play_Switch_Idle",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_Switch_Idle",
-      "GUID": "{E1B07001-B4B6-4EF2-8B1B-3ABACE46F46B}",
-      "MaxAttenuation": "100",
-      "DurationType": "Infinite",
-      "MediaRefs": [
-       {
-        "Id": "173446042"
        }
       ]
      },
@@ -1766,6 +1769,7 @@
       "Name": "Play_WeaponPickUp",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Environment\\Play_WeaponPickUp",
       "GUID": "{4F77382E-38B9-429C-A358-235BD6574605}",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "1.1463813",
       "DurationMax": "1.1463813",
@@ -1785,37 +1789,9 @@
       "DurationMin": "0",
       "DurationMax": "0"
      }
-    ],
-    "SwitchGroups": [
-     {
-      "Id": "2385628198",
-      "Name": "Footsteps",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps",
-      "GUID": "{564B154A-0883-488E-8D15-3A776A5D9C14}",
-      "Switches": [
-       {
-        "Id": "1181096339",
-        "Name": "Wet",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Wet",
-        "GUID": "{B8226082-79EC-4D8C-B6FC-1705DC9E318A}"
-       },
-       {
-        "Id": "1216965916",
-        "Name": "Stone",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Stone",
-        "GUID": "{CFB5010A-FEFF-4194-9302-F1230C907E7F}"
-       },
-       {
-        "Id": "4248645337",
-        "Name": "Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Footsteps\\Grass",
-        "GUID": "{B20CD519-C618-4384-AFF9-0C7048A09E96}"
-       }
-      ]
-     }
     ]
    }
   ],
-  "FileHash": "{82D961CB-F6BF-D051-1D35-454E8D28B9C3}"
+  "FileHash": "{D82B442C-C65F-B934-DC35-E8BBAE6FD82A}"
  }
 }

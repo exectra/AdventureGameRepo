@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{1C2185F0-09CE-4CF0-9836-B3D424A6D63A}",
     "Language": "SFX",
-    "Hash": "{721433A7-5C9B-FF13-C187-E7619572EC98}",
+    "Hash": "{E548F729-AC09-F937-8CDB-9DEB3EE50B16}",
     "ObjectPath": "Play_GameplayBGM",
     "ShortName": "Play_GameplayBGM",
     "Path": "Event/Play_GameplayBGM.bnk",
@@ -41,6 +41,6 @@
     ]
    }
   ],
-  "FileHash": "{073530DD-BB84-D350-4863-B6B75A5FAF1C}"
+  "FileHash": "{D37490BD-D514-12AA-DCF2-007A59DC100B}"
  }
 }
