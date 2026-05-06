@@ -14,6 +14,8 @@ public class Environment_Animation_WwiseEvents : MonoBehaviour
     public AK.Wwise.Event Play_Teleport_Idle;
     public AK.Wwise.Event Play_WeaponPickUp;
 
+    public AK.Wwise.Event Stop_HealthCrate_Idle;
+
     public void PlayDestructibleBox()
     {
         Play_DestructibleBox.Post(gameObject);
@@ -37,6 +39,10 @@ public class Environment_Animation_WwiseEvents : MonoBehaviour
     public void PlayHealthCrateIdle()
     {
         Play_HealthCrate_Idle.Post(gameObject);
+    }
+    public void StopHealthCrateIdle()
+    {
+        Stop_HealthCrate_Idle.Post(gameObject);
     }
     public void PlayTeleportEnter()
     {

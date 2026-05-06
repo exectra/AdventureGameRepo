@@ -310,6 +310,34 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Stop_HealthCrate_Idle" ID="{5FE48B29-CF85-4143-A631-9CB683A1FCF8}">
+							<ChildrenList>
+								<Action Name="" ID="{2131CEAD-4A1C-40A5-9B81-9148ECAA9782}" ShortID="139169593">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environment_HealthCrate Idle" ID="{2E2CAA41-8695-492E-AA6B-78BA3C18038E}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_Teleport_Idle" ID="{7F92BB5C-CF6E-4144-B04D-43AEC5C7B1CD}">
+							<ChildrenList>
+								<Action Name="" ID="{5F3FA4FA-99B9-4315-97CB-FB103144CF19}" ShortID="101092160">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Environment_Teleport Idle" ID="{4921CC25-AFD8-4459-9289-F3F3DDD245A9}" WorkUnitID="{8F3CD78E-F86B-4FB9-AAF9-4A1BDB75FFC7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Play_Enemy" ID="{4555B44B-8AEA-47B6-8A07-7F2B60CAE39A}" ShortID="996355248">

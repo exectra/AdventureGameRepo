@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1911082204	Play_Cave_Ambience			\Default Work Unit\Play_Cave_Ambience	
 
+Effect plug-ins	ID	Name	Type				Notes
+	2265839006	Not_A_Yellow_Submarine	Wwise RoomVerb			
+

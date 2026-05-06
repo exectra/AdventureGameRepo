@@ -82,7 +82,7 @@
 										</Point>
 										<Point>
 											<XPos>13.99788</XPos>
-											<YPos>-0</YPos>
+											<YPos>0</YPos>
 											<Flags>0</Flags>
 										</Point>
 										<Point>
@@ -158,9 +158,10 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>21.037455</XPos>
+											<XPos>15.01802</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
+											<SegmentShape>Log1</SegmentShape>
 										</Point>
 										<Point>
 											<XPos>30</XPos>

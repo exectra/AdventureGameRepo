@@ -62,7 +62,9 @@ namespace AK
         static const AkUniqueID STOP_CAVE_AMBIENCE = 221660262U;
         static const AkUniqueID STOP_FOREST_AMBIENCE = 2989050186U;
         static const AkUniqueID STOP_GAMEPLAYBGM = 4011792610U;
+        static const AkUniqueID STOP_HEALTHCRATE_IDLE = 3141466080U;
         static const AkUniqueID STOP_MAINMENUBGM = 1323942960U;
+        static const AkUniqueID STOP_TELEPORT_IDLE = 3631616250U;
         static const AkUniqueID STOP_WATER_AMBIENCE = 4006853768U;
     } // namespace EVENTS
 

@@ -1848,18 +1848,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Portal Enter" ID="{ED47962A-AC5C-4572-A5F5-56212930CC6D}">
-									<PropertyList>
-										<Property Name="FadeOutDuration" Type="Real64" Value="1.45353982300885"/>
-										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-										<Property Name="TrimEnd" Type="Real64" Value="4.6215112321307"/>
-									</PropertyList>
-									<Language>SFX</Language>
-									<AudioFile>Portal Enter.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="556874446"/>
-									</MediaIDList>
-								</AudioFileSource>
 								<AudioFileSource Name="Teleport Enter" ID="{70126124-CD1A-4BF7-9A11-C232A3D37AA9}">
 									<PropertyList>
 										<Property Name="FadeOutDuration" Type="Real64" Value="0.633414872798435"/>
@@ -1982,9 +1970,18 @@
 						</Sound>
 						<Sound Name="Environment_Teleport Idle" ID="{4921CC25-AFD8-4459-9289-F3F3DDD245A9}" ShortID="73185889">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Platform" ID="{F6C9A22C-92B5-4746-BB82-0C3EF095B309}" WorkUnitID="{212DFE57-12E6-4D3A-A13C-681CB505E59D}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
 								</Reference>
@@ -2001,6 +1998,21 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<Reference>
+										<Local>
+											<EffectSlot Name="" ID="{A6286CF0-B38C-4F16-A3AF-D31B1C325AA0}" ShortID="542446584">
+												<ReferenceList>
+													<Reference Name="Effect" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+														<ObjectRef Name="Inside_Your_Head" ID="{AE2D0AE1-8963-400A-AA4A-52A7A6397F89}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+													</Reference>
+												</ReferenceList>
+											</EffectSlot>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 							<ActiveSourceList>
 								<ActiveSource Name="Teleport Idle" ID="{8FCA0450-8DD0-4414-AFDE-FC135CEDC458}" Platform="Linked"/>
 							</ActiveSourceList>

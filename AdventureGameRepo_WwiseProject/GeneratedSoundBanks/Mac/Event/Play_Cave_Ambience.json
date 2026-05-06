@@ -10,7 +10,7 @@
     "Type": "Event",
     "GUID": "{8BBE884A-AF82-4481-8F37-B7270C8B46DE}",
     "Language": "SFX",
-    "Hash": "{E4E3D432-F592-3315-5737-DF74B9989D09}",
+    "Hash": "{2FE03BE6-DC7D-A969-5F8E-2EF2A599E7ED}",
     "ObjectPath": "Play_Cave_Ambience",
     "ShortName": "Play_Cave_Ambience",
     "Path": "Event/Play_Cave_Ambience.bnk",
@@ -25,6 +25,18 @@
       "CachePath": "27/{2717C1B0-3A54-742F-900D-BF9E89C0DB70}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "2265839006",
+       "Name": "Not_A_Yellow_Submarine",
+       "ObjectPath": "\\Effects\\Factory Effects\\RoomVerb\\Claustrophobia\\Not_A_Yellow_Submarine",
+       "GUID": "{B5719071-C58D-49FA-8766-B1D986D017EC}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1911082204",
@@ -36,11 +48,18 @@
        {
         "Id": "677572175"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "2265839006"
+        }
+       ]
+      }
      }
     ]
    }
   ],
-  "FileHash": "{2CCCE6CB-EFB7-4346-3DD0-CB40ECC740CB}"
+  "FileHash": "{C021F0C9-7EA5-715E-5A39-95FA6BA48860}"
  }
 }

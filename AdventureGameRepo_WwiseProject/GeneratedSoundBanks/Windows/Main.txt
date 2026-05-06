@@ -23,6 +23,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2761388991	Play_Chomper_Death			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Death	
 	2923999633	Play_Ellen_Attack_VO			\Default Work Unit\Play_Ellen\Play_Ellen_Attack_VO	
 	3111063598	Play_UI_OnHover			\Default Work Unit\Play_UI\Play_UI_OnHover	
+	3141466080	Stop_HealthCrate_Idle			\Default Work Unit\Play_Environment\Stop_HealthCrate_Idle	
 	3197300806	Play_DoorOpen			\Default Work Unit\Play_Environment\Play_DoorOpen	
 	3225604978	Play_Ellen_Spawn			\Default Work Unit\Play_Ellen\Play_Ellen_Spawn	
 	3337034902	Play_Grenadier_Death			\Default Work Unit\Play_Enemy\Play_Grenadier\Play_Grenadier_Death	
@@ -33,6 +34,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3570890048	Play_UI_OnClick			\Default Work Unit\Play_UI\Play_UI_OnClick	
 	3572783242	Play_Switch_Activated			\Default Work Unit\Play_Environment\Play_Switch_Activated	
 	3631107208	Play_FloorPlate_Activated			\Default Work Unit\Play_Environment\Play_FloorPlate_Activated	
+	3631616250	Stop_Teleport_Idle			\Default Work Unit\Play_Environment\Stop_Teleport_Idle	
 	3679527148	Play_MovingPlatform_Down			\Default Work Unit\Play_Environment\Play_MovingPlatform_Down	
 	3703199980	Play_Ellen_ShieldCrack			\Default Work Unit\Play_Ellen\Play_Ellen_ShieldCrack	
 	3742480528	Play_Chomper_Footsteps			\Default Work Unit\Play_Enemy\Play_Chomper\Play_Chomper_Footsteps	
@@ -43,6 +45,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	4018741819	Play_Ellen_Attack_Hit			\Default Work Unit\Play_Ellen\Play_Ellen_Attack_Hit	
 	4151201399	Play_DestructibleBox			\Default Work Unit\Play_Environment\Play_DestructibleBox	
 	4160876689	Play_Spitter_Attack_Splat			\Default Work Unit\Play_Enemy\Play_Spitter\Play_Spitter_Attack_Splat	
+
+Effect plug-ins	ID	Name	Type				Notes
+	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
+	3036946058	Inside_Your_Head	Wwise RoomVerb			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	7938178	Player Hurt VO 3	C:\Users\User\Documents\AdventureGameRepo\AdventureGameRepo_WwiseProject\.cache\C8\{C8F0361A-F03B-F80F-0D63-BD4537524E8C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ellen\Ellen_Hurt_VO\Player Hurt VO 3		120096
