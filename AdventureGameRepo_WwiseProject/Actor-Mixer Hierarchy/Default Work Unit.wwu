@@ -869,8 +869,8 @@
 											<Modifier Name="" ID="{A95393ED-0BF8-41B8-A610-EF64823B62DA}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
-													<Property Name="Max" Type="Real64" Value="150"/>
-													<Property Name="Min" Type="Real64" Value="-75"/>
+													<Property Name="Max" Type="Real64" Value="450"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
 												</PropertyList>
 											</Modifier>
 										</ModifierInfo>
@@ -1360,7 +1360,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Player Attack Hit 1" ID="{5E7835E1-DB9F-4257-B6D6-6C4C3CC0EE45}" ShortID="135542553">
+								<Sound Name="Player Atk Hit 1" ID="{4D665371-C5EC-4CB6-A8CA-CF9F50EB3912}" ShortID="151217168">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1370,23 +1370,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player Attack Hit 1" ID="{07C70CAB-673A-4984-8B27-3B8FCE2917F6}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.142628205128205"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="Player Atk Hit 1" ID="{DE401F16-031D-45DF-B9F4-084E0A2B13F9}">
 											<Language>SFX</Language>
-											<AudioFile>Player Attack Hit 1.wav</AudioFile>
+											<AudioFile>Player Atk Hit 1.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="291004337"/>
+												<MediaID ID="691333758"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player Attack Hit 1" ID="{07C70CAB-673A-4984-8B27-3B8FCE2917F6}" Platform="Linked"/>
+										<ActiveSource Name="Player Atk Hit 1" ID="{DE401F16-031D-45DF-B9F4-084E0A2B13F9}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Player Attack Hit 2" ID="{9BDC0C23-635E-4ABD-A6A4-10514E55DFD5}" ShortID="51073081">
+								<Sound Name="Player Atk Hit 2" ID="{A0F3B57E-B59B-4910-A9AA-5F71CBA8D42F}" ShortID="135869395">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1396,24 +1392,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player Attack Hit 2" ID="{C581136A-0942-4EA3-9B31-C2144D817EEF}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0919871794871795"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="Player Atk Hit 2" ID="{8B5059FE-B842-4488-887F-7E35E8D97460}">
 											<Language>SFX</Language>
-											<AudioFile>Player Attack Hit 2.wav</AudioFile>
+											<AudioFile>Player Atk Hit 2.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="434893254"/>
+												<MediaID ID="778835635"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player Attack Hit 2" ID="{C581136A-0942-4EA3-9B31-C2144D817EEF}" Platform="Linked"/>
+										<ActiveSource Name="Player Atk Hit 2" ID="{8B5059FE-B842-4488-887F-7E35E8D97460}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Player Attack Hit 3" ID="{25FC3286-5947-47FC-8D7D-3EDA9B7DC7CD}" ShortID="795545653">
+								<Sound Name="Player Atk Hit 3" ID="{D824C8A9-27CD-4DDC-9433-BCECC1AF1211}" ShortID="637544492">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1423,24 +1414,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player Attack Hit 3" ID="{577AF440-5270-4F5F-8D75-E77A22B3B010}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.187713675213675"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="Player Atk Hit 3" ID="{4CABD9A7-A1F0-4CDC-9569-8E1A92DA25E4}">
 											<Language>SFX</Language>
-											<AudioFile>Player Attack Hit 3.wav</AudioFile>
+											<AudioFile>Player Atk Hit 3.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="975136945"/>
+												<MediaID ID="51378353"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player Attack Hit 3" ID="{577AF440-5270-4F5F-8D75-E77A22B3B010}" Platform="Linked"/>
+										<ActiveSource Name="Player Atk Hit 3" ID="{4CABD9A7-A1F0-4CDC-9569-8E1A92DA25E4}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Player Attack Hit 4" ID="{2C90C669-6FC1-4062-906B-76FF65E86067}" ShortID="912960618">
+								<Sound Name="Player Atk Hit 4" ID="{7F7D48E9-EADA-47D9-9F5E-E89F398CED5F}" ShortID="1052205990">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
@@ -1450,21 +1436,38 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Player Attack Hit 4" ID="{6D4B3D6C-3D69-4407-84A4-5A31E2DEED74}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.187850560897436"/>
-												<Property Name="LoopBegin" Type="Real64" Value="0"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="Player Atk Hit 4" ID="{1FD56B90-A58C-4F07-98CF-11E659DEF125}">
 											<Language>SFX</Language>
-											<AudioFile>Player Attack Hit 4.wav</AudioFile>
+											<AudioFile>Player Atk Hit 4.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="340489665"/>
+												<MediaID ID="164307983"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Player Attack Hit 4" ID="{6D4B3D6C-3D69-4407-84A4-5A31E2DEED74}" Platform="Linked"/>
+										<ActiveSource Name="Player Atk Hit 4" ID="{1FD56B90-A58C-4F07-98CF-11E659DEF125}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Player Atk Hit 5" ID="{B4F780CF-A828-4C73-9C43-CA5356470095}" ShortID="156360146">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{94A6D012-5367-4EF5-AD79-4594147FC933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{ECDB4E1C-B1FE-4CDF-9B30-12BFC2CE5E72}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Player Atk Hit 5" ID="{F2DF9136-E64B-4B88-A4D6-30F8B03E6568}">
+											<Language>SFX</Language>
+											<AudioFile>Player Atk Hit 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="211083010"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Player Atk Hit 5" ID="{F2DF9136-E64B-4B88-A4D6-30F8B03E6568}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{F3A2939C-BD70-408D-924E-6579A17D1F35}",
     "Language": "SFX",
-    "Hash": "{68DF63D6-8BD4-3B81-1908-FB0975164F82}",
+    "Hash": "{E810C7BE-92EE-F1A8-5742-999C3EF78A1D}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -62,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Chomper Attack 4.wav",
       "CachePath": "A7/{A7420442-E3CE-83B2-3E16-D21ADC02BDD5}.wem"
+     },
+     {
+      "Id": "51378353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk Hit 3.wav",
+      "CachePath": "90/{905C2D78-1746-777B-20AB-1FBF78AEEBA2}.wem"
      },
      {
       "Id": "95723225",
@@ -136,6 +144,14 @@
       "CachePath": "AB/{ABCF126F-7DE9-6FFE-9C02-D07BFC068C62}.wem"
      },
      {
+      "Id": "164307983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk Hit 4.wav",
+      "CachePath": "CF/{CF412828-A15E-137B-0D8D-6886AD6509F7}.wem"
+     },
+     {
       "Id": "166058615",
       "Language": "SFX",
       "Streaming": "false",
@@ -174,6 +190,14 @@
       "Location": "Memory",
       "ShortName": "Chomper Growl 4.wav",
       "CachePath": "95/{9535266E-C990-EBC9-E866-CA87EB7316AF}.wem"
+     },
+     {
+      "Id": "211083010",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk Hit 5.wav",
+      "CachePath": "4C/{4C495F83-676F-BA6E-8C4C-B3668C26C160}.wem"
      },
      {
       "Id": "220070146",
@@ -240,14 +264,6 @@
       "CachePath": "EE/{EE15986D-30D3-8F94-6459-0A2222C5101D}.wem"
      },
      {
-      "Id": "291004337",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player Attack Hit 1.wav",
-      "CachePath": "74/{74A3726B-75F0-868C-0BBE-8D2AD7F7E48C}.wem"
-     },
-     {
       "Id": "307950144",
       "Language": "SFX",
       "Streaming": "false",
@@ -270,14 +286,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Attack 2.wav",
       "CachePath": "45/{45AA7B99-1871-5DDF-0FFB-DC6A6801C969}.wem"
-     },
-     {
-      "Id": "340489665",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player Attack Hit 4.wav",
-      "CachePath": "23/{232EC35E-0C73-6759-E821-682BE5E41246}.wem"
      },
      {
       "Id": "342187078",
@@ -406,14 +414,6 @@
       "Location": "Memory",
       "ShortName": "Atk whoosh 8.wav",
       "CachePath": "11/{11254E22-86DD-20C1-2C8A-A71069483B2C}.wem"
-     },
-     {
-      "Id": "434893254",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player Attack Hit 2.wav",
-      "CachePath": "7E/{7E69DB3B-63B5-6A40-3B8F-A5E3B70793EA}.wem"
      },
      {
       "Id": "441470848",
@@ -664,6 +664,14 @@
       "CachePath": "BD/{BD99DFAA-78E1-B9B7-D6A3-E614D316F502}.wem"
      },
      {
+      "Id": "691333758",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk Hit 1.wav",
+      "CachePath": "F7/{F7E613B4-78BF-DC86-9944-A4C592D543EA}.wem"
+     },
+     {
       "Id": "704325677",
       "Language": "SFX",
       "Streaming": "false",
@@ -742,6 +750,14 @@
       "Location": "Memory",
       "ShortName": "Spitter Attack 1.wav",
       "CachePath": "DF/{DFE02B28-A6AD-185E-3529-710998448FD7}.wem"
+     },
+     {
+      "Id": "778835635",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Player Atk Hit 2.wav",
+      "CachePath": "AC/{ACFA38E5-6CB1-9183-B38A-C08B79DA74E3}.wem"
      },
      {
       "Id": "781007388",
@@ -958,14 +974,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Hurt 5.wav",
       "CachePath": "66/{668FCB83-90D9-CA06-C2CC-922F099C25C9}.wem"
-     },
-     {
-      "Id": "975136945",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Player Attack Hit 3.wav",
-      "CachePath": "DF/{DF46A2C6-EF1C-2291-F9F6-3FF8CDE4DA94}.wem"
      },
      {
       "Id": "975499680",
@@ -1229,8 +1237,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Attack",
       "GUID": "{B46CCAE0-8E20-4698-AC9E-C9ADF9F20208}",
       "DurationType": "OneShot",
-      "DurationMin": "0.2435792",
-      "DurationMax": "0.8647892",
+      "DurationMin": "0.20482488",
+      "DurationMax": "0.8329223",
       "MediaRefs": [
        {
         "Id": "123965811"
@@ -1264,20 +1272,23 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Ellen\\Play_Ellen_Attack_Hit",
       "GUID": "{433B8E91-5F4D-4499-AB13-53454ADC95CA}",
       "DurationType": "OneShot",
-      "DurationMin": "0.328125",
-      "DurationMax": "0.4375",
+      "DurationMin": "0.390625",
+      "DurationMax": "0.390625",
       "MediaRefs": [
        {
-        "Id": "291004337"
+        "Id": "51378353"
        },
        {
-        "Id": "340489665"
+        "Id": "164307983"
        },
        {
-        "Id": "434893254"
+        "Id": "211083010"
        },
        {
-        "Id": "975136945"
+        "Id": "691333758"
+       },
+       {
+        "Id": "778835635"
        }
       ]
      },
@@ -2050,6 +2061,6 @@
     ]
    }
   ],
-  "FileHash": "{AE9D9F26-D5CB-51BF-A6EE-566B657E3B9B}"
+  "FileHash": "{9252F443-879C-774C-D47D-556D47A8F3F2}"
  }
 }
