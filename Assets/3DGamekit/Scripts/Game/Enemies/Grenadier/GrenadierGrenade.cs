@@ -6,6 +6,7 @@ namespace Gamekit3D
 {
     public class GrenadierGrenade : Projectile
     {
+
         public enum ShotType
         {
             HIGHEST_SHOT,
@@ -34,6 +35,8 @@ namespace Gamekit3D
         int m_EnvironmentLayer = -1;
         
         protected static Collider[] m_ExplosionHitCache = new Collider[32];
+
+        public AK.Wwise.Event Play_Grenadier_Range_2_Ammo;
 
         private void Awake()
         {
@@ -199,6 +202,10 @@ namespace Gamekit3D
             velocity = toTarget / T - Physics.gravity * T / 2f;
 
             return velocity;
+        }
+        public void PlayGrenadierRange2Ammo()
+        {
+            Play_Grenadier_Range_2_Ammo.Post(gameObject);
         }
 
 #if UNITY_EDITOR
