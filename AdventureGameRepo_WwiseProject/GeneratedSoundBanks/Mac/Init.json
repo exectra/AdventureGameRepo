@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{BB8D6132-C605-F154-2F21-3162F2FED2CF}",
+    "Hash": "{D0423336-0589-B920-4419-7F5CC37F53E3}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -78,9 +78,43 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Enemy_Playing",
       "GUID": "{0E4A6E55-550B-464A-9682-A52C0D6CE224}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "857748066",
+      "Name": "FootstepState",
+      "ObjectPath": "\\States\\Default Work Unit\\FootstepState",
+      "GUID": "{4F8FB990-8E00-4EB8-BC7E-5A54CE73EFEE}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepState\\None",
+        "GUID": "{87CA46A4-2B15-47C2-A41A-01EDA62BCF4C}"
+       },
+       {
+        "Id": "1181096339",
+        "Name": "Wet",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepState\\Wet",
+        "GUID": "{F80E69A9-85C4-4AB8-93FA-E0AEAB3F52B6}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepState\\Stone",
+        "GUID": "{9685CCD0-FEB5-485E-9715-27D2730743E7}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\States\\Default Work Unit\\FootstepState\\Grass",
+        "GUID": "{74A45886-DA87-4899-87EB-185579495B49}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{349F76B7-D3F9-B864-8CE8-195B33C56876}"
+  "FileHash": "{C0AB511E-33B1-A476-2A4F-4EE1EEBEE8BF}"
  }
 }

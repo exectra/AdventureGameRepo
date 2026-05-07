@@ -68,6 +68,23 @@ namespace AK
         static const AkUniqueID STOP_WATER_AMBIENCE = 4006853768U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace FOOTSTEPSTATE
+        {
+            static const AkUniqueID GROUP = 857748066U;
+
+            namespace STATE
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WET = 1181096339U;
+            } // namespace STATE
+        } // namespace FOOTSTEPSTATE
+
+    } // namespace STATES
+
     namespace GAME_PARAMETERS
     {
         static const AkUniqueID ENEMY_PLAYING = 552066128U;

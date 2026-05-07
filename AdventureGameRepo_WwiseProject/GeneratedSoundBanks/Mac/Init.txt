@@ -1,3 +1,12 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	857748066	FootstepState			\Default Work Unit\FootstepState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	FootstepState			
+	1181096339	Wet	FootstepState			
+	1216965916	Stone	FootstepState			
+	4248645337	Grass	FootstepState			
+
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	552066128	Enemy_Playing			\Default Work Unit\Enemy_Playing	
 

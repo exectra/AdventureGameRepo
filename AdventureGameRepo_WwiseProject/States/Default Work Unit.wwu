@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{2671E779-701F-417F-979D-96C14A1E5696}" SchemaVersion="123">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{2671E779-701F-417F-979D-96C14A1E5696}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{2671E779-701F-417F-979D-96C14A1E5696}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="FootstepState" ID="{4F8FB990-8E00-4EB8-BC7E-5A54CE73EFEE}">
+					<ChildrenList>
+						<State Name="None" ID="{87CA46A4-2B15-47C2-A41A-01EDA62BCF4C}"/>
+						<State Name="Grass" ID="{74A45886-DA87-4899-87EB-185579495B49}"/>
+						<State Name="Stone" ID="{9685CCD0-FEB5-485E-9715-27D2730743E7}"/>
+						<State Name="Wet" ID="{F80E69A9-85C4-4AB8-93FA-E0AEAB3F52B6}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
